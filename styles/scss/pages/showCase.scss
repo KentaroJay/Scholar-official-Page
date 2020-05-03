@@ -1,0 +1,4 @@
+@import "../mixins";
+.text-red {
+  @include text-red
+}

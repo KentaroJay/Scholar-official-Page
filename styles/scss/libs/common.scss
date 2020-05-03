@@ -1,0 +1,10 @@
+$clr-black :#000000 ;
+$clr-red: #ff3344;
+
+@mixin text-black {
+  color: $clr-black;
+}
+@mixin text-red {
+  color: $clr-red;
+}
+
