@@ -1,9 +1,13 @@
 ## Scholarの公式ホームページ
 
-## GithubPages
+## Github Pages
 
 https://du-scholar.github.io/Scholar-official-Page/showCase/index.html
 
-## showcase
+## show case
+
+コーディングに関する要件（参照必須）
+
 
 https://du-scholar.github.io/Scholar-official-Page/showCase/index.html
+
