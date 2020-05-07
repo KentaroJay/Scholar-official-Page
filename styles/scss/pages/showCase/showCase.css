@@ -21,11 +21,11 @@ body {
 .c-container {
   width: 100%;
   margin: 80px auto;
-  padding: 0 15px;
+  padding: 0 40px;
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .c-container {
-    padding: 0 40px;
+    padding: 0 15px;
   }
 }
 

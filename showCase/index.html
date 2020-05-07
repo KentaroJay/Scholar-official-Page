@@ -64,6 +64,7 @@
                 <ul>
                     <li>scssに記述する場合(@includeを用いる事によって、以下の形式を使用することができます)
                         <p>※scssファイルに記述する場合、エディタの変換機能を用いて、それぞれのcssファイルに変換する必要があります。</p>
+                        <p>一通りクラス定義はcssファイルに書いてあるのでそれを利用してください</p>
                         <div>
                             <div class="text-caption">
                                 <h4>1、セクションタイトル</h4>
@@ -169,9 +170,69 @@
         <div class="c-container">
             <h2>ボタンについて</h2>
             <p>ボタンは以下のものを使用してください。（コードは ./showCase/index.html 内で確認することができます）</p>
-            <div class="button">
-                <div class="eff"></div>
-                <a href="#"> サンプル</a>
+            <div class="textGroup">
+                <div class="button">
+                    <div class="eff"></div>
+                    <a href="#"> サンプル</a>
+                </div>
+                <span class="code-block">
+                    <span>css: </span>
+                    <pre>
+                        <code class="prettyprint">
+
+.button{
+  width:140px;
+  height:50px;
+  border:1px solid $clr-black;
+  text-align:center;
+  cursor:pointer;
+  position:relative;
+  box-sizing:border-box;
+  overflow:hidden;
+  margin:0 0 40px 50px;
+}
+                        </code>
+                    </pre>
+                </span>
+                <span class="code-block">
+                    <pre>
+                        <code class="prettyprint">
+.button a{
+  @include text-body;
+  text-decoration:none;
+  line-height:50px;
+  transition:all .8s ease;
+  z-index:2;
+  position:relative;
+}
+
+.eff{
+  width:250px;
+  height:50px;
+  left:-250px;
+  background:#9f5edf;
+  position:absolute;
+  transition:all .8s ease;
+  z-index:1;
+}
+
+                        </code>
+                    </pre>
+                </span>
+                <span class="code-block">
+                    <pre>
+                        <code class="prettyprint">
+.button:hover .eff{
+  left:0;
+}
+
+.button:hover a{
+  color:#fff;
+}
+
+                        </code>
+                    </pre>
+                </span>
             </div>
         </div>
         <div class="c-container">
@@ -193,6 +254,19 @@
 }
                 </code>
             </pre>
+        </div>
+        <div class="c-container">
+            <h2>ブレイクポイントについて</h2>
+            <p>768px（タブレットサイズ）で定義しています。端末によって配置をカスタマイズする場合（レスポンシブ対応など）は以下を使用しましょう。</p>
+            <p>cssの場合</p>
+            <pre>
+                <code class="prettyprint">
+@media (max-width: 768px) {
+}
+                </code>
+            </pre>
+            <p>Scssの場合</p>
+            @include sp()で使用することができます。
         </div>
     </div>
     <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
