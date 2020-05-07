@@ -8,17 +8,117 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Home page</title>
 </head>
-<body>
+<body class="c-container">
     <div>
         <h1>コーディング要件</h1>
         <p>コーディング行う時に共通で使用可能なclassがあります。一通り確認してからコーディングを行いましょう。</p>
         <div>
             <h2>各ページへのリンク</h2>
-            <a href="../Top/index.html">Topページへ</a>
+            <a href="../Pages/Home.html">Homeページへ</a>
+            <a href="../Pages/ForStudent.html">学生向けページへ</a>
+            <a href="../Pages/ForCorporation.html">企業の方向けページへ</a>
+            <a href="../Pages/About.html">Scholarについてページへ</a>
+            <a href="../Pages/Contact.html">　お問い合わせページへ</a>
         </div>
         <div>
             <h2>使用可能な色一覧</h2>
+            <p>色定義は使用可能な色が決まっています。以下の色を使用しましょう。</p>
+            <div class="color-displays">
+                <span class="color-display">
+                    <p class="color-circle1"></p>
+                    <p>変数名: $clr-black</p>
+                    <p>文字色: #000000</p>
+                </span>
+                <span class="color-display">
+                    <p class="color-circle2"></p>
+                    <p>変数名: $clr-background</p>
+                    <p>文字色: #EFEDE9</p>
+                </span>
+                <span class="color-display">
+                    <p class="color-circle3"></p>
+                    <p>変数名: $clr-purple</p>
+                    <p>文字色: #9f5edf</p>
+                </span>
+                <span class="color-display">
+                    <p class="color-circle4"></p>
+                    <p>変数名: $clr-menu</p>
+                    <p>文字色: #868282</p>
+                </span>
+                <span class="color-display">
+                    <p class="color-circle5"></p>
+                    <p>変数名: $clr-white</p>
+                    <p>文字色: #ffffff</p>
+                </span>
+            </div>
+        </div>
+        <div>
+            <h2>文字定義について</h2>
+            <p>文字は以下のサイズ、色で定義されています。それ以外の文字サイズ、色は使用しないようにしましょう。</p>
+            <p>文字サイズは、タイトル<strong>24px</strong>、本文 <strong>18px</strong>、行間 <strong>1.5px</strong>で基本的には定義してください。</p>
+            <div>
+                <ul>
+                    <li>scssに記述する場合(@includeを用いる事によって、以下の形式を使用することができます)
+                        <p>※scssファイルに記述する場合、エディタの変換機能を用いて、それぞれのcssファイルに変換する必要があります。</p>
+                        <div>
+                            <div class="text-caption">
+                                <h4>1、セクションタイトル</h4>
+                                <div class="textGroup">
+                                    <span>
+                                        <span class="section-title">サンプル</span>
+                                        <p>scss: @include text-section-title</p>
+                                    </span>
+                                    <span class="code-block">
+                                        <span>css: </span>
+                                        <pre>
+                                            <code class="prettyprint">
+.text-section-title{
+  padding-bottom: 10px;
+  font-weight: bold;
+  font-size: 24px;
+  border-bottom: #000000 solid 2px;
+  font-family: YuGothic Arial, sans-serif;
+}
+                                            </code>
+                                        </pre>
+                                    </span>
+                                </div>
+                                <p>この文字はセクションごとのタイトル（下線入り）で使用します</p>
+                            </div>
+                            <div class="text-caption">
+                                <h4>2、本文</h4>
+                                <div class="textGroup">
+                                    <span>
+                                        <span class="text-body">サンプル</span>
+                                        <p>scss: @include text-body</p>
+                                    </span>
+                                    <span class="code-block">
+                                        <span>css: </span>
+                                        <pre>
+                                            <code class="prettyprint">
+.text-body{
+  font-size: 18px;
+  font-family: YuGothic Arial, sans-serif;
+}
+                                            </code>
+                                        </pre>
+                                    </span>
+                                </div>
+                            </div>
+                            <p>この文字は本文で使用します。</p>
+                        </div>
+                    </li>
+                    <li>cssに記述する場合</li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <h2>タグについて</h2>
+            <p>タグは各自で用途や意味を調べながら使いましょう。今後案件をこなしていく中で、必須の知識になってくるので少しずつ慣れていきましょう</p>
+            <p>
+                <a href="https://developer.mozilla.org/ja/">こちらのサイト（MDN）</a>ではそれぞれのタグの用途、意味について詳しく解説されているので、参考にすると良いでしょう。
+            </p>
         </div>
     </div>
+    <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
 </body>
 </html>

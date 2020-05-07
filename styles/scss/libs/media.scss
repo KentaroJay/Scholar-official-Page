@@ -1,0 +1,9 @@
+/*Break Point*/
+//pcのサイズ
+$breakpoint--pc: 768px;
+
+@mixin pc(){//768px以上のデザイン
+  @media (min-width: $breakpoint--pc) {
+    @content
+  }
+}

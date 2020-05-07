@@ -1,4 +1,65 @@
 @import "../../mixins";
-.text-red {
-  @include text-red
+
+.c-container {
+  @include container
+}
+.color-display{
+  margin-left: 30px;
+}
+.color-displays{
+  display: flex;
+}
+
+@mixin color-circle{
+  margin-left: 30px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: black 2px solid;
+}
+
+.color-circle1{
+  @include color-circle;
+  background-color: $clr-black;
+}
+
+.color-circle2{
+  @include color-circle;
+  background-color: $clr-background;
+}
+
+.color-circle3{
+  @include color-circle;
+  background-color: $clr-purple;
+}
+
+.color-circle4{
+  @include color-circle;
+  background-color: $clr-menu;
+}
+
+.color-circle5{
+  @include color-circle;
+  background-color: $clr-white;
+}
+
+.textGroup{
+  display: flex;
+}
+
+.text-caption{
+  margin-bottom: 20px;
+}
+
+.section-title {
+  @include text-section-title;
+}
+
+.code-block{
+  display: inline-block;
+  margin: 0 40px;
+}
+
+.text-body{
+  @include text-body;
 }

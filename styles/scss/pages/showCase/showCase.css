@@ -1,5 +1,105 @@
-.text-red {
-  color: #ff3344;
+/*Break Point*/
+/*Break Point*/
+h4 {
+  margin: 5px 0;
+}
+
+/*Break Point*/
+/*Break Point*/
+h4 {
+  margin: 5px 0;
+}
+
+.c-container {
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0 15px;
+  background-color: #EFEDE9;
+}
+@media (min-width: 768px) {
+  .c-container {
+    padding: 0 40px;
+  }
+}
+
+.color-display {
+  margin-left: 30px;
+}
+
+.color-displays {
+  display: flex;
+}
+
+.color-circle1 {
+  margin-left: 30px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: black 2px solid;
+  background-color: #000000;
+}
+
+.color-circle2 {
+  margin-left: 30px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: black 2px solid;
+  background-color: #EFEDE9;
+}
+
+.color-circle3 {
+  margin-left: 30px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: black 2px solid;
+  background-color: #9f5edf;
+}
+
+.color-circle4 {
+  margin-left: 30px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: black 2px solid;
+  background-color: #868282;
+}
+
+.color-circle5 {
+  margin-left: 30px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: black 2px solid;
+  background-color: #ffffff;
+}
+
+.textGroup {
+  display: flex;
+}
+
+.text-caption {
+  margin-bottom: 20px;
+}
+
+.section-title {
+  padding-bottom: 10px;
+  font-weight: bold;
+  font-size: 24px;
+  border-bottom: #000000 solid 2px;
+  font-family: YuGothic Arial, sans-serif;
+}
+
+.code-block {
+  display: inline-block;
+  margin: 0 40px;
+}
+
+.text-body {
+  font-size: 18px;
+  font-family: YuGothic Arial, sans-serif;
 }
 
 /*# sourceMappingURL=showCase.css.map */

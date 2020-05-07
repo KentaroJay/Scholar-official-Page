@@ -1,0 +1,13 @@
+@import "media";
+@import "values";
+
+@mixin container(){
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0 15px;
+  background-color: $clr-background;
+  @include pc {
+    padding: 0 40px;
+  }
+}
