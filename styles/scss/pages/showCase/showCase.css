@@ -4,17 +4,24 @@ h4 {
   margin: 5px 0;
 }
 
+body {
+  background-color: #EFEDE9;
+}
+
 /*Break Point*/
 /*Break Point*/
 h4 {
   margin: 5px 0;
 }
 
+body {
+  background-color: #EFEDE9;
+}
+
 .c-container {
   width: 100%;
   margin: 80px auto;
   padding: 0 15px;
-  background-color: #EFEDE9;
 }
 @media (min-width: 768px) {
   .c-container {
