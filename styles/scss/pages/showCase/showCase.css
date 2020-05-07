@@ -12,8 +12,7 @@ h4 {
 
 .c-container {
   width: 100%;
-  margin: 0 auto;
-  box-sizing: border-box;
+  margin: 80px auto;
   padding: 0 15px;
   background-color: #EFEDE9;
 }
@@ -24,7 +23,8 @@ h4 {
 }
 
 .color-display {
-  margin-left: 30px;
+  text-align: center;
+  margin: 0 20px;
 }
 
 .color-displays {
@@ -76,6 +76,15 @@ h4 {
   background-color: #ffffff;
 }
 
+.color-circle6 {
+  margin-left: 30px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: black 2px solid;
+  background-color: #4ba0ec;
+}
+
 .textGroup {
   display: flex;
 }
@@ -85,10 +94,11 @@ h4 {
 }
 
 .section-title {
-  padding-bottom: 10px;
+  color: #000000;
+  padding-bottom: 15px;
   font-weight: bold;
   font-size: 24px;
-  border-bottom: #000000 solid 2px;
+  border-bottom: #000000 solid 1.5px;
   font-family: YuGothic Arial, sans-serif;
 }
 
@@ -98,8 +108,62 @@ h4 {
 }
 
 .text-body {
+  color: #000000;
   font-size: 18px;
   font-family: YuGothic Arial, sans-serif;
+}
+
+.text-menu {
+  font-size: 18px;
+  font-family: YuGothic Arial, sans-serif;
+  color: #868282;
+}
+
+.button {
+  width: 140px;
+  height: 50px;
+  border: 1px solid #000000;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
+  margin: 0 0 40px 50px;
+}
+
+.button a {
+  color: #000000;
+  font-size: 18px;
+  font-family: YuGothic Arial, sans-serif;
+  text-decoration: none;
+  line-height: 50px;
+  transition: all 0.8s ease;
+  z-index: 2;
+  position: relative;
+}
+
+.eff {
+  width: 250px;
+  height: 50px;
+  left: -250px;
+  background: #9f5edf;
+  position: absolute;
+  transition: all 0.8s ease;
+  z-index: 1;
+}
+
+.button:hover .eff {
+  left: 0;
+}
+
+.button:hover a {
+  color: #fff;
+}
+
+.text-sub-menu {
+  font-size: 14px;
+  font-family: YuGothic Arial, sans-serif;
+  color: #868282;
 }
 
 /*# sourceMappingURL=showCase.css.map */

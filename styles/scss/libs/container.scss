@@ -3,8 +3,8 @@
 
 @mixin container(){
   width: 100%;
-  margin: 0 auto;
-  box-sizing: border-box;
+  margin: 80px auto;
+  //box-sizing: border-box;
   padding: 0 15px;
   background-color: $clr-background;
   @include pc {

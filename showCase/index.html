@@ -12,7 +12,7 @@
     <div>
         <h1>コーディング要件</h1>
         <p>コーディング行う時に共通で使用可能なclassがあります。一通り確認してからコーディングを行いましょう。</p>
-        <div>
+        <div class="c-container">
             <h2>各ページへのリンク</h2>
             <a href="../Pages/Home.html">Homeページへ</a>
             <a href="../Pages/ForStudent.html">学生向けページへ</a>
@@ -20,38 +20,43 @@
             <a href="../Pages/About.html">Scholarについてページへ</a>
             <a href="../Pages/Contact.html">　お問い合わせページへ</a>
         </div>
-        <div>
+        <div class="c-container">
             <h2>使用可能な色一覧</h2>
             <p>色定義は使用可能な色が決まっています。以下の色を使用しましょう。</p>
             <div class="color-displays">
                 <span class="color-display">
                     <p class="color-circle1"></p>
                     <p>変数名: $clr-black</p>
-                    <p>文字色: #000000</p>
+                    <p>カラーコード: #000000</p>
                 </span>
                 <span class="color-display">
                     <p class="color-circle2"></p>
                     <p>変数名: $clr-background</p>
-                    <p>文字色: #EFEDE9</p>
+                    <p>カラーコード: #EFEDE9</p>
                 </span>
                 <span class="color-display">
                     <p class="color-circle3"></p>
                     <p>変数名: $clr-purple</p>
-                    <p>文字色: #9f5edf</p>
+                    <p>カラーコード: #9f5edf</p>
                 </span>
                 <span class="color-display">
                     <p class="color-circle4"></p>
                     <p>変数名: $clr-menu</p>
-                    <p>文字色: #868282</p>
+                    <p>カラーコード: #868282</p>
                 </span>
                 <span class="color-display">
                     <p class="color-circle5"></p>
                     <p>変数名: $clr-white</p>
-                    <p>文字色: #ffffff</p>
+                    <p>カラーコード: #ffffff</p>
+                </span>
+                <span class="color-display">
+                    <p class="color-circle6"></p>
+                    <p>変数名: $clr-twitter-hover</p>
+                    <p>カラーコード: #4ba0ec</p>
                 </span>
             </div>
         </div>
-        <div>
+        <div class="c-container">
             <h2>文字定義について</h2>
             <p>文字は以下のサイズ、色で定義されています。それ以外の文字サイズ、色は使用しないようにしましょう。</p>
             <p>文字サイズは、タイトル<strong>24px</strong>、本文 <strong>18px</strong>、行間 <strong>1.5px</strong>で基本的には定義してください。</p>
@@ -72,10 +77,10 @@
                                         <pre>
                                             <code class="prettyprint">
 .text-section-title{
-  padding-bottom: 10px;
+  padding-bottom: 15px;
   font-weight: bold;
   font-size: 24px;
-  border-bottom: #000000 solid 2px;
+  border-bottom: #000000 solid 1.5px;
   font-family: YuGothic Arial, sans-serif;
 }
                                             </code>
@@ -103,20 +108,91 @@
                                         </pre>
                                     </span>
                                 </div>
+                                <p>この文字は本文で使用します。</p>
                             </div>
-                            <p>この文字は本文で使用します。</p>
+                            <div class="text-caption">
+                                <h4>3、ヘッダーメニュー</h4>
+                                <div class="textGroup">
+                                    <span>
+                                        <span class="text-menu">サンプル</span>
+                                        <p>scss: @include text-menu</p>
+                                    </span>
+                                    <span class="code-block">
+                                        <span>css: </span>
+                                        <pre>
+                                            <code class="prettyprint">
+.text-menu {
+  font-size: 18px;
+  font-family: YuGothic Arial, sans-serif;
+  color: #868282;
+}
+                                            </code>
+                                        </pre>
+                                    </span>
+                                </div>
+                                <p>この文字はヘッダーメニューで使用します。</p>
+                            </div>
+                            <div class="text-caption">
+                                <h4>4、ヘッダーのサブメニュー</h4>
+                                <div class="textGroup">
+                                    <span>
+                                        <span class="text-sub-menu">サンプル</span>
+                                        <p>scss: @include text-sub-menu</p>
+                                    </span>
+                                    <span class="code-block">
+                                        <span>css: </span>
+                                        <pre>
+                                            <code class="prettyprint">
+.text-sub-menu {
+  font-size: 14px;
+  font-family: YuGothic Arial, sans-serif;
+  color: #868282;
+}
+                                            </code>
+                                        </pre>
+                                    </span>
+                                </div>
+                                <p>この文字はヘッダーメニューで使用します。</p>
+                            </div>
                         </div>
                     </li>
-                    <li>cssに記述する場合</li>
                 </ul>
             </div>
         </div>
-        <div>
+        <div class="c-container">
             <h2>タグについて</h2>
             <p>タグは各自で用途や意味を調べながら使いましょう。今後案件をこなしていく中で、必須の知識になってくるので少しずつ慣れていきましょう</p>
             <p>
                 <a href="https://developer.mozilla.org/ja/">こちらのサイト（MDN）</a>ではそれぞれのタグの用途、意味について詳しく解説されているので、参考にすると良いでしょう。
             </p>
+        </div>
+        <div class="c-container">
+            <h2>ボタンについて</h2>
+            <p>ボタンは以下のものを使用してください。（コードは ./showCase/index.html 内で確認することができます）</p>
+            <div class="button">
+                <div class="eff"></div>
+                <a href="#"> サンプル</a>
+            </div>
+        </div>
+        <div class="c-container">
+            <h2>スペース、コンテナについて</h2>
+            <p>それぞれのコンテンツの間のスペースや、コンテナは決められています。</p>
+            <p>見出しと本文の間は <strong>40px</strong></p>
+            <p>本文の下から次の見出しまでは <strong>80px</strong></p>
+            <p>で統一してください</p>
+            <p>container.scssでコンテナ幅の統一を行っています。</p>
+            <p>scssが書ける方は、@include containerで導入することができます。</p>
+            <p>また、cssの場合、以下のクラスを適用することで簡単に空白を調節することができます。</p>
+            <pre>
+                <code class="prettyprint">
+.container {
+  width: 100%;
+  margin: 80px auto;
+  padding: 0 15px;
+  background-color: #EFEDE9;
+}
+                </code>
+            </pre>
         </div>
     </div>
     <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
