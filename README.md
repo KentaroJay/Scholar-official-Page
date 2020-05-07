@@ -4,9 +4,15 @@
 
 `showcase`  https://du-scholar.github.io/Scholar-official-Page/showCase/index.html
 
-`Top`  https://du-scholar.github.io/Scholar-official-Page/Top/index.html
+`Home`  https://du-scholar.github.io/Scholar-official-Page
 
-`About`  https://du-scholar.github.io/Scholar-official-Page/About/index.html
+`Scholarについて`  https://du-scholar.github.io/Scholar-official-Page/Pages/About.html
+
+`企業の皆様へ`  https://du-scholar.github.io/Scholar-official-Page/Pages/ForCorporation.html
+
+`学生の皆様へ`  https://du-scholar.github.io/Scholar-official-Page/Pages/ForStudent.html
+
+`お問い合わせ`  https://du-scholar.github.io/Scholar-official-Page/Pages/Contact.html
 
 
 ## show case
@@ -17,7 +23,7 @@ https://du-scholar.github.io/Scholar-official-Page/showCase/index.html
 
 または
 
-`保存しているディレクトリ/Scholar-official-Page/showCase/index.html`
+`保存しているディレクトリのパス/Scholar-official-Page/showCase/index.html`
 
 で開くことができます。
 
