@@ -1,7 +1,7 @@
 ## Scholarの公式ホームページ
 
-https://img.shields.io/github/repo-size/DU-Scholar/Scholar-official-Page
-https://img.shields.io/github/deployments/DU-Scholar/Scholar-official-Page/github-pages?label=Github-Pages
+![repo-size](https://img.shields.io/github/repo-size/DU-Scholar/Scholar-official-Page)
+![Github-Pages-status](https://img.shields.io/github/deployments/DU-Scholar/Scholar-official-Page/github-pages?label=Github-Pages)
 
 ## Github Pages
 
