@@ -11,6 +11,12 @@
 </head>
 <body class="c-container">
     <div>
+        <div>
+            <h1>[重要]Github pull requestについて</h1>
+            <div class="c-container">
+                <p>pull requestを出す時は、body（本文の部分）に <strong>ref #{{作業をしたissue番号}}</strong>と書いておいてください</p>
+            </div>
+        </div>
         <h1>コーディング要件</h1>
         <p>コーディング行う時に共通で使用可能なclassがあります。一通り確認してからコーディングを行いましょう。</p>
         <div class="c-container">
@@ -257,11 +263,10 @@
             <p>また、cssの場合、以下のクラスを適用することで簡単に空白を調節することができます。</p>
             <pre>
                 <code class="prettyprint">
-.container {
+.c-container {
   width: 100%;
   margin: 80px auto;
-  padding: 0 15px;
-  background-color: #EFEDE9;
+  padding: 0 40px;
 }
                 </code>
             </pre>
