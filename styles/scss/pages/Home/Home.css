@@ -6,6 +6,7 @@ h4 {
 
 body {
   background-color: #EFEDE9;
+  width: 100%;
 }
 
 /*Break Point*/
@@ -49,7 +50,7 @@ body {
 
 .text-section-title {
   color: #000000;
-  padding-bottom: 15px;
+  padding-bottom: 10px;
   font-weight: bold;
   font-size: 24px;
   border-bottom: #000000 solid 1.5px;
@@ -57,3 +58,193 @@ body {
 }
 
 /*# sourceMappingURL=Home.css.map */
+.top-logo h1{
+  font-size:70px;
+  ;
+  font-family:arial black;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+.top-logo p{
+  font-size: 32px;
+  font-weight: 900;
+  font-family:游ゴシック;
+  font-style: italic;
+  letter-spacing: 1px;
+  padding-left: 10px;
+}
+.top-logo{
+  margin-left: 80px;
+  height: 750px;
+  position: relative;
+}
+.circle{
+  float:left;
+  border-radius: 50%;
+  background:white; 
+}
+.a{
+  top: 5%;
+  left: -10%;
+  position: relative;
+  width: 400px;
+  height: 400px;
+}
+.b{
+  position: relative;
+  top: 14%;
+  left:6%;
+  width: 300px;
+  height: 300px;
+}
+.c{
+  top: -15%;
+  right: -7%;
+  position: relative;
+  width: 500px;
+  height: 500px;
+}
+.top-logo img{
+  width:82%;
+  height:83%;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+.img{
+ text-align: center;
+}
+.explains{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.explain{
+  padding: 50px 0px;
+}
+.word{
+  display: -webkit-inline-flex;
+  display: inline-flex;
+}
+.explain img{
+  width: 200px;
+  height: 200px;
+  text-align: center;
+}
+
+
+#center_pic{
+  transform: translate(10px, 10px);
+}
+#right_pic{
+  transform: translate(10px, 10px);
+}
+.middle-wrapper{
+  height: 700px;
+  position: relative;
+}
+.circle_flex{
+  border-radius: 50%;
+  background:white;
+  width: 240px;
+  height:240px;
+}
+
+.middle-wrapper h2{
+  text-align: center;
+  margin-top: 100px;
+  font-size: 28px;
+}
+.explain p{
+  font-size:18px;
+  text-align: center;
+  margin-top: 40px;
+  
+}
+.opinion p{
+  text-align: center;
+  font-size: 32px;
+}
+.fa-caret-right{
+  margin-right: 30px;
+}
+.bottom-wrapper{
+  height: 800px;
+}
+.message-part{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+ 
+}
+.message{
+  text-align: center;
+}
+.message p{
+  padding: 0px 160px;
+  text-align: left;
+}
+
+
+.antre{
+  color:#9f5edf;
+}
+.message h2{
+  display: inline-block;
+  font-size: 28px;
+}
+#com_pic{
+  margin: auto;
+  display: block;
+  width: 400px;
+  height: 400px;
+}
+#stu_pic{
+  margin: auto;
+  display: block;
+  width: 400px;
+  height: 400px;
+}
+.button {
+  width: 140px;
+  height: 50px;
+  border: 1px solid #000000;
+  cursor: pointer;
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
+  margin: 0 0 40px 50px;
+  margin: auto;
+}
+.button a {
+  color: #000000;
+  font-size: 18px;
+  font-family: YuGothic Arial, sans-serif;
+  text-decoration: none;
+  line-height: 50px;
+  transition: all 0.8s ease;
+  z-index: 2;
+  position: relative;
+  
+}
+.eff {
+  width: 250px;
+  height: 50px;
+  left: -250px;
+  background: #9f5edf;
+  position: absolute;
+  transition: all 0.8s ease;
+  z-index: 1;
+}
+.button:hover .eff {
+  left: 0;
+}
+
+.button:hover a {
+  color: #fff;
+}
+.border{
+  border-right: solid 1px black;
+
+}
+
