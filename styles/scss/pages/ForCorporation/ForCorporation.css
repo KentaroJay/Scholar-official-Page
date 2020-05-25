@@ -23,6 +23,7 @@ body {
   margin: 80px auto;
   padding: 0 40px;
 }
+
 @media (max-width: 768px) {
   .container {
     padding: 0 15px;
@@ -55,5 +56,4 @@ body {
   border-bottom: #000000 solid 1.5px;
   font-family: YuGothic Arial, sans-serif;
 }
-
 /*# sourceMappingURL=ForCorporation.css.map */
