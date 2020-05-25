@@ -1,33 +1,25 @@
-/*Break Point*/
-/*Break Point*/
-h4 {
-  margin: 5px 0;
+*{
+  margin: 0px;
 }
 
 body {
   background-color: #EFEDE9;
 }
 
-/*Break Point*/
-/*Break Point*/
 h4 {
   margin: 5px 0;
 }
 
 body {
   background-color: #EFEDE9;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 .container {
   width: 100%;
   margin: 80px auto;
   padding: 0 40px;
-}
-
-@media (max-width: 768px) {
-  .container {
-    padding: 0 15px;
-  }
 }
 
 .text-menu {
@@ -49,11 +41,491 @@ body {
 }
 
 .text-section-title {
+  display: inline-block;
   color: #000000;
   padding-bottom: 15px;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 28px;
   border-bottom: #000000 solid 1.5px;
   font-family: YuGothic Arial, sans-serif;
+  margin-bottom: 20px;
 }
+
 /*# sourceMappingURL=Home.css.map */
+.top-name{
+  margin-left: 100px;
+}
+
+.top-logo h1{
+  font-size:70px;
+  font-family:arial black;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+.top-logo p{
+  font-size: 32px;
+  font-weight: 900;
+  font-family:游ゴシック;
+  font-style: italic;
+  letter-spacing: 1px;
+}
+.top-logo{
+  padding-bottom: 100px;
+  position: relative;
+  overflow-x: hidden;
+}
+.circle{
+  float:left;
+  border-radius: 50%;
+  background:white; 
+}
+.a{
+  top: 80px;
+  left: -5%;
+  position: relative;
+  width: 480px;
+  height: 480px;
+}
+.b{
+  position: relative;
+  top: 120px;
+  left:10%;
+  width: 320px;
+  height: 320px;
+}
+.c{
+  top: -75px;
+  right: -10%;
+  position: relative;
+  width: 450px;
+  height: 450px;
+}
+.top-logo img{
+  width:82%;
+  height:83%;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+.img{
+  text-align: center;
+}
+.explains{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.explain{
+  padding: 50px 0px;
+}
+
+
+.explain img{
+  width: 200px;
+  height: 200px;
+  text-align: center;
+}
+#left_pic{
+  transform: translate(0px,10px);
+}
+
+#center_pic{
+  transform: translate(10px, 20px);
+}
+#right_pic{
+  transform: translate(10px, 20px);
+}
+.middle-wrapper{
+  position: relative;
+}
+.circle_flex{
+  border-radius: 50%;
+  background:white;
+  width: 240px;
+  height:240px;
+}
+
+
+.explain p{
+  font-size:18px;
+  text-align: center;
+  margin-top: 40px;
+  
+}
+.opinion{
+  margin-top: 50px;
+}
+.opinion p{
+  
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 150px;
+}
+.fa-caret-right{
+  margin-right: 30px;
+}
+.message-part{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  
+}
+.message{
+  text-align: center;
+}
+.message p{
+  margin: 15px 160px;
+  text-align: left;
+}
+
+
+.antre{
+  color:#9f5edf;
+}
+
+
+#com_pic{
+  margin: auto;
+  display: block;
+  width: 400px;
+  height: 400px;
+}
+#stu_pic{
+  margin: auto;
+  display: block;
+  width: 400px;
+  height: 400px;
+}
+.bottom-wrapper{
+  margin-bottom:200px;
+}
+  
+
+.button {
+  width: 140px;
+  height: 50px;
+  border: 1px solid #000000;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
+  margin: auto;
+  background-color: white;
+  border-radius: 10px;
+}
+.button a {
+  color: #000000;
+  font-size: 18px;
+  font-family: YuGothic Arial, sans-serif;
+  text-decoration: none;
+  line-height: 50px;
+  transition: all 0.8s ease;
+  z-index: 2;
+  position: relative;
+  
+}
+.eff {
+  width: 250px;
+  height: 50px;
+  left: -250px;
+  background: #9f5edf;
+  position: absolute;
+  transition: all 0.8s ease;
+  z-index: 1;
+}
+.button:hover .eff {
+  left: 0;
+}
+
+.button:hover a {
+  color: #fff;
+}
+.border{
+  border-right: solid 1px black;
+}
+.text-title{
+  color: #000000;
+  padding-bottom: 10px;
+  font-weight: bold;
+  font-size: 36px;
+  font-family: YuGothic Arial, sans-serif;
+  margin-bottom: 40px;
+  text-align: center;
+  margin-top: 100px;
+}
+.news-under{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 100px;
+}
+.award{
+  text-align: center;
+  margin-right: 100px;
+}
+.award li{
+  text-align: left;
+  list-style: none;
+}
+.award span{
+  display: inline-block;
+  color:brown;
+  margin:20px 0px 30px 0px;
+}
+/*こっからフッター*/
+footer{
+  border-top: solid 1px black;
+  width: 100%;
+  position: relative;
+}
+.footer-logo{
+  width: 800px;
+  height: 200px;
+  margin-left: 110px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.footer-logo li{
+  float: left;
+  list-style: none;
+  margin-right: 50px;
+  margin-top: 50px;
+}
+.footer-logo a:hover{
+  color: #9f5edf;
+}
+.footer-logo a{
+  display: inline-block;
+  text-decoration: none;
+  color: #868282;
+  font-size: 18px;
+}
+.scholar{
+  text-align: left;
+}
+.scholar img{
+  position: absolute;
+  top: 190px;
+  left: 10px;
+  width: 100px;
+  height: 100px;
+}
+.scholar p{
+  position: absolute;
+  top: 230px;
+  left: 100px;
+  font-family: "Bodoni 72", sans-serif;
+  font-size: 20px;
+  color: #5f16Af;
+}
+.meeting img{
+  position: absolute;
+  top: 120px;
+  left: 660px;
+  width: 200px;
+  height: 200px;
+}
+#contact{
+  position: absolute;
+  top: 210px;
+  left: 1100px;
+}
+footer .footer-twitter i {
+  position: absolute;
+  left: 1000px;
+  top: 210px;
+  font-size: 50px;
+  color: #4ba0ec;
+}
+
+@media (max-width: 425px) {
+  body{
+    width: 100vw;
+  }
+  .container{
+    margin: 40px auto;
+  }
+  .top-logo{
+   text-align: center;
+  }
+  .top-name {
+      margin-left:10px;
+}
+ .top-logo h1 {
+  font-size: 40px;
+  font-family: arial black;
+  font-weight: 900;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.top-logo p {
+  font-size: 14px;
+  font-weight: 900;
+  font-family: 游ゴシック;
+  font-style: italic;
+  letter-spacing: 0px;
+  text-align: center;
+}
+.a {
+  top: 20px;
+  left: -5%;
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+.b {
+  position: relative;
+  top: 91px;
+  left: 10%;
+  width: 120px;
+  height: 120px;
+}
+.c{
+  display: none;
+}
+.text-title {
+  color: rgb(0, 0, 0);
+  padding-bottom: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "YuGothic Arial", sans-serif;
+  margin: 40px;
+  text-align: center;
+}
+.circle_flex {
+  border-radius: 50%;
+  background: white;
+  width: 160px;
+  height: 160px;
+  margin: auto;
+}
+.explain{
+  padding: 10px 0px;
+}
+.explain img{
+  width: 140px;
+  height: 140px;
+  text-align: center;
+}
+.explain p{
+  font-size:12px;
+  text-align: center;
+  margin-top: 10px;  
+}
+
+#center_pic{
+  transform: translate(5px, 10px);
+}
+#right_pic{
+  transform: translate(10px, 10px);
+}
+.opinion p {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 100px;
+}
+.fa-caret-right {
+  margin-right: 10px;
+}
+.text-section-title {
+  margin-top:40px ;
+  padding-bottom: 5px;
+  font-size: 18px;
+  border-bottom: #000000 solid 1.5px;
+}
+#com_pic {
+  width: 200px;
+  height: 200px;
+}
+.message-part{
+  flex-wrap: wrap;
+}
+.message p {
+ margin: 15px 40px;
+}
+#stu_pic{
+  width: 200px;
+  height: 200px;
+}
+.news-under{
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+.award{
+  margin-right: 0px;
+  margin-bottom: 100px;
+}
+.award ul{
+  padding:0px 40px;
+}
+.footer-logo ul{
+  padding-left: 0px;
+  margin-left: 20%;
+}
+.award span{
+  margin:10px 0px 15px 0px ;
+}
+.twitter{
+  margin: 0px 40px;
+}
+.footer-logo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.footer-logo{
+  width: 250px;
+  height: 180px;
+  margin-left: 0px;
+  margin-top: 10px;
+  align-items: baseline;
+}
+.footer-logo li{
+  margin-right: 20px;
+  margin-top: 10px;
+}
+.footer-logo a{
+  font-size: 12px;
+}
+.scholar p {
+  top: 172px;
+  left: 60px;
+  font-size: 13px;
+  
+}
+.scholar img {
+  top: 150px;
+  left: 5px;
+  width: 60px;
+  height: 60px;
+}
+.meeting img{
+  top: 30px;
+  left: 70%;
+  width: 100px;
+  height: 100px;
+}
+#contact{
+  position: absolute;
+  top: 82%;
+  left: 55%;
+}
+footer .footer-twitter i {
+  position: absolute;
+  left: 42%;
+  top: 87%;
+  font-size: 30px;
+  color: #4ba0ec;
+}
+}
+@media (max-width: 768px) {
+  .container {
+    padding: 0 15px;
+  }
+}

@@ -23,4 +23,22 @@
   @include text-section-title;
 }
 
+.border {
+  fill: rgb(255, 255, 255);
+  transition: 200ms all ease;
+  transform-origin: 250px 250px;
+}
+
+
+.menu {
+  cursor: pointer;
+
+  .border {
+    fill: rgb(255, 255, 255);
+    transition: 200ms all ease;
+    transform-origin: 250px 250px;
+  }
+
+  
+
 //ここより下にページに関するcssを書いてください
