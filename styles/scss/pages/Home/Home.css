@@ -254,7 +254,6 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  flex-wrap: wrap;
   margin-top: 100px;
 }
 .award{
@@ -269,6 +268,74 @@ body {
   display: inline-block;
   color:brown;
   margin:20px 0px 30px 0px;
+}
+/*こっからフッター*/
+footer{
+  border-top: solid 1px black;
+  width: 100%;
+  position: relative;
+}
+.footer-logo{
+  width: 800px;
+  height: 200px;
+  margin-left: 110px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.footer-logo li{
+  float: left;
+  list-style: none;
+  margin-right: 50px;
+  margin-top: 50px;
+}
+.footer-logo a:hover{
+  color: #9f5edf;
+}
+.footer-logo a{
+  display: inline-block;
+  text-decoration: none;
+  color: #868282;
+  font-size: 18px;
+}
+.scholar{
+  text-align: left;
+}
+.scholar img{
+  position: absolute;
+  top: 190px;
+  left: 10px;
+  width: 100px;
+  height: 100px;
+}
+.scholar p{
+  position: absolute;
+  top: 230px;
+  left: 100px;
+  font-family: "Bodoni 72", sans-serif;
+  font-size: 20px;
+  color: #5f16Af;
+}
+.meeting img{
+  position: absolute;
+  top: 120px;
+  left: 660px;
+  width: 200px;
+  height: 200px;
+}
+#contact{
+  position: absolute;
+  top: 210px;
+  left: 1100px;
+}
+footer .footer-twitter i {
+  position: absolute;
+  left: 1000px;
+  top: 210px;
+  font-size: 50px;
+  color: #4ba0ec;
 }
 
 @media (max-width: 425px) {
@@ -382,18 +449,73 @@ body {
 }
 .news-under{
   margin-top: 40px;
+  flex-wrap: wrap;
 }
 .award{
   margin-right: 0px;
   margin-bottom: 100px;
 }
-ul{
-  padding-right: 40px;
+.award ul{
+  padding:0px 40px;
+}
+.footer-logo ul{
+  padding-left: 0px;
+  margin-left: 20%;
 }
 .award span{
   margin:10px 0px 15px 0px ;
 }
 .twitter{
   margin: 0px 40px;
+}
+.footer-logo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.footer-logo{
+  width: 250px;
+  height: 180px;
+  margin-left: 0px;
+  margin-top: 10px;
+  align-items: baseline;
+}
+.footer-logo li{
+  margin-right: 20px;
+  margin-top: 10px;
+}
+.footer-logo a{
+  font-size: 12px;
+}
+.scholar p {
+  top: 172px;
+  left: 60px;
+  font-size: 13px;
+  
+}
+.scholar img {
+  top: 150px;
+  left: 5px;
+  width: 60px;
+  height: 60px;
+}
+.meeting img{
+  top: 30px;
+  left: 70%;
+  width: 100px;
+  height: 100px;
+}
+#contact{
+  position: absolute;
+  top: 82%;
+  left: 55%;
+}
+footer .footer-twitter i {
+  position: absolute;
+  left: 42%;
+  top: 87%;
+  font-size: 30px;
+  color: #4ba0ec;
 }
 }
