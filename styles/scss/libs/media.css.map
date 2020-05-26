@@ -1,1 +1,9 @@
-{"version":3,"sourceRoot":"","sources":["media.scss"],"names":[],"mappings":"AAAA","file":"media.css"}
+{
+    "version": 3,
+    "mappings": "AAAA,eAAe",
+    "sources": [
+        "media.scss"
+    ],
+    "names": [],
+    "file": "media.css"
+}
