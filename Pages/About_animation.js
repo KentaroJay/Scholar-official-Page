@@ -3,6 +3,8 @@ $(function () {
     $("#aboutScholar__slideDowns") /* .children("a") */
       .slideDown(700);
     /* removeClass("hidden-aboutScholar__slideDowns") */
+  },function(){
+    $("#aboutScholar__slideDowns").slideUp(700)
   });
   $("#aboutScholar__slideDowns").hover(
     function () {},
