@@ -224,7 +224,7 @@ header {
     }
     .hamburger-bar-header {
       display: block;
-      z-index: 1;
+      z-index: 2;
       .inner {
         width: 50px;
         height: 50px;
@@ -292,7 +292,7 @@ header {
     }
   }
   #header-circleToSquare {
-    z-index: 0;
+    z-index: 1;
     width: 0px;
     height: 0px;
     border-radius: 50%;
