@@ -26,6 +26,7 @@ body {
   margin: 80px auto;
   padding: 0 40px;
 }
+
 @media (max-width: 768px) {
   .container {
     padding: 0 15px;
@@ -215,6 +216,7 @@ p {
   float: left;
   position: absolute;
   left: 15px;
+  top: -7px;
 }
 
 .image2 {
@@ -223,6 +225,7 @@ p {
   float: right;
   position: absolute;
   right: 10px;
+  top: 145px;
 }
 
 .image3 {
@@ -235,7 +238,7 @@ p {
 
 .image4 {
   width: 25%;
-  height: 25%;
+  height: 30%;
   float: right;
   position: absolute;
   right: 5px;
@@ -247,6 +250,7 @@ p {
   float: left;
   position: absolute;
   left: 15px;
+  bottom: -850px;
 }
 
 .image6 {
@@ -257,13 +261,9 @@ p {
   right: 15px;
 }
 
-.image7 {
-  width: 25%;
-  height: 25%;
-  float: left;
-  position: absolute;
-  left: 15px;
-}
+  .image7 {
+   display: none;
+  }
 
 .image8 {
   width: 25%;
