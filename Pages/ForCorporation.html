@@ -9,8 +9,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
-
-<!-- スムーズスクロール部分の記述 -->
 <script>
 $(function(){
    // #で始まるアンカーをクリックした場合に処理
@@ -29,81 +27,100 @@ $(function(){
    });
 });
 </script>
+<script>
+$(function(){
+    $(window).scroll(function (){
+        $('.fadein').each(function(){
+            var position = $(this).offset().top;
+            var scroll = $(window).scrollTop();
+            var windowHeight = $(window).height();
+            if (scroll > position - windowHeight + 50){
+              $(this).addClass('active');
+            }
+        });
+    });
+});
+  </script>
 </head>
 <body>
-    <div class="text">
-
-        <h1 class="title">企業の皆様へ</h1>
-        <div class="text-body">
-            <p>スカラーでは企業様向けにサービスを制作しております。</p>
-            <p>入念なヒアリングに始まり、デモ制作、納品、点検までをサポートいたします。</p>
-            <p>また学生であることからサービスを安価にご提供させていただいきます。</p>
-        </div>
-        <div class="text-menu">
-            <a href="#home">ホームページ制作</a>
-            <a href="#app">アプリ開発</a>
-            <a href="#deta">データ分析</a>
-            <a href="#record">実績</a>
-        </div>
-        <div class="section-body" id="home">
-            <h1 class="text-section-title" >
-                ホームページ制作
+    　 <div class="text">
+          <img class="image1" src="../styles/images/About/group_presentation.svg" alt="起業">
+          <img class="image2" src="../styles/images/ForCorporation/web_development_.svg" alt="ホームページ制作">
+            <h1 class="title ">企業の皆様へ</h1>
+            <div class="text-body ">
+                <p>スカラーでは企業様向けにサービスをご提供しております。</p>
+                <p>入念なヒアリングに始まり、デモ制作、納品、点検までをサポートいたします。</p>
+                <p>また学生であることからサービスを安価にご提供させていただいきます。</p>
+              </div>
+            <div class="text-menu fadein">
+              <div class="border border-menu">
+                <svg class="border1" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" fill=#868282><path d="M0 0h24v24H0V0z" fill="none"/><path d="M19 13H5v-2h14v2z"/></svg>
+                <svg class="border2" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" fill=#868282><path d="M0 0h24v24H0V0z" fill="none"/><path d="M19 13H5v-2h14v2z"/></svg>
+                <a href="#home">ホームページ制作</a>
+              </div>
+              
+                <div class="border border-menu">
+                  <svg class="border1" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" fill=#868282><path d="M0 0h24v24H0V0z" fill="none"/><path d="M19 13H5v-2h14v2z"/></svg>
+                  <svg class="border2" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" fill=#868282><path d="M0 0h24v24H0V0z" fill="none"/><path d="M19 13H5v-2h14v2z"/></svg>
+                  <a href="#app">アプリ開発</a>
+                </div>
+                
+                  <div class="border border-menu">
+                    <svg class="border1" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" fill=#868282><path d="M0 0h24v24H0V0z" fill="none"/><path d="M19 13H5v-2h14v2z"/></svg>
+                    <svg class="border2" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" fill=#868282><path d="M0 0h24v24H0V0z" fill="none"/><path d="M19 13H5v-2h14v2z"/></svg>
+                    <a href="#deta">データ分析</a>
+                  </div>
+        
+                    <div class="border border-menu">
+                      <svg class="border1" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" fill=#868282><path d="M0 0h24v24H0V0z" fill="none"/><path d="M19 13H5v-2h14v2z"/></svg>
+                      <svg class="border2" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" fill=#868282><path d="M0 0h24v24H0V0z" fill="none"/><path d="M19 13H5v-2h14v2z"/></svg>
+                      <a href="#record">実績</a>
+                    </div>
+               
+                     </div>
+            <div class="section-body fadein" id="home">
+                <h1 class="text-section-title fadein" >
+                    ホームページ制作
+                </h1>
+                <img class="image3 fadein" src="../styles/images/ForCorporation/coding_.svg" alt=" WEBページ制作">
+                <div class="section
+                ">
+                <p class="fadein">弊団体のwebページ制作の特徴としましては、</p>
+                <p class="fadein">顧客目線から逆算したwebデザイン、ライティングを徹底して行うところにあります。</p>
+              </div>
+               <img class="image4 fadein" src="../styles/images/ForCorporation/seo.svg" alt="SEO">
+               <div class="section">
+                   <p class="fadein">企業様がターゲットにしている顧客の感情、行動の定性的な議論から、グーグルアナリティクスを用いた定量的なデータ収集まで抜かりなく行うことにより、SEO対策、UI・UX対策全てをカバーすることを意識しております。
+                    </p>
+               </div>
+               <div class="section">
+                   <p class="fadein">新しく自社のホームページの制作を考えておられる事業者の皆様、お気軽にご相談ください。
+                  </p>
+               </div>
+           </div>
+           <div class="section-body">
+            <h1 class="text-section-title fadein" id="app">
+                アプリ開発
             </h1>
+        
             <div class="section
             ">
-            <p>弊団体のwebページ制の特徴としましては、</p>
-            <p>顧客目線から逆算したwebデザイン、ライティングを徹底して行うところにあります。</p>
+            <p class="fadein">外部からの開発依頼を承ります。</p>
            </div>
+           <img class="image6 fadein" src="../styles/images/ForCorporation/web_developer_monochromatic.svg" alt="アプリ開発">    
            <div class="section">
-               <p>企業様がターゲットにしている顧客の感情、行動の定性的な議論から、グーグルアナリティクスを用いた定量的なデータ収集まで抜かりなく行うことにより、
-                SEO対策、UI・UX対策全てをカバーすることを意識しております。
-                </p>
-           </div>
-           <div class="section">
-               <p>新しく自社のホームページの制作を考えておられる事業者の皆様、お気軽にご相談ください
+               <p class="fadein">アプリケーション開発にも二種類あるのですが、カスタマー向けのアプリケーション開発においては必要な機能を、サービスを利用する誰もが使いやすいシステムになるように議論を重ね、より良いものを開発してまいります。
               </p>
-           </div>
-       </div>
-       <div class="section-body">
-        <h1 class="text-section-title" id="app">
-            アプリ開発
-        </h1>
-        <div class="section
-        ">
-        <p>外部からの開発依頼を承ります。</p>
-       </div>
-            
-       <div class="section">
-           <p>アプリケーション開発にも二種類あるのですが、
-            カスタマー向けのアプリケーション開発においては必要な機能を、サービスを利用する誰もが使いやすいシステムになるように議論を重ね、より良いものを開発して
-            まいります。
-          </p>
-      </div>
-      <div class="section">
-          <p>また業務改善向けのアプリケーション開発においては
-           実際に企業の業務をヒアリングした上で、どのような
-           機能を職場で必要としているかを議論し、職場で必要な機能を誰もがわかりやすく使いやすい形で実装することで業務効率改善の力添えをいたします。
-           </p>
-           </div>
-           <div class="section">
-               <p>サービスを作って欲しいとお考えの事業者の皆様、 お見積もり等お気軽にご相談ください
-               </p>
-           </div>
-       </div>
-       <div class="section-body">
-           <h1 class="text-section-title" id="deta">
-               データ分析
-           </h1>
-           <div class="section
-           ">
-           <p>弊団体ではデータサイエンスを専攻している学生が多く在籍しております。この強みを生かし、アンケートや
-           社会調査を元にしたデータ分析やそれに基づく改善案、解決案の立案までを請け負います。
-           </p>    
           </div>
+          <img class="image5 fadein" src="../styles/images/ForCorporation/bug_fixing_monochromatic.svg" alt="アプリケーション開発">
           <div class="section">
-              <p>重回帰分析はもちろんのこと機械学習を主とした
-               AI（人工知能）によるデータ分析もお任せください。
-             </p>
+              <p class="fadein">また業務改善向けのアプリケーション開発においては実際に企業の業務をヒアリングした上で、どのような機能を職場で必要としているかを議論し、職場で必要な機能を誰もがわかりやすく使いやすい形で実装することで業務効率改善の力添えをいたします。
+               </p>
+               </div>
+               <div class="section">
+                   <p class="fadein">サービスを作って欲しいとお考えの事業者の皆様、 お見積もり等お気軽にご相談ください。
+                   </p>
+               </div>
            </div>
          <div class="section">
             <p>商品開発の市場調査やデータから見る戦略立案などを
@@ -120,21 +137,76 @@ $(function(){
               <div class="button">
                 <div class="eff"></div>
                 <a href="../Pages/Contact.html"> お問い合わせ </a>
+           <div class="section-body">
+               <h1 class="text-section-title fadein" id="deta">
+                   データ分析
+               </h1>
+               <img class="image7 fadein" src="../styles/images/ForCorporation/data_analytics__monochromatic.svg" alt="データ分析"> 
+               <div class="section
+               ">
+               <p class="fadein">弊団体ではデータサイエンスを専攻している学生が多く在籍しております。この強みを生かし、アンケートや
+               社会調査を元にしたデータ分析やそれに基づく改善案、解決案の立案までを請け負います。
+               </p>    
               </div>
+              <img class="image8 fadein" src="../styles/images/ForCorporation/data_visualization_monochromatic.svg" alt="データ解析">
+              <div class="section">
+                  <p class="fadein">重回帰分析はもちろんのこと機械学習を主としたAI（人工知能）によるデータ分析もお任せください。
+                 </p>
+               </div>
+            
+             <div class="section">
+                <p class="fadein">商品開発の市場調査やデータから見る戦略立案などを
+                ご希望の事業者の皆様、お見積もり等お気軽にご相談ください。
+                </p>
+             </div>
             </div>
-      </div>
+            <div class="section-body">
+                <h1 class="text-section-title fadein" id="record">
+                    実績
+                </h1>
+            </div>
+            <div class="fadein">
+
+              <div class="card">
+              <div class="card__imgframe"> 
+               </div> 
+                  <div class="card__textbox">
+                    <div class="card__titletext">
+                      NOAH様のウェブページを制作させていただきました。
+                    </div>
+                    <div class="card__overviewtext">
+                      <p> 公開日：2020年4月</p>
+                      <p>URL：<a href="http://noah.eijiyoshikawa.net/
+                          ">http://noah.eijiyoshikawa.net/
+                      </a></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="contact fadein">
+                  <div class="button">
+                    <div class="eff"></div>
+                    <a href="#"> お問い合わせ </a>
+                  </div>
+                </div>
+    </div>
   </body>
   </html>
-
-
               
-             
-                 
-               
-               
-       
 
-          
-           
 
             
+           
+               
+             
+             
+     
+
+        
+         
+
+          
+
+                  
+                
+
