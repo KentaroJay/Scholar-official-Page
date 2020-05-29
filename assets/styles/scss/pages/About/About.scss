@@ -27,6 +27,9 @@
 * {
   margin: 0;
 }
+body{
+  overflow-x: hidden;
+}
 
 header {
   display: flex;
