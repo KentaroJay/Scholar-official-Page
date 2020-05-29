@@ -1,15 +1,8 @@
 {
     "version": 3,
-    "mappings": "AEAA,eAAe;AAAf,eAAe;ACmCf,AAAA,EAAE,CAAA;EACA,MAAM,EAAE,KAAK;CACd;;AAED,AAAA,IAAI,CAAA;EACF,gBAAgB,EAvCD,OAAO;CAwCvB;;ADzCD,eAAe;AAAf,eAAe;ACmCf,AAAA,EAAE,CAAA;EACA,MAAM,EAAE,KAAK;CACd;;AAED,AAAA,IAAI,CAAA;EACF,gBAAgB,EAvCD,OAAO;CAwCvB",
+    "mappings": "AAAA,OAAO,CAAP,0FAAO;AACP,OAAO,CAAP,sFAAO;AACP,OAAO,CAAP,uFAAO",
     "sources": [
-        "mixins.scss",
-        "libs/container.scss",
-        "libs/media.scss",
-        "libs/values.scss",
-        "libs/media.scss",
-        "libs/media.scss",
-        "libs/values.scss",
-        "libs/media.scss"
+        "mixins.scss"
     ],
     "names": [],
     "file": "mixins.css"
