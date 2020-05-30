@@ -13,24 +13,24 @@
 
 ## Github Pages
 
-`showcase`  https://du-scholar.tk/Scholar-official-Page/showCase/index.html
+`showcase`  https://du-scholar.tk/showCase/index.html
 
 `Home`  https://du-scholar.tk/Scholar-official-Page
 
-`Scholarについて`  https://du-scholar.tk/Scholar-official-Page/Pages/About.html
+`Scholarについて`  https://du-scholar.tk/Pages/About.html
 
-`企業の皆様へ`  https://du-scholar.tk/Scholar-official-Page/Pages/ForCorporation.html
+`企業の皆様へ`  https://du-scholar.tk/Pages/ForCorporation.html
 
-`学生の皆様へ`  https://du-scholar.tk/Scholar-official-Page/Pages/ForStudent.html
+`学生の皆様へ`  https://du-scholar.tk/Pages/ForStudent.html
 
-`お問い合わせ`  https://du-scholar.tk/Scholar-official-Page/Pages/Contact.html
+`お問い合わせ`  https://du-scholar.tk/Pages/Contact.html
 
 
 ## show case
 
 コーディングに関する要件（参照必須）
 
-https://du-scholar.tk/Scholar-official-Page/showCase/index.html
+https://du-scholar.tk/showCase/index.html
 
 または
 
