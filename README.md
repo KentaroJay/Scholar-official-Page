@@ -15,7 +15,7 @@
 
 `showcase`  https://du-scholar.tk/showCase/index.html
 
-`Home`  https://du-scholar.tk/Scholar-official-Page
+`Home`  https://du-scholar.tk
 
 `Scholarについて`  https://du-scholar.tk/Pages/About.html
 
