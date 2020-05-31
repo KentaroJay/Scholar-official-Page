@@ -100,10 +100,11 @@ header #logo {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  height: 60px;
 }
 
 header #logo img {
-  width: 100px;
+  width: 50px;
 }
 
 header #logo p {
@@ -111,7 +112,7 @@ header #logo p {
   margin: 0;
   color: #5f16a7;
   position: relative;
-  left: -19px;
+  left: 0px;
 }
 
 header #links {
