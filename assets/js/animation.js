@@ -15,7 +15,7 @@ $(function() {
   $('.area1 button').click(function() {
    
     // class'showUp'をdiv要素に追加
-    $('.comment1-2').slideDown();
+    $('.comment1-2').slideToggle();
 
  });
 });
@@ -25,7 +25,7 @@ $(function() {
       $('.area2 button').click(function() {
        
         // class'showUp'をdiv要素に追加
-        $('.comment2-2').slideDown();
+        $('.comment2-2').slideToggle();
  });
 });
 
@@ -34,6 +34,6 @@ $(function() {
       $('.area3 button').click(function() {
        
         // class'showUp'をdiv要素に追加
-        $('.comment3-2').slideDown();
+        $('.comment3-2').slideToggle();
  });
 });
