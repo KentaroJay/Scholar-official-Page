@@ -1,60 +1,31 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   viewBox="0 0 666.66669 666.66669"
-   height="666.66669"
-   width="666.66669"
-   xml:space="preserve"
-   id="svg2"
-   version="1.1"><metadata
-     id="metadata8"><rdf:RDF><cc:Work
-         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
-     id="defs6"><clipPath
-       id="clipPath18"
-       clipPathUnits="userSpaceOnUse"><path
-         id="path16"
-         d="M 0,500 H 500 V 0 H 0 Z" /></clipPath><clipPath
-       id="clipPath26"
-       clipPathUnits="userSpaceOnUse"><path
-         id="path24"
-         d="M 113.202,350.029 H 380.349 V 258.66 H 113.202 Z" /></clipPath></defs><g
-     transform="matrix(1.3333333,0,0,-1.3333333,0,666.66667)"
-     id="g10"><g
-       id="g12"><g
-         clip-path="url(#clipPath18)"
-         id="g14"><g
-           id="g20"><g
-             id="g22" /><g
-             id="g34"><g
-               id="g32"
-               clip-path="url(#clipPath26)"><g
-                 id="g30"
-                 transform="translate(246.528,350.0289)"><path
-                   id="path28"
-                   style="fill:#662d91;fill-opacity:1;fill-rule:nonzero;stroke:none"
-                   d="M 0,0 -133.326,-45.597 0.495,-91.369 133.821,-45.77 Z" /></g></g></g></g><g
-           transform="translate(339.7759,221.2754)"
-           id="g36"><path
-             id="path38"
-             style="fill:#662d91;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             d="m 0,0 c 0,-21.815 -41.637,-39.5 -93,-39.5 -51.362,0 -93,17.685 -93,39.5" /></g><g
-           transform="translate(153.7759,283.2749)"
-           id="g40"><path
-             id="path42"
-             style="fill:#662d91;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             d="m 0,0 v -62 h 186 l 1,61 -94.5,-34.5 z" /></g><g
-           transform="translate(241.7759,315.2749)"
-           id="g44"><path
-             id="path46"
-             style="fill:#662d91;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             d="m 0,0 c 0,0 96.168,-6.969 116.183,-30.938 12.301,-14.732 15.035,-16.42 15.035,-23.572 v -5.893 c 0,0 -4.101,4.42 4.1,1.473 2.594,-0.931 6.835,-5.893 4.101,-8.839 -2.161,-2.329 -4.101,-4.42 -4.101,-4.42 0,0 -4.366,-20.366 -0.266,-30.679 3.325,-8.361 5.065,-13.422 8.718,-18.6 3.842,-5.448 -1.844,-12.504 -7.958,-9.849 -0.151,0.066 -0.304,0.132 -0.458,0.198 -13.668,5.893 -16.62,3.28 -19.354,12.119 -3.135,10.139 13.851,42.391 13.851,42.391 0,0 -3.009,1.137 -6.467,3 -5.467,2.947 -6.181,6.984 -5.101,9.313 6.834,14.733 6.101,-0.527 6.101,-0.527 0,0 -8.201,22.099 -15.036,30.938 C 91.255,-10.482 0,-2.946 0,-2.946 Z" /></g><g
-           transform="translate(330.7759,287.2749)"
-           id="g48"><path
-             id="path50"
-             style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             d="m 0,0 c -30,16 -57,17 -62,20 -5,3 -7,7.261 -7,7.261 C -69,27.261 -22,18 9,3" /></g></g></g></g></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.1.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="レイヤー_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 273.6 168.2" style="enable-background:new 0 0 273.6 168.2;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_2_);}
+	.st1{fill:#662D91;}
+	.st2{fill:#FFFFFF;}
+</style>
+<g>
+	<g>
+		<defs>
+			<rect id="SVGID_1_" width="267.1" height="91.4"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+		</clipPath>
+		<g class="st0">
+			<polyline class="st1" points="133.3,0 0,45.6 133.8,91.4 267.1,45.8 133.3,0 			"/>
+		</g>
+	</g>
+</g>
+<path class="st1" d="M227.6,67.8l-94.5,34.5L40.6,66.8v62h0c0,21.8,41.6,39.5,93,39.5c51.4,0,93-17.7,93-39.5h0L227.6,67.8z"/>
+<path class="st1" d="M128.6,34.8c0,0,96.2,7,116.2,30.9c12.3,14.7,15,16.4,15,23.6v5.9c0,0-4.1-4.4,4.1-1.5c2.6,0.9,6.8,5.9,4.1,8.8
+	l-4.1,4.4c0,0-4.4,20.4-0.3,30.7c3.3,8.4,5.1,13.4,8.7,18.6c2.1,2.9,1.5,7-1.5,9.2c-1.9,1.4-4.4,1.6-6.5,0.7l-0.5-0.2
+	c-13.7-5.9-16.6-3.3-19.3-12.1c-3.1-10.1,13.8-42.4,13.8-42.4c-2.2-0.9-4.4-1.9-6.5-3c-5.5-2.9-6.2-7-5.1-9.3
+	c6.8-14.7,6.1,0.5,6.1,0.5s-8.2-22.1-15-30.9c-18.1-23.4-109.3-30.9-109.3-30.9L128.6,34.8z"/>
+<path class="st1" d="M214.6,63.8"/>
+<path class="st2" d="M217.6,62.8c-30-16-57-17-62-20c-3-1.7-5.4-4.3-7-7.3c0,0,47,9.3,78,24.3"/>
+<path d="M243.9,160.6"/>
+</svg>

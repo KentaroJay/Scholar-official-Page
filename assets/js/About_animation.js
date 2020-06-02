@@ -17,8 +17,8 @@ $(function () {
             "border-radius": "50%",
             width: "0px",
             height: "0px",
-            top: "120px",
-            right: "51px",
+            top: "30px",
+            right: "30px",
             borderRightWidth: "0px",
             borderLeftWidth: "0px",
             borderBottomWidth: "0px",
@@ -44,7 +44,7 @@ $(function () {
             "border-radius": "0px",
             width: "240px",
             height: "500px",
-            top: "72px",
+            top: "0px",
             right: "0",
             borderRightWidth: "1px",
             borderLeftWidth: "1px",
@@ -63,7 +63,7 @@ $(function () {
           );
         $(this).find(".hamburger-bar-title").slideDown();
         $("#header-circleToSquare__links").append(
-          '<ul><li id="firstList"><a href="/* ホームのリンク */">-ホーム</a></li><li><a href="Scholarについてのリンク">-Scholarについて</a></li><ul><li><a href="団体理念についてのリンク">-団体理念</a></li><li><a href="活動内容についてのリンク">-活動内容</a></li><li><a href="代表挨拶">-代表挨拶</a></li></ul><li><a href="メンバー紹介">-メンバー紹介</a></li><li><a href="学生の皆さま">-学生の皆様へ</a></li><li><a href="企業の皆様へ">-企業の皆様へ</a></li></ul><a href="https://twitter.com/scholar_do"><i class="fab fa-twitter-square" target="_blank"></i></a><div class="button"><div class="eff"></div><a href="#お問い合わせ"> お問い合わせ</a></div>'
+          '<ul><li id="firstList"><a href="https://du-scholar.tk/">-ホーム</a></li><li><a href="https://du-scholar.tk/Pages/About.html">-Scholarについて</a></li><ul><li><a href="https://du-scholar.tk/Pages/About.html">-団体理念</a></li><li><a href="https://du-scholar.tk/Pages/About.html">-活動内容</a></li><li><a href="https://du-scholar.tk/Pages/About.html">-代表挨拶</a></li></ul><li><a href="https://du-scholar.tk/Pages/About.html">-メンバー紹介</a></li><li><a href="https://du-scholar.tk/Pages/ForStudent.html">-学生の皆様へ</a></li><li><a href="https://du-scholar.tk/Pages/ForCorporation.html">-企業の皆様へ</a></li></ul><a href="https://twitter.com/scholar_do"><i class="fab fa-twitter-square" target="_blank"></i></a><div class="button"><div class="eff"></div><a href="https://du-scholar.tk/Pages/Contact.html"> お問い合わせ</a></div>'
         );
         $("#header-circleToSquare__links").find("li").hide();
         $("#header-circleToSquare__links").find("i").hide();
