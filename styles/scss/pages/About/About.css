@@ -133,9 +133,7 @@ h2{
   margin-top: auto;
   top:60px;
 }
-.img{
-  position: absolute;
-  border: 1px solid black;
+.image{
   flex-grow: 0;
 }
 .center-box{
@@ -167,14 +165,17 @@ h2{
  }
  
  .comment1-2{
+   width: 100%;
    display: none;
    border-top: 1px solid black;
  }
  .comment2-2{
+   width: 100%;
   display: none;
   border-top: 1px solid black;
  }
  .comment3-2{
+   width: 100%;
   display: none;
   border-top: 1px solid black;
  }
@@ -212,7 +213,103 @@ button:hover::after {
   height: 0;
   background-color: #EFEDE9;
 }
+.daihyous{
+  display: flex;
+  flex-wrap: wrap;
+  width: 60vw;
+  margin: 0 auto;
+  padding-top: 15px;
+}
+.daihyou1{
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.daihyou2{
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 75px;
+}
+.shasin{
+  width: 95%;
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  flex-grow: 0;
+  margin-left: 30%;
+}
+.rank{
+  float: right;
+  flex-grow: 1;
+}
+.namae{
+  text-align: center;
+  padding-top:5px ;
+}
+.shousai{
+  padding-top: 50px;
+}
+.daihyoucm {
+  text-align: left;
+}
+.ex{
+  width: 170px;
+}
+@media(max-width:1200px){
+  .shasin{
+    margin: 0;
+  }
+}
+@media(max-width:900px){
+  .ex{
+    margin: 0 auto;
+  }
+  .shousai{
+    padding-top: 30px;
+    padding-bottom: 8px;
+  }
+  
+}
+@media(max-width:768px){
+  .shasin{
+    width: 60%;
+    margin: 0 auto;
+  }
+  .ex{
+    width: 100%;
+  }
+  
+  .areas{
+    width: 60vw;
+  }
+  .area1{
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+  }
+  .area2{
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+  }
+  .area3{
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+  }
+  .comment1{
+    float: right;
+    border-top: 1px solid black;
+    border-left: none;
+    flex-grow: 1;
+  }
 
+}
 @media(max-width: 425px){
   .pic1{
     width:24%;
@@ -236,5 +333,205 @@ button:hover::after {
   }
   .image{
     width: 100%;
+  }
+  .shasin{
+    width:100%;
+  }
+  .area1{
+    width: 45%;
+    height:auto;
+    display:flex;
+    flex-wrap:nowrap ;
+    margin: 0 auto;
+    border: 1px solid black;
+    margin-top: 5px;
+  }
+  
+  .area2{
+    width: 45%;
+    height:auto;
+    display:flex;
+    flex-wrap:nowrap ;
+    margin: 0 auto;
+    border: 1px solid black;
+    margin-top: 5px;
+  }
+  .area3{
+    width: 45%;
+    height:auto;
+    display:flex;
+    flex-wrap:nowrap ;
+    margin: 0 auto;
+    border: 1px solid black;
+    margin-top: 5px;
+  }
+}
+
+
+@media(min-width:1441px){
+  .areas{
+    width: 80vw;
+    height: auto;
+    margin:0 auto;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding-top: 15px;
+  }
+  .area1{
+    width: 45%;
+    height:auto;
+    display:flex;
+    flex-wrap:wrap ;
+    margin: 0 auto;
+    border: 1px solid black;
+    margin-top: 5px;
+  }
+  
+  .area2{
+    width: 45%;
+    height:auto;
+    display:flex;
+    flex-wrap:wrap ;
+    margin: 0 auto;
+    border: 1px solid black;
+    margin-top: 5px;
+  }
+  .area3{
+    width: 45%;
+    height:auto;
+    display:flex;
+    flex-wrap:wrap ;
+    margin: 0 auto;
+    border: 1px solid black;
+    margin-top: 5px;
+  }
+  
+}
+@media(min-width:1970px){
+  .areas{
+    width: 80vw;
+    height: auto;
+    margin:0 auto;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding-top: 15px;
+  }
+  
+  .image{
+    flex-grow: 0;
+  }
+  .comment1{
+    width:30%;
+    float: right;
+    border-top: none;
+    border-left: none;
+    border-right: 1px solid black;
+    flex-grow: 0;
+  }
+  .comment1-2{
+    width: auto;
+    display: none;
+    border-top:none;
+  }
+  .comment2-2{
+   width: auto;
+   display: none;
+   border-top:none;
+  }
+  .comment3-2{ 
+    width: auto; 
+   display: none;
+   border-top:none;
+  }
+  .shasin{
+    width: 95%;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    flex-grow: 0;
+    margin-left: 0;
+  }
+  .rank{
+    float: right;
+    flex-grow: 0;
+  }
+  .daihyoucm {
+    text-align: left;
+    flex-grow: 1;
+  }
+  .daihyou1{
+    text-align: center;
+    width: 76%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 75px;
+  }
+  .daihyou2{
+    text-align: center;
+    width: 76%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 75px;
+  }
+  .image{
+    flex-grow: 0;
+  }
+  .comment1{
+    width:30%;
+    float: right;
+    border-top: none;
+    border-left: none;
+    border-right: 1px solid black;
+    flex-grow: 0;
+  }
+  .comment1-2{
+    width: auto;
+    display: block;
+    border-top:none;
+  }
+  .comment2-2{
+   width: auto;
+   display: block;
+   border-top:none;
+  }
+  .comment3-2{ 
+    width: auto; 
+   display: block;
+   border-top:none;
+  }
+  button{
+    display: none;
+  }
+  .area1{
+    width: 45%;
+    height:auto;
+    display:flex;
+    flex-wrap:nowrap ;
+    margin: 0 auto;
+    border: 1px solid black;
+    margin-top: 5px;
+  }
+  
+  .area2{
+    width: 45%;
+    height:auto;
+    display:flex;
+    flex-wrap:nowrap ;
+    margin: 0 auto;
+    border: 1px solid black;
+    margin-top: 5px;
+  }
+  .area3{
+    width: 45%;
+    height:auto;
+    display:flex;
+    flex-wrap:nowrap ;
+    margin: 0 auto;
+    border: 1px solid black;
+    margin-top: 5px;
   }
 }
