@@ -518,184 +518,140 @@ body {
   text-align: center;
 }
 
-h2 {
-  border-bottom: solid 2px black;
+.container h2{
+  text-align: center;
+}
+h2{
+  border-bottom: solid 2px black; 
   display: inline-block;
   padding-bottom: 10px;
 }
-
-.myself {
-  width: 40vw;
-  height: 40vw;
-  float: right;
+.myself{
+  width:40vw;
+  height:40vw;
+  float: right; 
 }
-
-.text {
+.text{
   text-align: center;
 }
-
-.areas {
+.areas{
   width: 80vw;
   height: auto;
-  margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  margin:0 auto;
   display: flex;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  align-items: flex-start;
+  flex-wrap: wrap;
   padding-top: 15px;
 }
-
-.area1 {
+.area1{
   width: 45%;
-  height: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  height:auto;
+  display:flex;
+  flex-wrap:wrap ;
   margin: 0 auto;
   border: 1px solid black;
   margin-top: 5px;
 }
 
-.area2 {
+.area2{
   width: 45%;
-  height: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  height:auto;
+  display:flex;
+  flex-wrap:wrap ;
   margin: 0 auto;
   border: 1px solid black;
   margin-top: 5px;
 }
-
-.area3 {
+.area3{
   width: 45%;
-  height: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  height:auto;
+  display:flex;
+  flex-wrap:wrap ;
   margin: 0 auto;
   border: 1px solid black;
   margin-top: 5px;
 }
-
-.comment1 {
+.comment1{
   float: right;
   border-left: 1px solid black;
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  flex-grow: 1;
 }
-
-.pic1 {
-  width: 14%;
+.pic1{
+  width:14%;
   position: relative;
   left: 20%;
   top: 55px;
 }
-
-.pic2 {
+.pic2{
   margin-right: auto;
-  width: 14%;
+  width:14%;
   position: relative;
   left: 65%;
   margin-top: auto;
-  top: 60px;
+  top:60px;
 }
-
-.img {
-  position: absolute;
-  border: 1px solid black;
-  -webkit-box-flex: 0;
-      -ms-flex-positive: 0;
-          flex-grow: 0;
+.image{
+  flex-grow: 0;
 }
-
-.center-box {
+.center-box{
   text-align: center;
 }
-
-.comment1 p {
-  -webkit-margin-before: 1em;
-          margin-block-start: 1em;
-  -webkit-margin-after: 5px;
-          margin-block-end: 5px;
+.comment1 p{
+  margin-block-start: 1em;
+  margin-block-end: 5px;
 }
 
 .fadeInDown {
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
+  -webkit-animation-fill-mode:both;
+  -ms-animation-fill-mode:both;
+  animation-fill-mode:both;
+  -webkit-animation-duration:1s;
+  -ms-animation-duration:1s;
+  animation-duration:1s;
   -webkit-animation-name: fadeInDown;
   animation-name: fadeInDown;
   visibility: visible !important;
-}
-
-@-webkit-keyframes fadeInDown {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateY(-20px);
-  }
-  100% {
-    opacity: 1;
-    -webkit-transform: translateY(0);
-  }
-}
-
-@keyframes fadeInDown {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateY(-20px);
-    transform: translateY(-20px);
-  }
-  100% {
-    opacity: 1;
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-  }
-}
-
-.comment1-2 {
+ }
+ @-webkit-keyframes fadeInDown {
+  0% { opacity: 0; -webkit-transform: translateY(-20px); }
+  100% { opacity: 1; -webkit-transform: translateY(0); }
+ }
+ @keyframes fadeInDown {
+  0% { opacity: 0; -webkit-transform: translateY(-20px); -ms-transform: translateY(-20px); transform: translateY(-20px); }
+  100% { opacity: 1; -webkit-transform: translateY(0); -ms-transform: translateY(0); transform: translateY(0); }
+ }
+ 
+ .comment1-2{
+   width: 100%;
+   display: none;
+   border-top: 1px solid black;
+ }
+ .comment2-2{
+   width: 100%;
   display: none;
   border-top: 1px solid black;
-}
-
-.comment2-2 {
+ }
+ .comment3-2{
+   width: 100%;
   display: none;
   border-top: 1px solid black;
-}
+ }
 
-.comment3-2 {
-  display: none;
-  border-top: 1px solid black;
-}
 
 button {
   display: block;
-  margin: 0 0 0 auto;
+  margin:0 0 0 auto;
   z-index: 2;
   background-color: #333;
   border: 2px solid #333;
   color: #fff;
   line-height: 20px;
 }
-
 button:hover {
   background-color: #EFEDE9;
   border-color: #EFEDE9;
   color: black;
 }
-
 button::before,
 button::after {
   left: 0;
@@ -703,46 +659,342 @@ button::after {
   height: 50%;
   background-color: #333;
 }
-
 button::before {
   top: 0;
 }
-
 button::after {
   bottom: 0;
 }
-
 button:hover::before,
 button:hover::after {
   height: 0;
   background-color: #EFEDE9;
 }
+.daihyous{
+  display: flex;
+  flex-wrap: wrap;
+  width: 60vw;
+  margin: 0 auto;
+  padding-top: 15px;
+}
+.daihyou1{
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.daihyou2{
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 75px;
+}
+.shasin{
+  width: 95%;
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  flex-grow: 0;
+  margin-left: 30%;
+}
+.rank{
+  float: right;
+  flex-grow: 1;
+}
+.namae{
+  text-align: center;
+  padding-top:5px ;
+}
+.shousai{
+  padding-top: 50px;
+}
+.daihyoucm {
+  text-align: left;
+}
+.ex{
+  width: 170px;
+}
+@media(max-width:1200px){
+  .shasin{
+    margin: 0;
+  }
+}
+@media(max-width:900px){
+  .ex{
+    margin: 0 auto;
+  }
+  .shousai{
+    padding-top: 30px;
+    padding-bottom: 8px;
+  }
+  
+}
+@media(max-width:768px){
+  .shasin{
+    width: 60%;
+    margin: 0 auto;
+  }
+  .ex{
+    width: 100%;
+  }
+  
+  .areas{
+    width: 60vw;
+  }
+  .area1{
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+  }
+  .area2{
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+  }
+  .area3{
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+  }
+  .comment1{
+    float: right;
+    border-top: 1px solid black;
+    border-left: none;
+    flex-grow: 1;
+  }
 
-@media (max-width: 425px) {
-  .pic1 {
-    width: 24%;
+}
+@media(max-width: 425px){
+  .pic1{
+    width:24%;
     position: relative;
     left: 10%;
     top: 55px;
   }
-  .pic2 {
-    margin-right: auto;
-    width: 24%;
-    position: relative;
-    left: 66%;
-    margin-top: auto;
-    top: 55px;
+  .pic2{
+   margin-right: auto;
+   width:24%;
+   position: relative;
+   left: 66%;
+   margin-top: auto;
+   top:55px;
   }
-  .comment1 {
+  .comment1{
     float: right;
     border-top: 1px solid black;
     border-left: none;
-    -webkit-box-flex: 1;
-        -ms-flex-positive: 1;
-            flex-grow: 1;
+    flex-grow: 1;
   }
-  .image {
+  .image{
     width: 100%;
+  }
+  .shasin{
+    width:100%;
+  }
+  .area1{
+    width: 45%;
+    height:auto;
+    display:flex;
+    flex-wrap:nowrap ;
+    margin: 0 auto;
+    border: 1px solid black;
+    margin-top: 5px;
+  }
+  
+  .area2{
+    width: 45%;
+    height:auto;
+    display:flex;
+    flex-wrap:nowrap ;
+    margin: 0 auto;
+    border: 1px solid black;
+    margin-top: 5px;
+  }
+  .area3{
+    width: 45%;
+    height:auto;
+    display:flex;
+    flex-wrap:nowrap ;
+    margin: 0 auto;
+    border: 1px solid black;
+    margin-top: 5px;
+  }
+}
+
+
+@media(min-width:1441px){
+  .areas{
+    width: 80vw;
+    height: auto;
+    margin:0 auto;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding-top: 15px;
+  }
+  .area1{
+    width: 45%;
+    height:auto;
+    display:flex;
+    flex-wrap:wrap ;
+    margin: 0 auto;
+    border: 1px solid black;
+    margin-top: 5px;
+  }
+  
+  .area2{
+    width: 45%;
+    height:auto;
+    display:flex;
+    flex-wrap:wrap ;
+    margin: 0 auto;
+    border: 1px solid black;
+    margin-top: 5px;
+  }
+  .area3{
+    width: 45%;
+    height:auto;
+    display:flex;
+    flex-wrap:wrap ;
+    margin: 0 auto;
+    border: 1px solid black;
+    margin-top: 5px;
+  }
+  
+}
+@media(min-width:1970px){
+  .areas{
+    width: 80vw;
+    height: auto;
+    margin:0 auto;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding-top: 15px;
+  }
+  
+  .image{
+    flex-grow: 0;
+  }
+  .comment1{
+    width:30%;
+    float: right;
+    border-top: none;
+    border-left: none;
+    border-right: 1px solid black;
+    flex-grow: 0;
+  }
+  .comment1-2{
+    width: auto;
+    display: none;
+    border-top:none;
+  }
+  .comment2-2{
+   width: auto;
+   display: none;
+   border-top:none;
+  }
+  .comment3-2{ 
+    width: auto; 
+   display: none;
+   border-top:none;
+  }
+  .shasin{
+    width: 95%;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    flex-grow: 0;
+    margin-left: 0;
+  }
+  .rank{
+    float: right;
+    flex-grow: 0;
+  }
+  .daihyoucm {
+    text-align: left;
+    flex-grow: 1;
+  }
+  .daihyou1{
+    text-align: center;
+    width: 76%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 75px;
+  }
+  .daihyou2{
+    text-align: center;
+    width: 76%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 75px;
+  }
+  .image{
+    flex-grow: 0;
+  }
+  .comment1{
+    width:30%;
+    float: right;
+    border-top: none;
+    border-left: none;
+    border-right: 1px solid black;
+    flex-grow: 0;
+  }
+  .comment1-2{
+    width: auto;
+    display: block;
+    border-top:none;
+  }
+  .comment2-2{
+   width: auto;
+   display: block;
+   border-top:none;
+  }
+  .comment3-2{ 
+    width: auto; 
+   display: block;
+   border-top:none;
+  }
+  button{
+    display: none;
+  }
+  .area1{
+    width: 45%;
+    height:auto;
+    display:flex;
+    flex-wrap:nowrap ;
+    margin: 0 auto;
+    border: 1px solid black;
+    margin-top: 5px;
+  }
+  
+  .area2{
+    width: 45%;
+    height:auto;
+    display:flex;
+    flex-wrap:nowrap ;
+    margin: 0 auto;
+    border: 1px solid black;
+    margin-top: 5px;
+  }
+  .area3{
+    width: 45%;
+    height:auto;
+    display:flex;
+    flex-wrap:nowrap ;
+    margin: 0 auto;
+    border: 1px solid black;
+    margin-top: 5px;
+  }
+}
+@media(max-width:375px){
+  .shousai h3{
+    font-size: 14px;
   }
 }
 /*# sourceMappingURL=About.css.map */
