@@ -590,6 +590,12 @@ h2{
   margin-top: auto;
   top:60px;
 }
+.pic3{
+  width:14%;
+  position: relative;
+  left: 20%;
+  top: 55px;
+}
 .image{
   flex-grow: 0;
 }
@@ -781,6 +787,12 @@ button:hover::after {
    left: 66%;
    margin-top: auto;
    top:55px;
+  }
+  .pic3{
+    width:24%;
+    position: relative;
+    left: 6%;
+    top: 55px;
   }
   .comment1{
     float: right;
