@@ -86,7 +86,6 @@ header #links #links__pages {
 header #links #links__pages a {
   display: inline-block;
   line-height: 30px;
-  padding-right: 15px;
   text-decoration: none;
   color: #868282;
   padding-bottom: 2px;
@@ -446,5 +445,8 @@ body {
   font-size: 24px;
   border-bottom: #000000 solid 1.5px;
   font-family: YuGothic Arial, sans-serif;
+}
+iframe{
+  margin-top: 80px;
 }
 /*# sourceMappingURL=Contact.css.map */
