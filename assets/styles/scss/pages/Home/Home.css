@@ -922,23 +922,12 @@ footer .footer-twitter i {
     color: #4ba0ec;
   }
 }
-@media(max-width:1024px){
+
+
+@media only screen and (min-width:640px) and (max-width:1024px){
   .c{
     display: none;
   }
-  .meeting img {
-    left: 800px;
-    top: 15px;
-  }
-  footer .footer-twitter i{
-    left: 700px;
-
-  }
-  #contact{
-    left: 800px;
-  }
-}
-@media only screen and (min-width:640px) and (max-width:1023px){
   .top-logo h1 {
     font-size: 50px;
   }
