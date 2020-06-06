@@ -749,7 +749,7 @@ p {
   }
 
   .text-menu a {
-    margin-left: -15px;
+    margin-left: -23px;
     color: #868282;
     position: relative;
     display: inline-block;
@@ -805,7 +805,7 @@ p {
     overflow: hidden;
     background-color: white;
     border-radius: 10px;
-    margin: 0 auto;
+    margin: -25px auto;
   }
   .button a {
     font-family: arial;
@@ -899,7 +899,7 @@ p {
     width: 25%;
     float: left;
     position: absolute;
-    left: 10px;
+    left: -6px;
     top: 45px;
   }
 
@@ -911,8 +911,8 @@ p {
     width: 25%;
     float: left;
     position: absolute;
-    left: 15px;
-    top: 1500px;
+    left: 4px;
+    top: 1648px;
   }
 
   .image6 {
@@ -927,8 +927,8 @@ p {
     width: 25%;
     float: left;
     position: absolute;
-    left: 15px;
-    top: 2650px;
+    left: 2px;
+    top: 2780px;
   }
 
   .fadein {
@@ -954,7 +954,7 @@ p {
     fill: #9f5edf;
   }
   .border1{
-    margin-left: 6px;
+    margin-left: 29px;
     width: 20px;
     transform: rotate(0deg);
     position: relative;
@@ -977,5 +977,15 @@ p {
    display: inline;
   }
 
+}
+
+@media (max-width: 400px){
+  .border1{
+    margin-left: 20px;
+    width: 20px;
+    transform: rotate(0deg);
+    position: relative;
+    top: 5px;
+  }
 }
 /*# sourceMappingURL=ForCorporation.css.map */
