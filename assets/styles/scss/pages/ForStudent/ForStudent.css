@@ -130,7 +130,6 @@ header #links #links__pages {
 header #links #links__pages a {
   display: inline-block;
   line-height: 30px;
-  padding-right: 15px;
   text-decoration: none;
   color: #868282;
   padding-bottom: 2px;
