@@ -806,8 +806,11 @@ button:hover::after {
   .shasin{
     width:100%;
   }
+  .areas{
+    flex-direction: column;
+  }
   .area1{
-    width: 45%;
+    width: 60%;
     height:auto;
     display:flex;
     flex-wrap:nowrap ;
@@ -817,7 +820,7 @@ button:hover::after {
   }
 
   .area2{
-    width: 45%;
+    width: 60%;
     height:auto;
     display:flex;
     flex-wrap:nowrap ;
@@ -826,7 +829,7 @@ button:hover::after {
     margin-top: 5px;
   }
   .area3{
-    width: 45%;
+    width: 60%;
     height:auto;
     display:flex;
     flex-wrap:nowrap ;
@@ -848,7 +851,7 @@ button:hover::after {
     padding-top: 15px;
   }
   .area1{
-    width: 45%;
+    width: 60%;
     height:auto;
     display:flex;
     flex-wrap:wrap ;
@@ -1007,6 +1010,38 @@ button:hover::after {
 @media(max-width:375px){
   .shousai h3{
     font-size: 14px;
+  }
+  .daihyou1{
+    width: 75%;
+  }
+  .daihyou2{
+    width:75%;
+  }
+  .area1{
+    width: 68%;
+  }
+  .area2{
+    width: 68%;
+  }
+  .area3{
+    width:68%;
+  }
+}
+@media(max-width:320px){
+  .daihyou1{
+    width: 80%;
+  }
+  .daihyou2{
+    width:80%;
+  }
+  .area1{
+    width: 75%;
+  }
+  .area2{
+    width: 75%;
+  }
+  .area3{
+    width:75%;
   }
 }
 /*# sourceMappingURL=About.css.map */
