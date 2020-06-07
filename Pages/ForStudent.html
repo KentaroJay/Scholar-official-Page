@@ -2,15 +2,410 @@
 <!doctype html>
 <html lang="ja">
 <head>
-    <meta charset="UTF-8">
+  <!--    SSL設定-->
+  <link rel="canoncial" href="https://du-scholar.tk">
+  <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <link rel="stylesheet" href="../styles/scss/pages/ForStudent/ForStudent.css">
+    <meta name="description" content="学生団体スカラーでは随時会員を募集しております。ビジネス、プログラミング、起業、投資に興味ある学生をお待ちしております！">
+    <meta property="og:title" content="学生団体スカラー" />
+    <meta property="og:type" content="article" />
+<!--  ページ-->
+    <meta property="og:url" content="ページのURL" />
+    <meta property="og:image" content="../faviconScholarHat.png" />
+    <meta property="og:description" content="学生団体スカラーでは随時会員を募集しております。ビジネス、プログラミング、起業、投資に興味ある学生をお待ちしております。" />
+    <meta property="og:site_name" content="学生の皆様へ" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@scholar_do" />
+    <link rel="icon" href="./faviconScholarHat.png" sizes="16×16" type="image/png">
+    <link rel="stylesheet" href="../assets/styles/scss/pages/ForStudent/ForStudent.css">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>学生の皆様へ｜学生団体スカラー</title>
+    <!-- fontawesome -->
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <style type=text/css>
+      .bottom-wrapper{
+    margin-bottom:200px;
+  }
+  
+  
+  .button {
+    width: 140px;
+    height: 50px;
+    border: 1px solid #000000;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+  }
+  .button a {
+    color: #000000;
+    font-size: 18px;
+    font-family: YuGothic Arial, sans-serif;
+    text-decoration: none;
+    line-height: 50px;
+    transition: all 0.8s ease;
+    z-index: 2;
+    position: relative;
+  
+  }
+  .eff {
+    width: 250px;
+    height: 50px;
+    left: -250px;
+    background: #9f5edf;
+    position: absolute;
+    transition: all 0.8s ease;
+    z-index: 1;
+  }
+  .button:hover .eff {
+    left: 0;
+  }
+  
+  .button:hover a {
+    color: #fff;
+  }
+    footer{
+    border-top: solid 1px black;
+    width: 100%;
+    position: relative;
+  }
+  .footer-logo{
+    width: 800px;
+    height: 200px;
+    margin-left: 110px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .footer-logo li{
+    float: left;
+    list-style: none;
+    margin-right: 50px;
+    margin-top: 50px;
+  }
+  .footer-logo a:hover{
+    color: #9f5edf;
+  }
+  .footer-logo a{
+    display: inline-block;
+    text-decoration: none;
+    color: #868282;
+    font-size: 18px;
+  }
+  .scholar{
+    text-align: left;
+  }
+  .scholar img{
+    position: absolute;
+    top: 190px;
+    left: 10px;
+    width: 90px;
+    height: 100px;
+  }
+  .scholar p{
+    position: absolute;
+    top: 230px;
+    left: 100px;
+    font-family: "Bodoni 72", sans-serif;
+    font-size: 20px;
+    color: #5f16Af;
+  }
+  .meeting img{
+    position: absolute;
+    top: 120px;
+    left: 660px;
+    width: 200px;
+    height: 200px;
+  }
+  #contact{
+    position: absolute;
+    top: 210px;
+    left: 1100px;
+  }
+  footer .footer-twitter i {
+    position: absolute;
+    left: 1000px;
+    top: 210px;
+    font-size: 50px;
+    color: #4ba0ec;
+  }
+  @media (max-width: 425px){
+    .footer-logo ul{
+      padding-left: 0px;
+      margin-left: 20%;
+    }
+    .twitter{
+      margin: 0px 40px;
+    }
+    .footer-logo{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    .footer-logo{
+      width: 250px;
+      height: 180px;
+      margin-left: 0px;
+      margin-top: 10px;
+      align-items: baseline;
+    }
+    .footer-logo li{
+      margin-right: 20px;
+      margin-top: 10px;
+    }
+    .footer-logo a{
+      font-size: 12px;
+    }
+    .scholar p {
+      top: 172px;
+      left: 70px;
+      font-size: 13px;
+  
+    }
+    .scholar img {
+      top: 150px;
+      left: 5px;
+      width: 60px;
+      height: 60px;
+    }
+    .meeting img{
+      top: 30px;
+      left: 70%;
+      width: 100px;
+      height: 100px;
+    }
+    #contact{
+      position: absolute;
+      top: 82%;
+      left: 55%;
+    }
+    footer .footer-twitter i {
+      position: absolute;
+      left: 42%;
+      top: 87%;
+      font-size: 30px;
+      color: #4ba0ec;
+    }
+  }
+  @media only screen and (min-width:426px) and (max-width:1024px){
+    .twitter{
+      margin-right: 20px;
+    }
+    .footer-logo{
+      width: 600px;
+      margin-left: 60px;
+    }
+    .footer-logo a{
+      font-size: 15px;
+    }
+  .meeting img{
+    top: 30px;
+    left: 580px;
+    width: 160px;
+    height: 160px;
+  }
+  #contact{
+    left: 600px;
+  }
+  footer .footer-twitter i {
+    left: 500px;
+  
+    }
+  }
+      </style>
 </head>
 
 <body>
+    <header>
+        <!-- パソコン -->
+        <div id="logo">
+          <img src="../scholarHat.svg" alt="学生団体Scholarのロゴ" />
+          <p>SCHOLAR</p>
+        </div>
+
+        <div id="links">
+          <div id="links__pages">
+            <a class="header-button__border-animation" href="https://du-scholar.tk/" style=" z-index: 2; margin-right: 146px;">ホーム</a>
+            <div class="spaceer" style="width: 15px;"></div>
+            <div id="aboutScholar__link-wrapper" style=" position: fixed;
+            right: 220px; width: 573px; text-align: center; height: 80px;">
+              <a
+                class="header-button__border-animation"
+                id="aboutScholar__link"
+                href="https://du-scholar.tk/Pages/About.html"
+                >Scholarについて</a
+              >
+              <div class="spaceer" style="width: 15px;"></div>
+              <div
+                id="aboutScholar__slideDowns"
+                class="hidden-aboutScholar__slideDowns"
+              >
+                <div class="border border-menu">
+                  <svg
+                    class="border1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    fill="#868282"
+                  >
+                    <path d="M0 0h24v24H0V0z" fill="none" />
+                    <path d="M19 13H5v-2h14v2z" />
+                  </svg>
+                  <svg
+                    class="border2"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    fill="#868282"
+                  >
+                    <path d="M0 0h24v24H0V0z" fill="none" />
+                    <path d="M19 13H5v-2h14v2z" />
+                  </svg>
+                  <a class="header-button__border-animation" href="https://du-scholar.tk/Pages/About.html#vision"
+                    >団体理念</a
+                  >
+                </div>
+                <div class="border border-menu">
+                  <svg
+                    class="border1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    fill="#868282"
+                  >
+                    <path d="M0 0h24v24H0V0z" fill="none" />
+                    <path d="M19 13H5v-2h14v2z" />
+                  </svg>
+                  <svg
+                    class="border2"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    fill="#868282"
+                  >
+                    <path d="M0 0h24v24H0V0z" fill="none" />
+                    <path d="M19 13H5v-2h14v2z" />
+                  </svg>
+                  <a class="header-button__border-animation" href="https://du-scholar.tk/Pages/About.html#activity"
+                    >活動内容</a
+                  >
+                </div>
+                <div class="border border-menu">
+                  <svg
+                    class="border1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    fill="#868282"
+                  >
+                    <path d="M0 0h24v24H0V0z" fill="none" />
+                    <path d="M19 13H5v-2h14v2z" />
+                  </svg>
+                  <svg
+                    class="border2"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    fill="#868282"
+                  >
+                    <path d="M0 0h24v24H0V0z" fill="none" />
+                    <path d="M19 13H5v-2h14v2z" />
+                  </svg>
+                  <a class="header-button__border-animation" href="https://du-scholar.tk/Pages/About.html#representatives"
+                    >代表挨拶</a
+                  >
+                </div>
+                <div class="border border-menu">
+                  <svg
+                    class="border1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    fill="#868282"
+                  >
+                    <path d="M0 0h24v24H0V0z" fill="none" />
+                    <path d="M19 13H5v-2h14v2z" />
+                  </svg>
+                  <svg
+                    class="border2"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    fill="#868282"
+                  >
+                    <path d="M0 0h24v24H0V0z" fill="none" />
+                    <path d="M19 13H5v-2h14v2z" />
+                  </svg>
+                  <a class="header-button__border-animation" href="https://du-scholar.tk/Pages/About.html#members"
+                    >メンバー紹介</a
+                  >
+                </div>
+              </div>
+            </div>
+            <a href="https://du-scholar.tk/Pages/ForStudent.html">学生の皆様へ</a>
+            <div class="spaceer" style="width: 15px;"></div>
+            <a href="https://du-scholar.tk/Pages/ForCorporation.html">企業の皆様へ</a>
+            <div class="spaceer" style="width: 15px;"></div>
+          </div>
+          <div id="links__info">
+            <a
+              id="twitter-link"
+              target="_blank"
+              href="https://twitter.com/scholar_do"
+              ><i class="fab fa-twitter"></i
+            ></a>
+            <div class="button">
+              <div class="eff"></div>
+              <a href="https://du-scholar.tk/Pages/Contact.html"> お問い合わせ</a>
+            </div>
+          </div>
+        </div>
+        <!-- レスポンシブ -->
+        <div class="icon-animation hamburger-bar-header">
+          <div class="inner">
+            <span class="top"></span>
+            <span class="middle"></span>
+            <span class="bottom"></span>
+            <div class="hamburger-bar-title-wrapper">
+              <span
+                style="
+                  position: relative;
+                  top: 41px;
+                  left: 3px;
+                  height: 20px;
+                  background: none;
+                "
+                class="hamburger-bar-title"
+                >Menu</span
+              >
+            </div>
+          </div>
+        </div>
+      </header>
+      <div id="header-circleToSquare">
+        <div id="header-circleToSquare__links">
+
+        </div>
+        </div>
+
+        
+        
     <div class="top-wrapper">
         <img src="../styles/images/ForStudent/user_group.svg">
         <h2>recruit</h2>
@@ -106,18 +501,40 @@
         </div>
     </div>    
 
+    <footer>
+        <div class="footer-logo">
+            <ul>
+                <li><a href="">ホーム</a></li>
+                <li><a href="">Scholarについて</a></li>
+                <li><a href="">団体理念</a></li>
+                <li><a href="">活動内容</a></li>
+                <li><a href="">代表挨拶</a></li>
+                <li><a href="">メンバー紹介</a></li>
+                <li><a href="">学生の皆様へ</a></li>
+                <li><a href="">企業の皆様へ</a></li>
+            </ul>
+        </div>
+        <div class="scholar">
+            <img src="../scholarHat.svg" alt="">
+            <p>SCHOLAR</p>
+        </div>
+        <div class="meeting">
+            <img src="../assets/styles/images/Home/team_meeting_monochromatic.svg" alt="">
+        </div>
+        <div class="footer-twitter">
+            <a href=""><i class="fab fa-twitter"></i></a>
+        </div>
+  
+        <div class="button" id="contact">
+            <div class="eff"></div>
+            <a href="">お問い合わせ</a>
+        </div>
+  
+    </footer>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="../styles/scss/pages/ForStudent/ForStudent-animation.js"></script>
-
-    <div>
-        <p>各ページへのリンク（ページ移動を楽にするため、開発段階のみ設置）</p>
-        <span>
-            <a href="../index.html">Homeページへ</a>
-            <a href="../Pages/ForCorporation.html">企業の方向けページへ</a>
-            <a href="../Pages/About.html">Scholarについてページへ</a>
-            <a href="../Pages/Contact.html">　お問い合わせページへ</a>
-            <a href="../showCase/index.html">　ShowCaseへ（コーディング要件）</a>
-        </span>
-    </div>
+    <script src="../assets/js/About_animation.js" type="text/javascript"></script>
+    
 </body>
 </html>

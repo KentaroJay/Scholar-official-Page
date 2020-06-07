@@ -1,0 +1,379 @@
+@import "../../mixins.css";
+
+//デフォルトの定義一覧（変更しないでください）
+
+//コンテナサイズ（適用すると空白などを調節できます）
+.container{
+  @include container;
+}
+//フォント一覧
+.text-menu{
+  @include text-menu;
+}
+
+.text-sub-menu{
+  @include text-sub-menu;
+}
+
+.text-body{
+  @include text-body;
+}
+
+.text-section-title{
+  @include text-section-title;
+}
+
+.border {
+  fill: rgb(255, 255, 255);
+  transition: 200ms all ease;
+  transform-origin: 250px 250px;
+}
+
+
+.menu {
+  cursor: pointer;
+
+  .border {
+    fill: rgb(255, 255, 255);
+    transition: 200ms all ease;
+    transform-origin: 250px 250px;
+  }
+
+
+
+//ここより下にページに関するcssを書いてください
+header {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  .border1 {
+    margin-left: 6px;
+    width: 20px;
+    transform: rotate(0deg);
+    position: relative;
+    top: 5px;
+    left: 25px;
+    transition: all 0.1s;
+  }
+  .border2 {
+    width: 20px;
+    position: relative;
+    top: 5px;
+    left: 6px;
+    transform: rotate(0deg);
+    transition: all 0.1s;
+  }
+  .svg {
+    fill: currentColor;
+  }
+  .border-menu {
+    display: inline;
+  }
+  #logo {
+    display: flex;
+    align-items: center;
+    img {
+      width: 100px;
+    }
+    p {
+      font-family: "Bodoni 72", sans-serif;
+      margin: 0;
+      color: #5f16a7;
+      position: relative;
+      left: -19px;
+    }
+  }
+  #links {
+    display: flex;
+    align-items: center;
+    #links__pages {
+      display: flex;
+      border-right: thin solid black;
+      a {
+        display: inline-block;
+        line-height: 30px;
+        padding-right: 15px;
+        text-decoration: none;
+        color: #868282;
+        padding-bottom: 2px;
+        border-bottom: none;
+        position: relative;
+        &::after {
+          background-color: #9f5edf;
+          bottom: 0;
+          content: "";
+          display: block;
+          height: 1px;
+          position: absolute;
+          transition: 0.5s all;
+          width: 0;
+          left: 50%;
+          transform: translateX(-50%);
+        }
+        &:hover {
+          color: #9f5edf;
+          &::after {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+  .hamburger-bar-header {
+    display: none;
+  }
+}
+
+#aboutScholar__slideDowns {
+  position: absolute;
+  top: 26px;
+  right: -2px;
+  width: 589px;
+  .border {
+    &:hover .border1 {
+      transform: rotate(45deg);
+      fill: #9f5edf;
+    }
+    &:hover .border2 {
+      transform: rotate(-45deg);
+      fill: #9f5edf;
+    }
+    .header-button__border-animation {
+      &::after {
+        background-color: #9f5edf;
+        bottom: 0;
+        content: "";
+        display: block;
+        height: 1px;
+        position: absolute;
+        transition: 0.5s all;
+        width: 0;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    }
+    &:hover .header-button__border-animation {
+      color: #9f5edf;
+    }
+    &:hover .header-button__border-animation::after {
+      /* border-bottom: 1px solid #9f5edf; */
+      width: 100%;
+    }
+  }
+}
+.hidden-aboutScholar__slideDowns {
+  display: none;
+}
+#links__info {
+  display: flex;
+  align-items: center;
+  #twitter-link {
+    height: fit-content;
+    i {
+      margin: 0 15px;
+      color: #4ba0ec;
+      font-size: 30px;
+    }
+  }
+  .button {
+    width: 140px;
+    height: 50px;
+    border: 1px solid $clr-black;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin-right: 20px;
+  }
+  .button a {
+    @include text-body;
+    text-decoration: none;
+    line-height: 50px;
+    transition: all 0.8s ease;
+    z-index: 2;
+    position: relative;
+  }
+
+  .eff {
+    width: 250px;
+    height: 50px;
+    left: -250px;
+    background: #9f5edf;
+    position: absolute;
+    transition: all 0.8s ease;
+    z-index: 1;
+  }
+  .button:hover .eff {
+    left: 0;
+  }
+  .button:hover a {
+    color: #fff;
+  }
+}
+
+@media (max-width: 836px) {
+  //形崩れが425からじゃなくて,836から起こるからここを起点にハンバーガーにする。
+  header {
+    z-index: 2;
+    $hamburgerColor: #868282;
+    #links {
+      display: none;
+    }
+    .icon-animation {
+      width: 10%;
+      height: 100px;
+      float: left;
+      display: block;
+      background: rgba(255, 255, 255, 0.02);
+      position: relative;
+      span {
+        width: 50px;
+        height: 3px;
+        display: block;
+        background: $hamburgerColor;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-left: -25px;
+      }
+    }
+    .hamburger-bar-header {
+      display: block;
+      z-index: 3;
+      .inner {
+        width: 50px;
+        height: 50px;
+        margin: auto;
+        position: relative;
+        padding: 25px 0;
+      }
+      span {
+        transition: width 0.2s, right 0.2s, left 0.2s;
+      }
+      .top {
+        transform: translateY(-17px);
+        left: 0px;
+        right: 0px;
+      }
+      .middle {
+        transform: translateY(0px);
+        position: relative;
+        background: none;
+        &:before,
+        &:after {
+          content: "";
+          transition: all 0.2s;
+          display: block;
+          position: absolute;
+          width: 50px;
+          height: 3px;
+          left: -25px;
+          background: $hamburgerColor;
+          transform: rotate(0deg);
+          padding: 0;
+          margin: 0;
+          line-height: 1;
+        }
+      }
+      .bottom {
+        transform: translateY(17px);
+        left: 0px;
+        right: 0px;
+      }
+    }
+    .hamburger-bar-header.is-open {
+      .top {
+        left: 100%;
+        width: 0px;
+      }
+      .middle {
+        &:before {
+          padding: 0;
+          margin: 0;
+          line-height: 1;
+          transform: rotate(135deg);
+        }
+        &:after {
+          padding: 0;
+          margin: 0;
+          line-height: 1;
+          transform: rotate(45deg);
+        }
+      }
+      .bottom {
+        right: 100%;
+        width: 0px;
+      }
+    }
+  }
+  #header-circleToSquare {
+    z-index: 1;
+    width: 0px;
+    height: 0px;
+    position: fixed;
+    border-radius: 50%;
+    top: 72px;
+    right: 0px;
+    background-color: #ededed;
+    border: black 0px solid;
+    li {
+      list-style: none;
+      margin-bottom: 15px;
+      a {
+        color: #504c4c;
+        text-decoration: none;
+      }
+    }
+    #firstList {
+      margin-top: 100px;
+    }
+    .fa-twitter-square {
+      font-size: 50px;
+      color: #4ba0ec;
+      bottom: 3px;
+      left: 3px;
+      position: absolute;
+    }
+    .button {
+      width: 140px;
+      height: 50px;
+      border: 1px solid $clr-black;
+      text-align: center;
+      cursor: pointer;
+      position: absolute;
+      right: -17px;
+      bottom: 3px;
+      box-sizing: border-box;
+      overflow: hidden;
+      margin-right: 20px;
+    }
+    .button a {
+      @include text-body;
+      text-decoration: none;
+      line-height: 50px;
+      transition: all 0.8s ease;
+      z-index: 2;
+      position: relative;
+    }
+
+    .eff {
+      width: 250px;
+      height: 50px;
+      left: -250px;
+      background: #9f5edf;
+      position: absolute;
+      transition: all 0.8s ease;
+      z-index: 1;
+    }
+    .button:hover .eff {
+      left: 0;
+    }
+    .button:hover a {
+      color: #fff;
+    }
+  }
+}
+}

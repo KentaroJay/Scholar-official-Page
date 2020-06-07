@@ -1,0 +1,121 @@
+@import "../../mixins.css";
+
+.c-container {
+  @include container;
+}
+
+
+.color-display{
+  text-align: center;
+  margin: 0 20px;
+}
+.color-displays{
+  display: flex;
+}
+
+@mixin color-circle{
+  margin-left: 30px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: black 2px solid;
+}
+
+.color-circle1{
+  @include color-circle;
+  background-color: $clr-black;
+}
+
+.color-circle2{
+  @include color-circle;
+  background-color: $clr-background;
+}
+
+.color-circle3{
+  @include color-circle;
+  background-color: $clr-purple;
+}
+
+.color-circle4{
+  @include color-circle;
+  background-color: $clr-menu;
+}
+
+.color-circle5{
+  @include color-circle;
+  background-color: $clr-white;
+}
+
+.color-circle6{
+  @include color-circle;
+  background-color: $clr-twitter-hover;
+}
+
+.textGroup{
+  display: flex;
+}
+
+.text-caption{
+  margin-bottom: 20px;
+}
+
+.section-title {
+  @include text-section-title;
+}
+
+.code-block{
+  display: inline-block;
+  margin: 0 40px;
+}
+
+.text-body{
+  @include text-body;
+}
+
+.text-menu{
+  @include text-menu;
+}
+
+
+.button{
+  width:140px;
+  height:50px;
+  border:1px solid $clr-black;
+  text-align:center;
+  cursor:pointer;
+  position:relative;
+  box-sizing:border-box;
+  overflow:hidden;
+  margin:0 0 40px 50px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.button a{
+  @include text-body;
+  text-decoration:none;
+  line-height:50px;
+  transition:all .8s ease;
+  z-index:2;
+  position:relative;
+}
+.eff{
+  width:250px;
+  height:50px;
+  left:-250px;
+  background:#9f5edf;
+  position:absolute;
+  transition:all .8s ease;
+  z-index:1;
+}
+.button:hover .eff{
+  left:0;
+}
+.button:hover a{
+  color:#fff;
+}
+
+.text-sub-menu{
+  @include text-sub-menu;
+}
+

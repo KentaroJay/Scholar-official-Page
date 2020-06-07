@@ -1,0 +1,42 @@
+@import "media";
+$clr-background: #EFEDE9;
+$clr-black: #000000;
+$clr-purple: #9f5edf;
+$clr-menu: #868282;
+$clr-white: #ffffff;
+$clr-twitter-hover: #4ba0ec;
+
+@mixin text-section-title{
+  color: $clr-black;
+  padding-bottom: 15px;
+  font-weight: bold;
+  font-size: 24px;
+  border-bottom: $clr-black solid 1.5px;
+  font-family: YuGothic Arial, sans-serif;
+}
+
+@mixin text-body{
+  color: $clr-black;
+  font-size: 18px;
+  font-family: YuGothic Arial, sans-serif;
+}
+
+@mixin text-menu{
+  font-size: 18px;
+  font-family: YuGothic Arial, sans-serif;
+  color: $clr-menu;
+}
+
+@mixin text-sub-menu{
+  font-size: 14px;
+  font-family: YuGothic Arial, sans-serif;
+  color: $clr-menu;
+}
+
+h4{
+  margin: 5px 0;
+}
+
+body{
+  background-color: $clr-background;
+}
