@@ -159,7 +159,6 @@ header #links #links__pages a::after {
 header #links #links__pages a:hover {
   color: #9f5edf;
 }
-
 header #links #links__pages a:hover::after {
   width: 100%;
 }
@@ -708,15 +707,16 @@ footer{
 }
 .scholar img{
   position: absolute;
-  top: 190px;
-  left: 10px;
+  top: 100%;
+  left: 1%;
   width: 90px;
   height: 100px;
 }
 .scholar p{
+  display: inline-block;
   position: absolute;
-  top: 230px;
-  left: 100px;
+  top:120%;
+  left: 10%;
   font-family: "Bodoni 72", sans-serif;
   font-size: 20px;
   color: #5f16Af;
@@ -923,8 +923,7 @@ footer .footer-twitter i {
   }
 }
 
-
-@media only screen and (min-width:640px) and (max-width:1024px){
+@media only screen and (min-width:426px) and (max-width:1024px){
   .c{
     display: none;
   }
