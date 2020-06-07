@@ -169,7 +169,7 @@ header .hamburger-bar-header {
 
 #aboutScholar__slideDowns {
   position: absolute;
-  top: 26px;
+  top: 36px;
   right: -2px;
   width: 589px;
 }
@@ -466,7 +466,7 @@ header .hamburger-bar-header {
 .top-logo{
   padding-bottom: 100px;
   position: relative;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 .circle{
   float:left;
@@ -922,8 +922,18 @@ footer .footer-twitter i {
     color: #4ba0ec;
   }
 }
+<<<<<<< HEAD
 
 @media only screen and (min-width:426px) and (max-width:1024px){
+=======
+@media only screen and (min-width:426px) and (max-width:639px){
+  .c{
+    display: none;
+  }
+}
+
+@media only screen and (min-width:640px) and (max-width:1024px){
+>>>>>>> 55e6eee7c0d34ccacd0b4eaff9617ab5ef7d36c7
   .c{
     display: none;
   }
@@ -994,5 +1004,13 @@ footer .footer-twitter i {
 footer .footer-twitter i {
   left: 500px;
 
+  }
+}
+@media only screen and (min-width:1025px) and (max-width:1279px){
+  .b{
+    display: none;
+  }
+  .c{
+    top: 125px;
   }
 }

@@ -122,7 +122,7 @@ header .hamburger-bar-header {
 
 #aboutScholar__slideDowns {
   position: absolute;
-  top: 26px;
+  top: 36px;
   right: -2px;
   width: 589px;
 }
@@ -465,7 +465,6 @@ body {
   margin-left: -15px;
   color: #868282;
   position: relative;
-  display: inline-block;
   text-decoration: none;
 }
 .text-menu a::after {
@@ -480,8 +479,13 @@ body {
   transform-origin: center top;
   transition: transform .3s;
 }
+
 .text-menu a:hover::after {
   transform: scale(1, 1);
+}
+
+.menu {
+  display: inline-block;
 }
 
 .title {
@@ -704,6 +708,9 @@ p {
  display: inline;
 }
 
+.contact {
+  margin-bottom: 100px;
+}
 
 
 @media (max-width: 425px){
@@ -979,7 +986,7 @@ p {
 
 }
 
-@media (max-width: 400px){
+@media (max-width: px){
   .border1{
     margin-left: 20px;
     width: 20px;
