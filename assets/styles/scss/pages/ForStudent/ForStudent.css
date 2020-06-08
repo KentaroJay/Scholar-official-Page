@@ -400,15 +400,6 @@ header .hamburger-bar-header {
 }
 
 /*# sourceMappingURL=ForStudent.css.map */
-/*Break Point*/
-/*Break Point*/
-h4 {
-  margin: 5px 0;
-}
-
-body {
-  background-color: #EFEDE9;
-}
 
 /*Break Point*/
 /*Break Point*/
@@ -419,6 +410,7 @@ h4 {
 body {
   background-color: #EFEDE9;
   overflow-x: hidden;
+  margin: 0 auto;
 }
 
 .container {
