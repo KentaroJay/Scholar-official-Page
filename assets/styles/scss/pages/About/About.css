@@ -16,8 +16,11 @@ body {
 }
 
 @media (max-width: 768px) {
+  body{
+    overflow-x: hidden;
+  }
   .container {
-    padding: 0 15px;
+    padding:0px 0px;
   }
 }
 
