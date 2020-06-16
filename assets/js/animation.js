@@ -12,23 +12,53 @@ $(function() {
   })
 
 // ボタンをクリックしたら発動
-  $('.area1 button').click(function() {
+  $('#area1 button').click(function() {
 
     // class'showUp'をdiv要素に追加
-    $('.comment1-2').slideToggle();
+    $('#comment1').slideToggle();
 
  });
     // ボタンをクリックしたら発動
-      $('.area2 button').click(function() {
+      $('#area2 button').click(function() {
 
         // class'showUp'をdiv要素に追加
-        $('.comment2-2').slideToggle();
+        $('#comment2').slideToggle();
  });
     // ボタンをクリックしたら発動
-      $('.area3 button').click(function() {
+      $('#area3 button').click(function() {
 
         // class'showUp'をdiv要素に追加
-        $('.comment3-2').slideToggle();
+        $('#comment3').slideToggle();
+ });
+    // ボタンをクリックしたら発動
+      $('#area4 button').click(function() {
+
+        // class'showUp'をdiv要素に追加
+        $('#comment4').slideToggle();
+ });
+    // ボタンをクリックしたら発動
+      $('#area5 button').click(function() {
+
+        // class'showUp'をdiv要素に追加
+        $('#comment5').slideToggle();
+ });
+    // ボタンをクリックしたら発動
+      $('#area6 button').click(function() {
+
+        // class'showUp'をdiv要素に追加
+        $('#comment6').slideToggle();
+ });
+    // ボタンをクリックしたら発動
+      $('#area7 button').click(function() {
+
+        // class'showUp'をdiv要素に追加
+        $('#comment7').slideToggle();
+ });
+    // ボタンをクリックしたら発動
+      $('#area8 button').click(function() {
+
+        // class'showUp'をdiv要素に追加
+        $('#comment8').slideToggle();
  });
 
 });

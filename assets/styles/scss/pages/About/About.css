@@ -201,6 +201,9 @@ h2{
   top: 55px;
 }
 .image{
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
   flex-grow: 0;
 }
 .center-box{
@@ -236,12 +239,7 @@ h2{
    display: none;
    border-top: 1px solid black;
  }
- .comment2-2{
-   width: 100%;
-  display: none;
-  border-top: 1px solid black;
- }
- .comment3-2{
+ .comment{
    width: 100%;
   display: none;
   border-top: 1px solid black;
@@ -464,16 +462,7 @@ button:hover::after {
     margin-top: 5px;
   }
 
-  .area2{
-    width: 45%;
-    height:auto;
-    display:flex;
-    flex-wrap:wrap ;
-    margin: 0 auto;
-    border: 1px solid black;
-    margin-top: 5px;
-  }
-  .area3{
+  .area{
     width: 45%;
     height:auto;
     display:flex;
@@ -506,20 +495,10 @@ button:hover::after {
     border-right: 1px solid black;
     flex-grow: 0;
   }
-  .comment1-2{
+  .comment{
     width: auto;
     display: none;
     border-top:none;
-  }
-  .comment2-2{
-   width: auto;
-   display: none;
-   border-top:none;
-  }
-  .comment3-2{
-    width: auto;
-   display: none;
-   border-top:none;
   }
   .shasin{
     width: 95%;
@@ -582,26 +561,7 @@ button:hover::after {
   button{
     display: none;
   }
-  .area1{
-    width: 45%;
-    height:auto;
-    display:flex;
-    flex-wrap:nowrap ;
-    margin: 0 auto;
-    border: 1px solid black;
-    margin-top: 5px;
-  }
-
-  .area2{
-    width: 45%;
-    height:auto;
-    display:flex;
-    flex-wrap:nowrap ;
-    margin: 0 auto;
-    border: 1px solid black;
-    margin-top: 5px;
-  }
-  .area3{
+  .area{
     width: 45%;
     height:auto;
     display:flex;
@@ -621,14 +581,8 @@ button:hover::after {
   .daihyou2{
     width:75%;
   }
-  .area1{
+  .area{
     width: 68%;
-  }
-  .area2{
-    width: 68%;
-  }
-  .area3{
-    width:68%;
   }
 }
 @media(max-width:320px){
@@ -638,14 +592,8 @@ button:hover::after {
   .daihyou2{
     width:80%;
   }
-  .area1{
+  .area{
     width: 75%;
-  }
-  .area2{
-    width: 75%;
-  }
-  .area3{
-    width:75%;
   }
 }
 /*# sourceMappingURL=About.css.map */
