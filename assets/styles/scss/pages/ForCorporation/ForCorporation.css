@@ -400,24 +400,8 @@ header .hamburger-bar-header {
   }
 }
 
-h4 {
-  margin: 5px 0;
-}
-
 body {
   background-color: #EFEDE9;
-}
-
-.container {
-  width: 100%;
-  margin: 80px auto;
-  padding: 0 40px;
-}
-
-@media (max-width: 768px) {
-  .container {
-    padding: 0 15px;
-  }
 }
 
 .text-menu {
@@ -426,12 +410,6 @@ body {
   color: #868282;
   margin-top: 50px;
 }
-
-.text-sub-menu {
-  font-size: 14px;
-  font-family: YuGothic Arial, sans-serif;
-  color: #868282;
- }
 
 .text-body {
   color: #000000;
@@ -453,8 +431,6 @@ body {
 .text {
   text-align: center;
 }
-
-
 
 .text-menu a:hover{
   color: #9f5edf;
@@ -524,6 +500,7 @@ body {
   border-radius: 10px;
   margin: 0 auto;
 }
+
 .button a {
   font-family: arial;
   font-size: 16px;
@@ -534,6 +511,7 @@ body {
   z-index: 2;
   position: relative;
 }
+
 .eff {
   width: 140px;
   height: 50px;
@@ -543,9 +521,11 @@ body {
   transition: all .5s ease;
   z-index: 1;
 }
+
 .button:hover .eff {
   left: 0;
 }
+
 .button:hover a {
   color: #fff;
 }
@@ -575,7 +555,6 @@ p {
   border: solid 1px black;
   background-image: url("../../../images/ForCorporation/NOAH.svg");
 }
-
 
 .card__textbox{
   width: 100%;
@@ -626,11 +605,6 @@ p {
 }
 
 .image4 {
- /*  width: 25%;
-  height: 30%;
-  float: right;
-  position: absolute;
-  right: 5px; */
   display: none;
 }
 
@@ -704,10 +678,6 @@ p {
   fill: currentColor;
 }
 
-.border-menu {
- display: inline;
-}
-
 .contact {
   margin-bottom: 100px;
 }
@@ -720,12 +690,6 @@ p {
     color: #868282;
     margin-top: 50px;
   }
-
-  .text-sub-menu {
-    font-size: 14px;
-    font-family: YuGothic Arial, sans-serif;
-    color: #868282;
-   }
 
   .text-body {
     color: #000000;
@@ -744,12 +708,10 @@ p {
     margin-bottom: 50px;
   }
 
-  .text {
+   .text {
     text-align: center;
   }
-
-
-
+ 
   .text-menu a:hover{
     color: #9f5edf;
     transition: color 0.5s;
@@ -762,6 +724,7 @@ p {
     display: inline-block;
     text-decoration: none;
   }
+
   .text-menu a::after {
     position: absolute;
     bottom: -4px;
@@ -774,6 +737,7 @@ p {
     transform-origin: center top;
     transition: transform .3s;
   }
+
   .text-menu a:hover::after {
     transform: scale(1, 1);
   }
@@ -814,6 +778,7 @@ p {
     border-radius: 10px;
     margin: -25px auto;
   }
+
   .button a {
     font-family: arial;
     font-size: 16px;
@@ -824,6 +789,7 @@ p {
     z-index: 2;
     position: relative;
   }
+
   .eff {
     width: 140px;
     height: 50px;
@@ -865,7 +831,6 @@ p {
     border: solid 1px black;
     background-image: url("../../../images/ForCorporation/NOAH.svg");
   }
-
 
   .card__textbox{
     width: 100%;
@@ -960,6 +925,7 @@ p {
     transition: all 0.1s;
     fill: #9f5edf;
   }
+
   .border1{
     margin-left: 29px;
     width: 20px;
@@ -980,19 +946,6 @@ p {
     fill: currentColor;
   }
 
-  .border-menu {
-   display: inline;
-  }
-
 }
 
-@media (max-width: px){
-  .border1{
-    margin-left: 20px;
-    width: 20px;
-    transform: rotate(0deg);
-    position: relative;
-    top: 5px;
-  }
-}
 /*# sourceMappingURL=ForCorporation.css.map */
