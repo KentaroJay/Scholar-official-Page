@@ -1,196 +1,125 @@
 .bottom-wrapper{
-    margin-bottom:200px;
-  }
+  margin-bottom:200px;
+}
+.footer_logo{
+  padding: 0 50px;
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0 auto 20px;
+}
+.scholar{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.meeting{
+  width: 300px;
+  height: auto;
+  object-fit: cover;
+  margin-left: 100px;
+}
+.scholar_logo{
+  width: 60px;
+  height: auto;
+  object-fit: cover;
+  display: flex;
+}
+.p-right_items{
+  margin-left: auto;
+}
+.button {
+  width: 140px;
+  height: 50px;
+  border: 1px solid #000000;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
+  background-color: white;
+  border-radius: 10px;
+}
+.button a {
+  color: #000000;
+  font-size: 18px;
+  font-family: YuGothic Arial, sans-serif;
+  text-decoration: none;
+  line-height: 50px;
+  transition: all 0.8s ease;
+  z-index: 2;
+  position: relative;
 
+}
+.eff {
+  width: 250px;
+  height: 50px;
+  left: -250px;
+  background: #9f5edf;
+  position: absolute;
+  transition: all 0.8s ease;
+  z-index: 1;
+}
+.button:hover .eff {
+  left: 0;
+}
 
-  .button {
-    width: 140px;
-    height: 50px;
-    border: 1px solid #000000;
-    text-align: center;
-    cursor: pointer;
-    position: relative;
-    box-sizing: border-box;
-    overflow: hidden;
-    margin: auto;
-    background-color: white;
-    border-radius: 10px;
+.button:hover a {
+  color: #fff;
+}
+footer{
+  border-top: solid 1px black;
+  width: 100%;
+  position: relative;
+}
+.footer_description{
+  margin-bottom: 20px;
+  height: 100px;
+}
+.footer_description li{
+  float: left;
+  list-style: none;
+  margin-right: 5%;
+  margin-top: 5%;
+}
+.footer_description a:hover{
+  color: #9f5edf;
+}
+.footer_description a{
+  display: inline-block;
+  text-decoration: none;
+  color: #868282;
+  font-size: 18px;
+}
+.scholar p{
+  font-family: "Bodoni 72", sans-serif;
+  font-size: 20px;
+  color: #5f16Af;
+}
+footer .footer-twitter i {
+  margin-right: 20px;
+  font-size: 50px;
+  color: #4ba0ec;
+}
+@media (max-width: 768px){
+  .footer_description{
+    height: 150px;
   }
-  .button a {
-    color: #000000;
-    font-size: 18px;
-    font-family: YuGothic Arial, sans-serif;
-    text-decoration: none;
-    line-height: 50px;
-    transition: all 0.8s ease;
-    z-index: 2;
-    position: relative;
-
+  .meeting{
+    display: block;
+    margin-left: auto;
   }
-  .eff {
-    width: 250px;
-    height: 50px;
-    left: -250px;
-    background: #9f5edf;
-    position: absolute;
-    transition: all 0.8s ease;
-    z-index: 1;
+  .footer_logo{
+    display: block;
   }
-  .button:hover .eff {
-    left: 0;
+  .meeting{
+    width: 150px;
+    margin-bottom: 20px;
   }
-
-  .button:hover a {
-    color: #fff;
+  .p-right_items{
+    justify-content: flex-end;
   }
-    footer{
-    border-top: solid 1px black;
-    width: 100%;
-    position: relative;
-  }
-  .footer-logo{
-    width: 800px;
-    height: 200px;
-    margin-left: 110px;
-    margin-top: 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
-  }
-  .footer-logo li{
-    float: left;
-    list-style: none;
-    margin-right: 50px;
-    margin-top: 50px;
-  }
-  .footer-logo a:hover{
-    color: #9f5edf;
-  }
-  .footer-logo a{
-    display: inline-block;
-    text-decoration: none;
-    color: #868282;
-    font-size: 18px;
-  }
-  .scholar{
-    text-align: left;
-  }
-  .scholar img{
-    position: absolute;
-    top: 190px;
-    left: 10px;
-    width: 90px;
-    height: 100px;
-  }
-  .scholar p{
-    position: absolute;
-    top: 230px;
-    left: 100px;
-    font-family: "Bodoni 72", sans-serif;
-    font-size: 20px;
-    color: #5f16Af;
-  }
-  .meeting img{
-    position: absolute;
-    top: 120px;
-    left: 660px;
-    width: 200px;
-    height: 200px;
-  }
-  #contact{
-    position: absolute;
-    top: 210px;
-    left: 1100px;
-  }
-  footer .footer-twitter i {
-    position: absolute;
-    left: 1000px;
-    top: 210px;
-    font-size: 50px;
-    color: #4ba0ec;
-  }
-  @media (max-width: 425px){
-    .footer-logo ul{
-      padding-left: 0px;
-      margin-left: 20%;
-    }
-    .twitter{
-      margin: 0px 40px;
-    }
-    .footer-logo{
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      flex-wrap: wrap;
-    }
-    .footer-logo{
-      width: 250px;
-      height: 180px;
-      margin-left: 0px;
-      margin-top: 10px;
-      align-items: baseline;
-    }
-    .footer-logo li{
-      margin-right: 20px;
-      margin-top: 10px;
-    }
-    .footer-logo a{
-      font-size: 12px;
-    }
-    .scholar p {
-      top: 172px;
-      left: 70px;
-      font-size: 13px;
-
-    }
-    .scholar img {
-      top: 150px;
-      left: 5px;
-      width: 60px;
-      height: 60px;
-    }
-    .meeting img{
-      top: 30px;
-      left: 70%;
-      width: 100px;
-      height: 100px;
-    }
-    #contact{
-      position: absolute;
-      top: 82%;
-      left: 55%;
-    }
-    footer .footer-twitter i {
-      position: absolute;
-      left: 42%;
-      top: 87%;
-      font-size: 30px;
-      color: #4ba0ec;
-    }
-  }
-  @media only screen and (min-width:426px) and (max-width:1024px){
-    .twitter{
-      margin-right: 20px;
-    }
-    .footer-logo{
-      width: 600px;
-      margin-left: 60px;
-    }
-    .footer-logo a{
-      font-size: 15px;
-    }
-  .meeting img{
-    top: 30px;
-    left: 580px;
-    width: 160px;
-    height: 160px;
-  }
-  #contact{
-    left: 600px;
-  }
-  footer .footer-twitter i {
-    left: 500px;
-
-    }
-  }
+}
