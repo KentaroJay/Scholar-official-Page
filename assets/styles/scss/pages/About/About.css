@@ -13,6 +13,7 @@ body {
   width: 100%;
   margin: 80px auto;
   padding: 0 40px;
+  box-sizing: border-box;
 }
 
 @media (max-width: 768px) {
@@ -20,7 +21,7 @@ body {
     overflow-x: hidden;
   }
   .container {
-    padding:0px 0px;
+    padding:0 10px;
   }
 }
 
@@ -61,11 +62,6 @@ h4 {
 
 body {
   background-color: #EFEDE9;
-}
-
-.container {
-  width: 100%;
-  margin: 80px auto;
 }
 
 .text-menu {
@@ -138,43 +134,6 @@ h2{
 .text{
   text-align: center;
 }
-.areas{
-  width: 80vw;
-  height: auto;
-  margin:0 auto;
-  display: flex;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  padding-top: 15px;
-}
-.area1{
-  width: 45%;
-  height:auto;
-  display:flex;
-  flex-wrap:wrap ;
-  margin: 0 auto;
-  border: 1px solid black;
-  margin-top: 5px;
-}
-
-.area2{
-  width: 45%;
-  height:auto;
-  display:flex;
-  flex-wrap:wrap ;
-  margin: 0 auto;
-  border: 1px solid black;
-  margin-top: 5px;
-}
-.area3{
-  width: 45%;
-  height:auto;
-  display:flex;
-  flex-wrap:wrap ;
-  margin: 0 auto;
-  border: 1px solid black;
-  margin-top: 5px;
-}
 .comment1{
   float: right;
   border-left: 1px solid black;
@@ -242,18 +201,18 @@ h2{
  .comment{
    width: 100%;
   display: none;
-  border-top: 1px solid black;
+  border: 1px solid black;
  }
 
 
 button {
   display: block;
-  margin:0 0 0 auto;
+  margin:auto 0 0 auto;
   z-index: 2;
   background-color: #333;
   border: 2px solid #333;
   color: #fff;
-  line-height: 20px;
+  height: 30px;
 }
 button:hover {
   background-color: #EFEDE9;
@@ -278,6 +237,32 @@ button:hover::after {
   height: 0;
   background-color: #EFEDE9;
 }
+.p-member{
+  width: 100%;
+  margin: 15px;
+}
+.p-member_row{
+  display: flex;
+}
+.p-member_content{
+  display: flex;
+  border: #333333 1px solid;
+}
+
+.p-member_description{
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+  -webkit-align-items: flex-start;
+  align-items: flex-start;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+.d-flex{
+  display: flex;
+}
+
 .daihyous{
   display: flex;
   flex-wrap: wrap;
@@ -326,6 +311,9 @@ button:hover::after {
   width: 170px;
 }
 @media(max-width:1200px){
+  .p-member_row{
+    display: block;
+  }
   .shasin{
     margin: 0;
   }
@@ -341,31 +329,15 @@ button:hover::after {
 
 }
 @media(max-width:768px){
+  .p-member_description{
+    display: block;
+  }
   .shasin{
     width: 60%;
     margin: 0 auto;
   }
   .ex{
     width: 100%;
-  }
-
-  .areas{
-    width: 60vw;
-  }
-  .area1{
-    width: 160px;
-    display: flex;
-    flex-direction: column;
-  }
-  .area2{
-    width: 160px;
-    display: flex;
-    flex-direction: column;
-  }
-  .area3{
-    width: 160px;
-    display: flex;
-    flex-direction: column;
   }
   .comment1{
     float: right;
@@ -376,6 +348,12 @@ button:hover::after {
 
 }
 @media(max-width: 425px){
+  .p-member{
+    margin:0 0 10px 0;
+  }
+  .p-member_content{
+    display: block;
+  }
   .pic1{
     width:24%;
     position: relative;
@@ -402,88 +380,11 @@ button:hover::after {
     border-left: none;
     flex-grow: 1;
   }
-  .image{
-    width: 100%;
-  }
   .shasin{
     width:100%;
   }
-  .areas{
-    flex-direction: column;
-  }
-  .area1{
-    width: 60%;
-    height:auto;
-    display:flex;
-    flex-wrap:nowrap ;
-    margin: 0 auto;
-    border: 1px solid black;
-    margin-top: 5px;
-  }
-
-  .area2{
-    width: 60%;
-    height:auto;
-    display:flex;
-    flex-wrap:nowrap ;
-    margin: 0 auto;
-    border: 1px solid black;
-    margin-top: 5px;
-  }
-  .area3{
-    width: 60%;
-    height:auto;
-    display:flex;
-    flex-wrap:nowrap ;
-    margin: 0 auto;
-    border: 1px solid black;
-    margin-top: 5px;
-  }
-}
-
-
-@media(min-width:1441px){
-  .areas{
-    width: 80vw;
-    height: auto;
-    margin:0 auto;
-    display: flex;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    padding-top: 15px;
-  }
-  .area1{
-    width: 60%;
-    height:auto;
-    display:flex;
-    flex-wrap:wrap ;
-    margin: 0 auto;
-    border: 1px solid black;
-    margin-top: 5px;
-  }
-
-  .area{
-    width: 45%;
-    height:auto;
-    display:flex;
-    flex-wrap:wrap ;
-    margin: 0 auto;
-    border: 1px solid black;
-    margin-top: 5px;
-  }
-
 }
 @media(min-width:1970px){
-  .areas{
-    width: 80vw;
-    height: auto;
-    margin:0 auto;
-    display: flex;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    padding-top: 15px;
-  }
-
   .image{
     flex-grow: 0;
   }
@@ -561,15 +462,6 @@ button:hover::after {
   button{
     display: none;
   }
-  .area{
-    width: 45%;
-    height:auto;
-    display:flex;
-    flex-wrap:nowrap ;
-    margin: 0 auto;
-    border: 1px solid black;
-    margin-top: 5px;
-  }
 }
 @media(max-width:375px){
   .shousai h3{
@@ -581,9 +473,6 @@ button:hover::after {
   .daihyou2{
     width:75%;
   }
-  .area{
-    width: 68%;
-  }
 }
 @media(max-width:320px){
   .daihyou1{
@@ -591,9 +480,6 @@ button:hover::after {
   }
   .daihyou2{
     width:80%;
-  }
-  .area{
-    width: 75%;
   }
 }
 /*# sourceMappingURL=About.css.map */
