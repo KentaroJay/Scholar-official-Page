@@ -63,7 +63,7 @@ $(function () {
           );
         $(this).find(".hamburger-bar-title").slideDown();
         $("#header-circleToSquare__links").append(
-          '<ul><li id="firstList"><a href="../index.html">-ホーム</a></li><li><a href="./About.html">-Scholarについて</a></li><ul><li><a href="#vision">-団体理念</a></li><li><a href="#activity">-活動内容</a></li><li><a href="#representatives">-代表挨拶</a></li><li><a href="#members">-メンバー紹介</a></li></ul><li><a href="./ForStudent.html">-学生の皆様へ</a></li><li><a href="./ForCorporation.html">-企業の皆様へ</a></li></ul><a href="https://twitter.com/scholar_do"><i class="fab fa-twitter-square" target="_blank"></i></a><div class="button"><div class="eff"></div><a href="./Contact.html"> お問い合わせ</a></div>'
+          '<ul><li id="firstList"><a href="./index.html">-ホーム</a></li><li><a href="./Pages/About.html">-Scholarについて</a></li><ul><li><a href="./Pages/About.html#vision">-団体理念</a></li><li><a href="./Pages/About.html#activity">-活動内容</a></li><li><a href="./Pages/About.html#representatives">-代表挨拶</a></li><li><a href="./Pages/About.html#members">-メンバー紹介</a></li></ul><li><a href="./Pages/ForStudent.html">-学生の皆様へ</a></li><li><a href="./Pages/ForCorporation.html">-企業の皆様へ</a></li></ul><a href="https://twitter.com/scholar_do"><i class="fab fa-twitter-square" target="_blank"></i></a><div class="button"><div class="eff"></div><a href="./Pages/Contact.html"> お問い合わせ</a></div>'
         );
         $("#header-circleToSquare__links").find("li").hide();
         $("#header-circleToSquare__links").find("i").hide();
