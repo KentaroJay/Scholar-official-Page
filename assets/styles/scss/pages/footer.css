@@ -113,7 +113,7 @@ footer .footer-twitter i {
     margin-left: auto;
   }
   .footer_logo{
-    display: block;
+    padding: 0 15px;
   }
   .meeting{
     width: 150px;
@@ -121,5 +121,18 @@ footer .footer-twitter i {
   }
   .p-right_items{
     justify-content: flex-end;
+  }
+  .scholar_logo{
+    width: 40px;
+  }
+  .scholar p{
+    font-size: 15px;
+  }
+  .meeting{
+    display: none;
+  }
+  footer .footer-twitter i {
+    font-size: 30px;
+    margin-right: 15px;
   }
 }
