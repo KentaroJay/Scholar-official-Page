@@ -249,12 +249,31 @@ h2{
   padding-top: 75px;
 }
 .shasin{
-  width: 95%;
+  width: 100%;
   position: relative;
   display: flex;
   align-items: flex-start;
   flex-grow: 0;
-  margin-left: 30%;
+  border-radius: 10%;
+}
+.frame{
+  display: inline-block;
+  position: relative;
+  width: 95%;
+}
+.frame:after{
+  position: absolute;
+  display: block;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-shadow:
+  inset 0 0 20px #EFEDE9 /* 背景色と同じ色 */,
+  inset 0 0 20px #EFEDE9,
+  inset 0 0 20px #EFEDE9,
+  inset 0 0 20px #EFEDE9;
 }
 .rank{
   float: right;
@@ -278,6 +297,7 @@ h2{
     display: block;
   }
   .shasin{
+    width: 100%;
     margin: 0;
   }
 }
@@ -296,8 +316,10 @@ h2{
     display: block;
   }
   .shasin{
-    width: 60%;
     margin: 0 auto;
+  }
+  .frame{
+    width: 60%;
   }
   .ex{
     width: 100%;
@@ -370,7 +392,7 @@ button{
     left: 4%;
     top: 55px;
   }
-  .shasin{
+  .frame{
     width:100%;
   }
 }
@@ -379,12 +401,15 @@ button{
     flex-grow: 0;
   }
   .shasin{
-    width: 95%;
+    width: 100%;
     position: relative;
     display: flex;
     align-items: flex-start;
     flex-grow: 0;
     margin-left: 0;
+  }
+  .frame{
+    width: 95%;
   }
   .rank{
     float: right;
