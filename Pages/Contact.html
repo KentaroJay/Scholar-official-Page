@@ -1,259 +1,338 @@
 <!--お問い合わせページ-->
 
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ja">
-<head>
+  <head>
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+          "gtm.start": new Date().getTime(),
+          event: "gtm.js",
+        });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-5NM8PXQ");
+    </script>
+    <!-- End Google Tag Manager -->
     <!--    SSL設定-->
-    <link rel="canoncial" href="https://du-scholar.tk">
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta name="description" content="お問い合わせフォームを掲載しています。Twitterもご利用いただけます。">
+    <link rel="canoncial" href="https://du-scholar.tk" />
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta
+      name="description"
+      content="お問い合わせフォームを掲載しています。Twitterもご利用いただけます。"
+    />
     <meta property="og:title" content="学生団体スカラー" />
     <meta property="og:type" content="article" />
-  <link rel="stylesheet" href="style.css">
-<!--   ドメインの追加 -->
+    <link rel="stylesheet" href="style.css" />
+    <!--   ドメインの追加 -->
     <meta property="og:url" content="ページのURL" />
     <meta property="og:image" content="../faviconScholarHat.png" />
-    <meta property="og:description" content="お問い合わせフォームを掲載しています。Twitterもご利用いただけます。" />
+    <meta
+      property="og:description"
+      content="お問い合わせフォームを掲載しています。Twitterもご利用いただけます。"
+    />
     <meta property="og:site_name" content="お問い合わせ" />
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@scholar_do" />
-    <link rel="icon" href="../ScholarHat.png" sizes="16×16" type="image/png">
-    <link rel="stylesheet" href="../assets/styles/scss/pages/Contact/Contact.css">
-    <link rel="stylesheet" href="../assets/styles/scss/pages/footer.css">
-    <link rel="stylesheet" href="../assets/styles/scss/pages/header.css">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="../ScholarHat.png" sizes="16×16" type="image/png" />
+    <link
+      rel="stylesheet"
+      href="../assets/styles/scss/pages/Contact/Contact.css"
+    />
+    <link rel="stylesheet" href="../assets/styles/scss/pages/footer.css" />
+    <link rel="stylesheet" href="../assets/styles/scss/pages/header.css" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>お問い合わせ|学生団体スカラー</title>
-    <script async src='//www.google-analytics.com/analytics.js'></script>
+    <script async src="//www.google-analytics.com/analytics.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-171270073-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-171270073-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-  gtag('config', 'UA-171270073-1');
-</script>
+      gtag("config", "UA-171270073-1");
+    </script>
 
     <!-- fontawesome -->
-    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
-</head>
-<body>
+    <link
+      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-5NM8PXQ"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden;"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <header>
-        <!-- パソコン -->
-        <div id="logo">
-          <img src="../scholarHat.png" alt="学生団体Scholarのロゴ" />
-          <p>SCHOLAR</p>
-        </div>
+      <!-- パソコン -->
+      <div id="logo">
+        <img src="../scholarHat.png" alt="学生団体Scholarのロゴ" />
+        <p>SCHOLAR</p>
+      </div>
 
-        <div id="links">
-          <div id="links__pages">
-            <a class="header-button__border-animation" href="../index.html" style=" z-index: 2; margin-right: 146px;">ホーム</a>
+      <div id="links">
+        <div id="links__pages">
+          <a
+            class="header-button__border-animation"
+            href="../index.html"
+            style="z-index: 2; margin-right: 146px;"
+            >ホーム</a
+          >
+          <div class="spaceer" style="width: 15px;"></div>
+          <div
+            id="aboutScholar__link-wrapper"
+            style="
+              position: fixed;
+              right: 234px;
+              width: 573px;
+              text-align: center;
+              height: 80px;
+            "
+          >
+            <a
+              class="header-button__border-animation"
+              id="aboutScholar__link"
+              href="./About.html"
+              >Scholarについて</a
+            >
             <div class="spaceer" style="width: 15px;"></div>
-            <div id="aboutScholar__link-wrapper" style=" position: fixed;
-            right: 234px; width: 573px; text-align: center; height: 80px;">
-              <a
-                class="header-button__border-animation"
-                id="aboutScholar__link"
-                href="./About.html"
-                >Scholarについて</a
-              >
-              <div class="spaceer" style="width: 15px;"></div>
-              <div
-                id="aboutScholar__slideDowns"
-                class="hidden-aboutScholar__slideDowns"
-              >
-                <div class="border border-menu">
-                  <svg
-                    class="border1"
-                    xmlns="http://www.w3.org/2000/svg"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    width="24"
-                    fill="#868282"
-                  >
-                    <path d="M0 0h24v24H0V0z" fill="none" />
-                    <path d="M19 13H5v-2h14v2z" />
-                  </svg>
-                  <svg
-                    class="border2"
-                    xmlns="http://www.w3.org/2000/svg"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    width="24"
-                    fill="#868282"
-                  >
-                    <path d="M0 0h24v24H0V0z" fill="none" />
-                    <path d="M19 13H5v-2h14v2z" />
-                  </svg>
-                  <a class="header-button__border-animation" href="./About.html#vision"
-                    >団体理念</a
-                  >
-                </div>
-                <div class="border border-menu">
-                  <svg
-                    class="border1"
-                    xmlns="http://www.w3.org/2000/svg"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    width="24"
-                    fill="#868282"
-                  >
-                    <path d="M0 0h24v24H0V0z" fill="none" />
-                    <path d="M19 13H5v-2h14v2z" />
-                  </svg>
-                  <svg
-                    class="border2"
-                    xmlns="http://www.w3.org/2000/svg"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    width="24"
-                    fill="#868282"
-                  >
-                    <path d="M0 0h24v24H0V0z" fill="none" />
-                    <path d="M19 13H5v-2h14v2z" />
-                  </svg>
-                  <a class="header-button__border-animation" href="./About.html#activity"
-                    >活動内容</a
-                  >
-                </div>
-                <div class="border border-menu">
-                  <svg
-                    class="border1"
-                    xmlns="http://www.w3.org/2000/svg"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    width="24"
-                    fill="#868282"
-                  >
-                    <path d="M0 0h24v24H0V0z" fill="none" />
-                    <path d="M19 13H5v-2h14v2z" />
-                  </svg>
-                  <svg
-                    class="border2"
-                    xmlns="http://www.w3.org/2000/svg"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    width="24"
-                    fill="#868282"
-                  >
-                    <path d="M0 0h24v24H0V0z" fill="none" />
-                    <path d="M19 13H5v-2h14v2z" />
-                  </svg>
-                  <a class="header-button__border-animation" href="./About.html#representatives"
-                    >代表挨拶</a
-                  >
-                </div>
-                <div class="border border-menu">
-                  <svg
-                    class="border1"
-                    xmlns="http://www.w3.org/2000/svg"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    width="24"
-                    fill="#868282"
-                  >
-                    <path d="M0 0h24v24H0V0z" fill="none" />
-                    <path d="M19 13H5v-2h14v2z" />
-                  </svg>
-                  <svg
-                    class="border2"
-                    xmlns="http://www.w3.org/2000/svg"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    width="24"
-                    fill="#868282"
-                  >
-                    <path d="M0 0h24v24H0V0z" fill="none" />
-                    <path d="M19 13H5v-2h14v2z" />
-                  </svg>
-                  <a class="header-button__border-animation" href="./About.html#members"
-                    >メンバー紹介</a
-                  >
-                </div>
+            <div
+              id="aboutScholar__slideDowns"
+              class="hidden-aboutScholar__slideDowns"
+            >
+              <div class="border border-menu">
+                <svg
+                  class="border1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  fill="#868282"
+                >
+                  <path d="M0 0h24v24H0V0z" fill="none" />
+                  <path d="M19 13H5v-2h14v2z" />
+                </svg>
+                <svg
+                  class="border2"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  fill="#868282"
+                >
+                  <path d="M0 0h24v24H0V0z" fill="none" />
+                  <path d="M19 13H5v-2h14v2z" />
+                </svg>
+                <a
+                  class="header-button__border-animation"
+                  href="./About.html#vision"
+                  >団体理念</a
+                >
+              </div>
+              <div class="border border-menu">
+                <svg
+                  class="border1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  fill="#868282"
+                >
+                  <path d="M0 0h24v24H0V0z" fill="none" />
+                  <path d="M19 13H5v-2h14v2z" />
+                </svg>
+                <svg
+                  class="border2"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  fill="#868282"
+                >
+                  <path d="M0 0h24v24H0V0z" fill="none" />
+                  <path d="M19 13H5v-2h14v2z" />
+                </svg>
+                <a
+                  class="header-button__border-animation"
+                  href="./About.html#activity"
+                  >活動内容</a
+                >
+              </div>
+              <div class="border border-menu">
+                <svg
+                  class="border1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  fill="#868282"
+                >
+                  <path d="M0 0h24v24H0V0z" fill="none" />
+                  <path d="M19 13H5v-2h14v2z" />
+                </svg>
+                <svg
+                  class="border2"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  fill="#868282"
+                >
+                  <path d="M0 0h24v24H0V0z" fill="none" />
+                  <path d="M19 13H5v-2h14v2z" />
+                </svg>
+                <a
+                  class="header-button__border-animation"
+                  href="./About.html#representatives"
+                  >代表挨拶</a
+                >
+              </div>
+              <div class="border border-menu">
+                <svg
+                  class="border1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  fill="#868282"
+                >
+                  <path d="M0 0h24v24H0V0z" fill="none" />
+                  <path d="M19 13H5v-2h14v2z" />
+                </svg>
+                <svg
+                  class="border2"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  fill="#868282"
+                >
+                  <path d="M0 0h24v24H0V0z" fill="none" />
+                  <path d="M19 13H5v-2h14v2z" />
+                </svg>
+                <a
+                  class="header-button__border-animation"
+                  href="./About.html#members"
+                  >メンバー紹介</a
+                >
               </div>
             </div>
-            <a href="./ForStudent.html">学生の皆様へ</a>
-            <div class="spaceer" style="width: 15px;"></div>
-            <a href="./ForCorporation.html">企業の皆様へ</a>
-            <div class="spaceer" style="width: 15px;"></div>
           </div>
-          <div id="links__info">
-            <a
-              id="twitter-link"
-              target="_blank"
-              href="https://twitter.com/scholar_do"
-              ><i class="fab fa-twitter"></i
-            ></a>
-            <div class="button">
-              <div class="eff"></div>
-              <a href="./Contact.html"> お問い合わせ</a>
-            </div>
-          </div>
+          <a href="./ForStudent.html">学生の皆様へ</a>
+          <div class="spaceer" style="width: 15px;"></div>
+          <a href="./ForCorporation.html">企業の皆様へ</a>
+          <div class="spaceer" style="width: 15px;"></div>
         </div>
-        <!-- レスポンシブ -->
-        <div class="icon-animation hamburger-bar-header">
-          <div class="inner">
-            <span class="top"></span>
-            <span class="middle"></span>
-            <span class="bottom"></span>
-            <div class="hamburger-bar-title-wrapper">
-              <span
-                style="
-                  position: relative;
-                  top: 41px;
-                  left: 3px;
-                  height: 20px;
-                  background: none;
-                "
-                class="hamburger-bar-title"
-                >Menu</span
-              >
-            </div>
+        <div id="links__info">
+          <a
+            id="twitter-link"
+            target="_blank"
+            href="https://twitter.com/scholar_do"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <div class="button">
+            <div class="eff"></div>
+            <a href="./Contact.html"> お問い合わせ</a>
           </div>
         </div>
-      </header>
-      <div id="header-circleToSquare">
-        <div id="header-circleToSquare__links">
-
+      </div>
+      <!-- レスポンシブ -->
+      <div class="icon-animation hamburger-bar-header">
+        <div class="inner">
+          <span class="top"></span>
+          <span class="middle"></span>
+          <span class="bottom"></span>
+          <div class="hamburger-bar-title-wrapper">
+            <span
+              style="
+                position: relative;
+                top: 41px;
+                left: 3px;
+                height: 20px;
+                background: none;
+              "
+              class="hamburger-bar-title"
+              >Menu</span
+            >
+          </div>
         </div>
-        </div>
-    <iframe id="googleform" src="https://docs.google.com/forms/d/e/1FAIpQLSdocGyimcXaqdyxGtXECzmenBU4cqDqEHpVFLOTTSYbXGqnGA/viewform?embedded=true" width="100%" height="1113" frameborder="0" marginheight="0" marginwidth="0" scrolling="no"  >読み込んでいます…</iframe>
+      </div>
+    </header>
+    <div id="header-circleToSquare">
+      <div id="header-circleToSquare__links"></div>
+    </div>
+    <iframe
+      id="googleform"
+      src="https://docs.google.com/forms/d/e/1FAIpQLSdocGyimcXaqdyxGtXECzmenBU4cqDqEHpVFLOTTSYbXGqnGA/viewform?embedded=true"
+      width="100%"
+      height="1113"
+      frameborder="0"
+      marginheight="0"
+      marginwidth="0"
+      scrolling="no"
+      >読み込んでいます…</iframe
+    >
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="../assets/js/Basic_animation.js"></script>
+    <script src="../assets/js/Basic_animation.js"></script>
     <footer>
-        <div class="footer_description">
-            <ul>
-              <li><a href="../index.html">ホーム</a></li>
-              <li><a href="./About.html">Scholarについて</a></li>
-              <li><a href="./About.html#vision">団体理念</a></li>
-              <li><a href="./About.html#activity">活動内容</a></li>
-              <li><a href="./About.html#representatives">代表挨拶</a></li>
-              <li><a href="./About.html#members">メンバー紹介</a></li>
-              <li><a href="./ForStudent.html">学生の皆様へ</a></li>
-              <li><a href="./ForCorporation.html">企業の皆様へ</a></li>
-            </ul>
+      <div class="footer_description">
+        <ul>
+          <li><a href="../index.html">ホーム</a></li>
+          <li><a href="./About.html">Scholarについて</a></li>
+          <li><a href="./About.html#vision">団体理念</a></li>
+          <li><a href="./About.html#activity">活動内容</a></li>
+          <li><a href="./About.html#representatives">代表挨拶</a></li>
+          <li><a href="./About.html#members">メンバー紹介</a></li>
+          <li><a href="./ForStudent.html">学生の皆様へ</a></li>
+          <li><a href="./ForCorporation.html">企業の皆様へ</a></li>
+        </ul>
+      </div>
+      <div class="footer_logo">
+        <div class="scholar">
+          <img class="scholar_logo" src="../scholarHat.png" alt="" />
+          <p>SCHOLAR</p>
         </div>
-        <div class="footer_logo">
-            <div class="scholar">
-                <img class="scholar_logo" src="../scholarHat.png" alt="">
-                <p>SCHOLAR</p>
-            </div>
-            <img class="meeting " src="../assets/styles/images/Home/team_meeting_monochromatic.svg" alt="">
-            <div class="scholar p-right_items">
-                <div class="footer-twitter">
-                    <a target="_blank" href="https://twitter.com/scholar_do">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                </div>
-                <div class="button" id="contact">
-                    <div class="eff"></div>
-                    <a href="./Contact.html">お問い合わせ</a>
-                </div>
-            </div>
+        <img
+          class="meeting"
+          src="../assets/styles/images/Home/team_meeting_monochromatic.svg"
+          alt=""
+        />
+        <div class="scholar p-right_items">
+          <div class="footer-twitter">
+            <a target="_blank" href="https://twitter.com/scholar_do">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </div>
+          <div class="button" id="contact">
+            <div class="eff"></div>
+            <a href="./Contact.html">お問い合わせ</a>
+          </div>
         </div>
+      </div>
     </footer>
-</body>
+  </body>
 </html>

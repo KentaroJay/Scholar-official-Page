@@ -1,355 +1,471 @@
 <!--学生向けページ-->
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ja">
-<head>
-  <!--    SSL設定-->
-  <link rel="canoncial" href="https://du-scholar.tk">
-  <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta name="description" content="学生団体スカラーでは随時会員を募集しております。ビジネス、プログラミング、起業、投資に興味ある学生をお待ちしております！">
+  <head>
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+          "gtm.start": new Date().getTime(),
+          event: "gtm.js",
+        });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-5NM8PXQ");
+    </script>
+    <!-- End Google Tag Manager -->
+    <!--    SSL設定-->
+    <link rel="canoncial" href="https://du-scholar.tk" />
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta
+      name="description"
+      content="学生団体スカラーでは随時会員を募集しております。ビジネス、プログラミング、起業、投資に興味ある学生をお待ちしております！"
+    />
     <meta property="og:title" content="学生団体スカラー" />
     <meta property="og:type" content="article" />
-    <script async src='//www.google-analytics.com/analytics.js'></script>
+    <script async src="//www.google-analytics.com/analytics.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-171270073-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-171270073-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-  gtag('config', 'UA-171270073-1');
-</script>
+      gtag("config", "UA-171270073-1");
+    </script>
 
-<!--  ページ-->
+    <!--  ページ-->
     <meta property="og:url" content="ページのURL" />
     <meta property="og:image" content="../faviconScholarHat.png" />
-    <meta property="og:description" content="学生団体スカラーでは随時会員を募集しております。ビジネス、プログラミング、起業、投資に興味ある学生をお待ちしております。" />
+    <meta
+      property="og:description"
+      content="学生団体スカラーでは随時会員を募集しております。ビジネス、プログラミング、起業、投資に興味ある学生をお待ちしております。"
+    />
     <meta property="og:site_name" content="学生の皆様へ" />
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@scholar_do" />
-    <link rel="icon" href="../ScholarHat.png" sizes="16×16" type="image/png">
-    <link rel="stylesheet" href="../assets/styles/scss/pages/ForStudent/ForStudent.css">
-    <link rel="stylesheet" href="../assets/styles/scss/pages/footer.css">
-    <link rel="stylesheet" href="../assets/styles/scss/pages/header.css">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="../ScholarHat.png" sizes="16×16" type="image/png" />
+    <link
+      rel="stylesheet"
+      href="../assets/styles/scss/pages/ForStudent/ForStudent.css"
+    />
+    <link rel="stylesheet" href="../assets/styles/scss/pages/footer.css" />
+    <link rel="stylesheet" href="../assets/styles/scss/pages/header.css" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>学生の皆様へ｜学生団体スカラー</title>
     <!-- fontawesome -->
-    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
-</head>
+    <link
+      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-5NM8PXQ"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden;"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <header>
-        <!-- パソコン -->
-        <div id="logo">
-          <img src="../scholarHat.png" alt="学生団体Scholarのロゴ" />
-          <p>SCHOLAR</p>
-        </div>
+      <!-- パソコン -->
+      <div id="logo">
+        <img src="../scholarHat.png" alt="学生団体Scholarのロゴ" />
+        <p>SCHOLAR</p>
+      </div>
 
-        <div id="links">
-          <div id="links__pages">
-            <a class="header-button__border-animation" href="../index.html" style=" z-index: 2; margin-right: 146px;">ホーム</a>
+      <div id="links">
+        <div id="links__pages">
+          <a
+            class="header-button__border-animation"
+            href="../index.html"
+            style="z-index: 2; margin-right: 146px;"
+            >ホーム</a
+          >
+          <div class="spaceer" style="width: 15px;"></div>
+          <div
+            id="aboutScholar__link-wrapper"
+            style="
+              position: fixed;
+              right: 234px;
+              width: 573px;
+              text-align: center;
+              height: 80px;
+            "
+          >
+            <a
+              class="header-button__border-animation"
+              id="aboutScholar__link"
+              href="./About.html"
+              >Scholarについて</a
+            >
             <div class="spaceer" style="width: 15px;"></div>
-            <div id="aboutScholar__link-wrapper" style=" position: fixed;
-            right: 234px; width: 573px; text-align: center; height: 80px;">
-              <a
-                class="header-button__border-animation"
-                id="aboutScholar__link"
-                href="./About.html"
-                >Scholarについて</a
-              >
-              <div class="spaceer" style="width: 15px;"></div>
-              <div
-                id="aboutScholar__slideDowns"
-                class="hidden-aboutScholar__slideDowns"
-              >
-                <div class="border border-menu">
-                  <svg
-                    class="border1"
-                    xmlns="http://www.w3.org/2000/svg"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    width="24"
-                    fill="#868282"
-                  >
-                    <path d="M0 0h24v24H0V0z" fill="none" />
-                    <path d="M19 13H5v-2h14v2z" />
-                  </svg>
-                  <svg
-                    class="border2"
-                    xmlns="http://www.w3.org/2000/svg"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    width="24"
-                    fill="#868282"
-                  >
-                    <path d="M0 0h24v24H0V0z" fill="none" />
-                    <path d="M19 13H5v-2h14v2z" />
-                  </svg>
-                  <a class="header-button__border-animation" href="./About.html#vision"
-                    >団体理念</a
-                  >
-                </div>
-                <div class="border border-menu">
-                  <svg
-                    class="border1"
-                    xmlns="http://www.w3.org/2000/svg"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    width="24"
-                    fill="#868282"
-                  >
-                    <path d="M0 0h24v24H0V0z" fill="none" />
-                    <path d="M19 13H5v-2h14v2z" />
-                  </svg>
-                  <svg
-                    class="border2"
-                    xmlns="http://www.w3.org/2000/svg"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    width="24"
-                    fill="#868282"
-                  >
-                    <path d="M0 0h24v24H0V0z" fill="none" />
-                    <path d="M19 13H5v-2h14v2z" />
-                  </svg>
-                  <a class="header-button__border-animation" href="./About.html#activity"
-                    >活動内容</a
-                  >
-                </div>
-                <div class="border border-menu">
-                  <svg
-                    class="border1"
-                    xmlns="http://www.w3.org/2000/svg"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    width="24"
-                    fill="#868282"
-                  >
-                    <path d="M0 0h24v24H0V0z" fill="none" />
-                    <path d="M19 13H5v-2h14v2z" />
-                  </svg>
-                  <svg
-                    class="border2"
-                    xmlns="http://www.w3.org/2000/svg"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    width="24"
-                    fill="#868282"
-                  >
-                    <path d="M0 0h24v24H0V0z" fill="none" />
-                    <path d="M19 13H5v-2h14v2z" />
-                  </svg>
-                  <a class="header-button__border-animation" href="./About.html#representatives"
-                    >代表挨拶</a
-                  >
-                </div>
-                <div class="border border-menu">
-                  <svg
-                    class="border1"
-                    xmlns="http://www.w3.org/2000/svg"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    width="24"
-                    fill="#868282"
-                  >
-                    <path d="M0 0h24v24H0V0z" fill="none" />
-                    <path d="M19 13H5v-2h14v2z" />
-                  </svg>
-                  <svg
-                    class="border2"
-                    xmlns="http://www.w3.org/2000/svg"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    width="24"
-                    fill="#868282"
-                  >
-                    <path d="M0 0h24v24H0V0z" fill="none" />
-                    <path d="M19 13H5v-2h14v2z" />
-                  </svg>
-                  <a class="header-button__border-animation" href="./About.html#members"
-                    >メンバー紹介</a
-                  >
-                </div>
+            <div
+              id="aboutScholar__slideDowns"
+              class="hidden-aboutScholar__slideDowns"
+            >
+              <div class="border border-menu">
+                <svg
+                  class="border1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  fill="#868282"
+                >
+                  <path d="M0 0h24v24H0V0z" fill="none" />
+                  <path d="M19 13H5v-2h14v2z" />
+                </svg>
+                <svg
+                  class="border2"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  fill="#868282"
+                >
+                  <path d="M0 0h24v24H0V0z" fill="none" />
+                  <path d="M19 13H5v-2h14v2z" />
+                </svg>
+                <a
+                  class="header-button__border-animation"
+                  href="./About.html#vision"
+                  >団体理念</a
+                >
+              </div>
+              <div class="border border-menu">
+                <svg
+                  class="border1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  fill="#868282"
+                >
+                  <path d="M0 0h24v24H0V0z" fill="none" />
+                  <path d="M19 13H5v-2h14v2z" />
+                </svg>
+                <svg
+                  class="border2"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  fill="#868282"
+                >
+                  <path d="M0 0h24v24H0V0z" fill="none" />
+                  <path d="M19 13H5v-2h14v2z" />
+                </svg>
+                <a
+                  class="header-button__border-animation"
+                  href="./About.html#activity"
+                  >活動内容</a
+                >
+              </div>
+              <div class="border border-menu">
+                <svg
+                  class="border1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  fill="#868282"
+                >
+                  <path d="M0 0h24v24H0V0z" fill="none" />
+                  <path d="M19 13H5v-2h14v2z" />
+                </svg>
+                <svg
+                  class="border2"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  fill="#868282"
+                >
+                  <path d="M0 0h24v24H0V0z" fill="none" />
+                  <path d="M19 13H5v-2h14v2z" />
+                </svg>
+                <a
+                  class="header-button__border-animation"
+                  href="./About.html#representatives"
+                  >代表挨拶</a
+                >
+              </div>
+              <div class="border border-menu">
+                <svg
+                  class="border1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  fill="#868282"
+                >
+                  <path d="M0 0h24v24H0V0z" fill="none" />
+                  <path d="M19 13H5v-2h14v2z" />
+                </svg>
+                <svg
+                  class="border2"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  fill="#868282"
+                >
+                  <path d="M0 0h24v24H0V0z" fill="none" />
+                  <path d="M19 13H5v-2h14v2z" />
+                </svg>
+                <a
+                  class="header-button__border-animation"
+                  href="./About.html#members"
+                  >メンバー紹介</a
+                >
               </div>
             </div>
-            <a href="./ForStudent.html">学生の皆様へ</a>
-            <div class="spaceer" style="width: 15px;"></div>
-            <a href="./ForCorporation.html">企業の皆様へ</a>
-            <div class="spaceer" style="width: 15px;"></div>
           </div>
-          <div id="links__info">
-            <a
-              id="twitter-link"
-              target="_blank"
-              href="https://twitter.com/scholar_do"
-              ><i class="fab fa-twitter"></i
-            ></a>
-            <div class="button">
-              <div class="eff"></div>
-              <a href="./Contact.html"> お問い合わせ</a>
-            </div>
-          </div>
+          <a href="./ForStudent.html">学生の皆様へ</a>
+          <div class="spaceer" style="width: 15px;"></div>
+          <a href="./ForCorporation.html">企業の皆様へ</a>
+          <div class="spaceer" style="width: 15px;"></div>
         </div>
-        <!-- レスポンシブ -->
-        <div class="icon-animation hamburger-bar-header">
-          <div class="inner">
-            <span class="top"></span>
-            <span class="middle"></span>
-            <span class="bottom"></span>
-            <div class="hamburger-bar-title-wrapper">
-              <span
-                style="
-                  position: relative;
-                  top: 41px;
-                  left: 3px;
-                  height: 20px;
-                  background: none;
-                "
-                class="hamburger-bar-title"
-                >Menu</span
-              >
-            </div>
+        <div id="links__info">
+          <a
+            id="twitter-link"
+            target="_blank"
+            href="https://twitter.com/scholar_do"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <div class="button">
+            <div class="eff"></div>
+            <a href="./Contact.html"> お問い合わせ</a>
           </div>
         </div>
-      </header>
-      <div id="header-circleToSquare">
-        <div id="header-circleToSquare__links">
-
+      </div>
+      <!-- レスポンシブ -->
+      <div class="icon-animation hamburger-bar-header">
+        <div class="inner">
+          <span class="top"></span>
+          <span class="middle"></span>
+          <span class="bottom"></span>
+          <div class="hamburger-bar-title-wrapper">
+            <span
+              style="
+                position: relative;
+                top: 41px;
+                left: 3px;
+                height: 20px;
+                background: none;
+              "
+              class="hamburger-bar-title"
+              >Menu</span
+            >
+          </div>
         </div>
-        </div>
-
-
+      </div>
+    </header>
+    <div id="header-circleToSquare">
+      <div id="header-circleToSquare__links"></div>
+    </div>
 
     <div class="top-wrapper">
-        <img src="../assets/styles/images/ForStudent/user_group.svg">
-        <h2>recruit</h2>
-        <div class="btext">
-            <h1>君はこの大学で</h1>
-            <h1>「何者」になる？</h1>
-        </div>
-        <p>大学生活は自由だ。真面目に授業を受けるもよし、サークルの飲み会で騒ぐもよし、バイトに精を出すもよし。</p>
-        <p>でもみんないずれは社会人になります。その時に自分は「何者」になっているでしょうか。 </p>
-        <p>その答えを探る大学生活を一緒に送ってみませんか？</p>
+      <img src="../assets/styles/images/ForStudent/user_group.svg" />
+      <h2>recruit</h2>
+      <div class="btext">
+        <h1>君はこの大学で</h1>
+        <h1>「何者」になる？</h1>
+      </div>
+      <p>
+        大学生活は自由だ。真面目に授業を受けるもよし、サークルの飲み会で騒ぐもよし、バイトに精を出すもよし。
+      </p>
+      <p>
+        でもみんないずれは社会人になります。その時に自分は「何者」になっているでしょうか。
+      </p>
+      <p>その答えを探る大学生活を一緒に送ってみませんか？</p>
     </div>
 
     <div class="middle-wrapper">
-        <div class="container">
-            <div class="overview">
-                <div class="text-box">
-                    <h2 class="text-section-title animation" style="visibility: hidden;">活動概要</h2>
-                    <p class="text-body animation" style="visibility: hidden;">私たちは、理系の学部に所属している学生です。しかし、理系の中でも学んでる内容は各学生異なっています。そこで、各自が学んだことをビジネスの視点で見つめ直し、昨日までなかったサービスやツールを開発することで学んだことを形にします。</p>
-                    <p class="text-body animation" style="visibility: hidden;">また、現代の社会では、「どこに問題があるのか」を考えることが求められます。どこに問題があるかを発見するには物事の本質を見抜く必要があり、そのためにはどれだけ深い仮説を立てられるかが重要です。異なった学部の異なった視点で様々な切り口からビジネスを捉え、自分で深い仮説の立てられる市場価値の高い人材になることを目指します。</p>
-                    <p class="text-body animation" style="visibility: hidden;">つまりスカラーに入れば物事の本質を掴み、それを自分が学んだ内容によって解決する力を身につけることができるわけです！</p>
-                    <p class="text-body animation" style="visibility: hidden;">この力さえあれば将来就職するにしても、フリーランスとして活動するにしても起業するにしても必ず成果を出すことができるはずです。</p>
-                </div>
-                    <img class="thinking animation" style="visibility: hidden;" src="../assets/styles/images/ForStudent/thinking_monochromatic.svg" alt>
-                    <img class="designer animation" style="visibility: hidden;" src="../assets/styles/images/ForStudent/designer__monochromatic.svg" alt>
+      <div class="container">
+        <div class="overview">
+          <div class="text-box">
+            <h2
+              class="text-section-title animation"
+              style="visibility: hidden;"
+            >
+              活動概要
+            </h2>
+            <p class="text-body animation" style="visibility: hidden;">
+              私たちは、理系の学部に所属している学生です。しかし、理系の中でも学んでる内容は各学生異なっています。そこで、各自が学んだことをビジネスの視点で見つめ直し、昨日までなかったサービスやツールを開発することで学んだことを形にします。
+            </p>
+            <p class="text-body animation" style="visibility: hidden;">
+              また、現代の社会では、「どこに問題があるのか」を考えることが求められます。どこに問題があるかを発見するには物事の本質を見抜く必要があり、そのためにはどれだけ深い仮説を立てられるかが重要です。異なった学部の異なった視点で様々な切り口からビジネスを捉え、自分で深い仮説の立てられる市場価値の高い人材になることを目指します。
+            </p>
+            <p class="text-body animation" style="visibility: hidden;">
+              つまりスカラーに入れば物事の本質を掴み、それを自分が学んだ内容によって解決する力を身につけることができるわけです！
+            </p>
+            <p class="text-body animation" style="visibility: hidden;">
+              この力さえあれば将来就職するにしても、フリーランスとして活動するにしても起業するにしても必ず成果を出すことができるはずです。
+            </p>
+          </div>
+          <img
+            class="thinking animation"
+            style="visibility: hidden;"
+            src="../assets/styles/images/ForStudent/thinking_monochromatic.svg"
+            alt
+          />
+          <img
+            class="designer animation"
+            style="visibility: hidden;"
+            src="../assets/styles/images/ForStudent/designer__monochromatic.svg"
+            alt
+          />
+        </div>
+        <div class="recruit">
+          <div class="animation" style="visibility: hidden;">
+            <h2 class="text-section-title">募集要項</h2>
+          </div>
+          <div class="animation" style="visibility: hidden;">
+            <img
+              class="entre"
+              src="../assets/styles/images/ForStudent/entrepreneurs_monochromatic.svg"
+              alt
+            />
+          </div>
+          <div class="animation" style="visibility: hidden;">
+            <img
+              class="coding"
+              src="../assets/styles/images/ForStudent/coding__monochromatic.svg"
+              alt
+            />
+          </div>
+          <div class="text-box">
+            <div class="animation" style="visibility: hidden;">
+              <p class="text-body">
+                ビジネス班とプログラミング班に分かれて共同しながら活動しています。（両方に属することも可能)
+              </p>
             </div>
-            <div class="recruit">
-                <div class="animation" style="visibility: hidden;">
-                    <h2 class="text-section-title">募集要項</h2>
-                </div>
-                <div class="animation" style="visibility: hidden;">
-                    <img class="entre" src="../assets/styles/images/ForStudent/entrepreneurs_monochromatic.svg" alt>
-                </div>
-                <div class="animation" style="visibility: hidden;">
-                    <img class="coding" src="../assets/styles/images/ForStudent/coding__monochromatic.svg" alt>
-                </div>
-                <div class="text-box">
-                    <div class="animation" style="visibility: hidden;">
-                        <p class="text-body">ビジネス班とプログラミング班に分かれて共同しながら活動しています。（両方に属することも可能)</p>
-                    </div>
-                    <div class="animation" style="visibility: hidden;">
-                        <p class="text-body">また両班共通で大学の勉強のシェアや最新テクノロジーの勉強も行ってます。</p>
-                    </div>
-                    <div class="animation" style="visibility: hidden;">
-                        <p class="text-body">なお大学、学部問わず入会可能です</p>
-                    </div>
-                </div>
+            <div class="animation" style="visibility: hidden;">
+              <p class="text-body">
+                また両班共通で大学の勉強のシェアや最新テクノロジーの勉強も行ってます。
+              </p>
             </div>
+            <div class="animation" style="visibility: hidden;">
+              <p class="text-body">なお大学、学部問わず入会可能です</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="contents">
+        <div class="business fold-text-wrapper">
+          <div class="business-title">
+            <h2>ビジネス班</h2>
+            <span>+</span>
+          </div>
+          <div class="slideanime contents-text">
+            <p>
+              週に一回同志社大学京田辺キャンパスのラーニングコモンズで勉強会を行っています。具体的な勉強内容としては
+            </p>
+            <ul>
+              <li>ITに関する勉強</li>
+              <li>powerpointを使った企画書の作り方</li>
+              <li>３c分析に始まる様々な企業分析</li>
+              <li>経営フレームワークの勉強</li>
+              <li>ビジネスプランコンテストへの参加</li>
+              <li>株式投資</li>
+            </ul>
+            <p>などです。</p>
+          </div>
         </div>
 
-        <div class="contents">
-                <div class="business fold-text-wrapper">
-                    <div class="business-title">
-                        <h2>ビジネス班</h2>
-                        <span>+</span>
-                    </div>
-                    <div class="slideanime contents-text">
-                        <p>週に一回同志社大学京田辺キャンパスのラーニングコモンズで勉強会を行っています。具体的な勉強内容としては</p>
-                        <ul>
-                            <li>ITに関する勉強</li>
-                            <li>powerpointを使った企画書の作り方</li>
-                            <li>３c分析に始まる様々な企業分析</li>
-                            <li>経営フレームワークの勉強</li>
-                            <li>ビジネスプランコンテストへの参加</li>
-                            <li>株式投資</li>
-                        </ul>
-                        <p>などです。</p>
-                    </div>
-                </div>
-
-                <div class="program fold-text-wrapper">
-                    <div class="program-title tapslide">
-                        <h2>プログラミング班</h2>
-                        <span>+</span>
-                    </div>
-                    <div class="slideanime contents-text">
-                        <p>週に一回同志社大学京田辺キャンパスのラーニングコモンズで作業の進捗具合を報告するミーティングを行っています。プログラミング班では</p>
-                        <ul>
-                            <li>アプリ開発</li>
-                            <li>ホームページ制作</li>
-                            <li>データ分析</li>
-                        </ul>
-                        <p>の案件をこなしてもらいます。初心者の方でも不安になる必要はありません。無料でプログラミングを学べる教材がございます。またプログラミングが上手な人へ質問がいつでもできる環境が整っているのですぐ上達することができると思いますよ。</p>
-                    </div>
-                </div>
+        <div class="program fold-text-wrapper">
+          <div class="program-title tapslide">
+            <h2>プログラミング班</h2>
+            <span>+</span>
+          </div>
+          <div class="slideanime contents-text">
+            <p>
+              週に一回同志社大学京田辺キャンパスのラーニングコモンズで作業の進捗具合を報告するミーティングを行っています。プログラミング班では
+            </p>
+            <ul>
+              <li>アプリ開発</li>
+              <li>ホームページ制作</li>
+              <li>データ分析</li>
+            </ul>
+            <p>
+              の案件をこなしてもらいます。初心者の方でも不安になる必要はありません。無料でプログラミングを学べる教材がございます。またプログラミングが上手な人へ質問がいつでもできる環境が整っているのですぐ上達することができると思いますよ。
+            </p>
+          </div>
         </div>
+      </div>
     </div>
 
     <div class="contact">
-        <p class="text-bottom">入会に関するご質問やご応募等まずはお気軽にお問い合わせ下さい </p>
-        <div class="button">
-            <div class="eff"></div>
-             <a href="./Contact.html">お問い合わせ</a>
-        </div>
+      <p class="text-bottom">
+        入会に関するご質問やご応募等まずはお気軽にお問い合わせ下さい
+      </p>
+      <div class="button">
+        <div class="eff"></div>
+        <a href="./Contact.html">お問い合わせ</a>
+      </div>
     </div>
     <footer>
-        <div class="footer_description">
-            <ul>
-              <li><a href="../index.html">ホーム</a></li>
-              <li><a href="./About.html">Scholarについて</a></li>
-              <li><a href="./About.html#vision">団体理念</a></li>
-              <li><a href="./About.html#activity">活動内容</a></li>
-              <li><a href="./About.html#representatives">代表挨拶</a></li>
-              <li><a href="./About.html#members">メンバー紹介</a></li>
-              <li><a href="./ForStudent.html">学生の皆様へ</a></li>
-              <li><a href="./ForCorporation.html">企業の皆様へ</a></li>
-            </ul>
+      <div class="footer_description">
+        <ul>
+          <li><a href="../index.html">ホーム</a></li>
+          <li><a href="./About.html">Scholarについて</a></li>
+          <li><a href="./About.html#vision">団体理念</a></li>
+          <li><a href="./About.html#activity">活動内容</a></li>
+          <li><a href="./About.html#representatives">代表挨拶</a></li>
+          <li><a href="./About.html#members">メンバー紹介</a></li>
+          <li><a href="./ForStudent.html">学生の皆様へ</a></li>
+          <li><a href="./ForCorporation.html">企業の皆様へ</a></li>
+        </ul>
+      </div>
+      <div class="footer_logo">
+        <div class="scholar">
+          <img class="scholar_logo" src="../scholarHat.png" alt="" />
+          <p>SCHOLAR</p>
         </div>
-        <div class="footer_logo">
-            <div class="scholar">
-                <img class="scholar_logo" src="../scholarHat.png" alt="">
-                <p>SCHOLAR</p>
-            </div>
-            <img class="meeting " src="../assets/styles/images/Home/team_meeting_monochromatic.svg" alt="">
-            <div class="scholar p-right_items">
-                <div class="footer-twitter">
-                    <a target="_blank" href="https://twitter.com/scholar_do">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                </div>
-                <div class="button" id="contact">
-                    <div class="eff"></div>
-                    <a href="./Contact.html">お問い合わせ</a>
-                </div>
-            </div>
+        <img
+          class="meeting"
+          src="../assets/styles/images/Home/team_meeting_monochromatic.svg"
+          alt=""
+        />
+        <div class="scholar p-right_items">
+          <div class="footer-twitter">
+            <a target="_blank" href="https://twitter.com/scholar_do">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </div>
+          <div class="button" id="contact">
+            <div class="eff"></div>
+            <a href="./Contact.html">お問い合わせ</a>
+          </div>
         </div>
+      </div>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="../assets/js/ForStudent-animation.js"></script>
-    <script src="../assets/js/Basic_animation.js" type="text/javascript"></script>
-
-</body>
+    <script
+      src="../assets/js/Basic_animation.js"
+      type="text/javascript"
+    ></script>
+  </body>
 </html>

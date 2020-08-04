@@ -1,435 +1,617 @@
 <!--企業向けページ-->
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ja">
-<head>
+  <head>
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+          "gtm.start": new Date().getTime(),
+          event: "gtm.js",
+        });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-5NM8PXQ");
+    </script>
+    <!-- End Google Tag Manager -->
     <!--    SSL設定-->
-    <link rel="canoncial" href="https://du-scholar.tk">
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta name="description" content="スカラーでは企業様向けにサービスをご提供しております。ホームページ制作、アプリ開発、データ分析を承ります。">
-<meta property="og:title" content="学生団体スカラー" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="ページのURL" />
-<meta property="og:image" content="../faviconScholarHat.png" />
-<meta property="og:description" content="スカラーでは企業様向けにサービスをご提供しております。ホームページ制作、アプリ開発、データ分析を承ります。" />
-<meta property="og:site_name" content="企業の皆様へ" />
-<meta name="twitter:card" content="summary" />
-<meta name="twitter:site" content="@scholar_do" />
-    <link rel="icon" href="../ScholarHat.png" sizes="16×16" type="image/png">
-    <link rel="stylesheet" href="../assets/styles/scss/pages/ForCorporation/ForCorporation.css">
-    <link rel="stylesheet" href="../assets/styles/scss/pages/footer.css">
-    <link rel="stylesheet" href="../assets/styles/scss/pages/header.css">
-    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="canoncial" href="https://du-scholar.tk" />
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta
+      name="description"
+      content="スカラーでは企業様向けにサービスをご提供しております。ホームページ制作、アプリ開発、データ分析を承ります。"
+    />
+    <meta property="og:title" content="学生団体スカラー" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="ページのURL" />
+    <meta property="og:image" content="../faviconScholarHat.png" />
+    <meta
+      property="og:description"
+      content="スカラーでは企業様向けにサービスをご提供しております。ホームページ制作、アプリ開発、データ分析を承ります。"
+    />
+    <meta property="og:site_name" content="企業の皆様へ" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@scholar_do" />
+    <link rel="icon" href="../ScholarHat.png" sizes="16×16" type="image/png" />
+    <link
+      rel="stylesheet"
+      href="../assets/styles/scss/pages/ForCorporation/ForCorporation.css"
+    />
+    <link rel="stylesheet" href="../assets/styles/scss/pages/footer.css" />
+    <link rel="stylesheet" href="../assets/styles/scss/pages/header.css" />
+    <link
+      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+      rel="stylesheet"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>企業の皆様へ｜学生団体スカラー</title>
-    <script async src='//www.google-analytics.com/analytics.js'></script>
+    <script async src="//www.google-analytics.com/analytics.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-171270073-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-171270073-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-  gtag('config', 'UA-171270073-1');
-</script>
+      gtag("config", "UA-171270073-1");
+    </script>
+  </head>
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-5NM8PXQ"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden;"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <header>
+      <!-- パソコン -->
+      <div id="logo">
+        <img src="../scholarHat.png" alt="学生団体Scholarのロゴ" />
+        <p>SCHOLAR</p>
+      </div>
 
-</head>
-<body>
-  <header>
-    <!-- パソコン -->
-    <div id="logo">
-      <img src="../scholarHat.png" alt="学生団体Scholarのロゴ" />
-      <p>SCHOLAR</p>
-    </div>
-
-    <div id="links">
-      <div id="links__pages">
-        <a class="header-button__border-animation" href="../index.html" style=" z-index: 2; margin-right: 146px;">ホーム</a>
-        <div class="spaceer" style="width: 15px;"></div>
-        <div id="aboutScholar__link-wrapper" style=" position: fixed;
-        right: 234px; width: 573px; text-align: center; height: 80px;">
+      <div id="links">
+        <div id="links__pages">
           <a
             class="header-button__border-animation"
-            id="aboutScholar__link"
-            href="./About.html"
-            >Scholarについて</a>
-            <div class="spaceer" style="width: 15px;"></div>
-          <div
-            id="aboutScholar__slideDowns"
-            class="hidden-aboutScholar__slideDowns"
+            href="../index.html"
+            style="z-index: 2; margin-right: 146px;"
+            >ホーム</a
           >
-            <div class="border border-menu">
-              <svg
-                class="border1"
-                xmlns="http://www.w3.org/2000/svg"
-                height="24"
-                viewBox="0 0 24 24"
-                width="24"
-                fill="#868282"
-              >
-                <path d="M0 0h24v24H0V0z" fill="none" />
-                <path d="M19 13H5v-2h14v2z" />
-              </svg>
-              <svg
-                class="border2"
-                xmlns="http://www.w3.org/2000/svg"
-                height="24"
-                viewBox="0 0 24 24"
-                width="24"
-                fill="#868282"
-              >
-                <path d="M0 0h24v24H0V0z" fill="none" />
-                <path d="M19 13H5v-2h14v2z" />
-              </svg>
-              <a class="header-button__border-animation" href="./About.html#vision"
-                >団体理念</a
-              >
-            </div>
-            <div class="border border-menu">
-              <svg
-                class="border1"
-                xmlns="http://www.w3.org/2000/svg"
-                height="24"
-                viewBox="0 0 24 24"
-                width="24"
-                fill="#868282"
-              >
-                <path d="M0 0h24v24H0V0z" fill="none" />
-                <path d="M19 13H5v-2h14v2z" />
-              </svg>
-              <svg
-                class="border2"
-                xmlns="http://www.w3.org/2000/svg"
-                height="24"
-                viewBox="0 0 24 24"
-                width="24"
-                fill="#868282"
-              >
-                <path d="M0 0h24v24H0V0z" fill="none" />
-                <path d="M19 13H5v-2h14v2z" />
-              </svg>
-              <a class="header-button__border-animation" href="./About.html#activity"
-                >活動内容</a
-              >
-            </div>
-            <div class="border border-menu">
-              <svg
-                class="border1"
-                xmlns="http://www.w3.org/2000/svg"
-                height="24"
-                viewBox="0 0 24 24"
-                width="24"
-                fill="#868282"
-              >
-                <path d="M0 0h24v24H0V0z" fill="none" />
-                <path d="M19 13H5v-2h14v2z" />
-              </svg>
-              <svg
-                class="border2"
-                xmlns="http://www.w3.org/2000/svg"
-                height="24"
-                viewBox="0 0 24 24"
-                width="24"
-                fill="#868282"
-              >
-                <path d="M0 0h24v24H0V0z" fill="none" />
-                <path d="M19 13H5v-2h14v2z" />
-              </svg>
-              <a class="header-button__border-animation" href="./About.html#representatives"
-                >代表挨拶</a
-              >
-            </div>
-            <div class="border border-menu">
-              <svg
-                class="border1"
-                xmlns="http://www.w3.org/2000/svg"
-                height="24"
-                viewBox="0 0 24 24"
-                width="24"
-                fill="#868282"
-              >
-                <path d="M0 0h24v24H0V0z" fill="none" />
-                <path d="M19 13H5v-2h14v2z" />
-              </svg>
-              <svg
-                class="border2"
-                xmlns="http://www.w3.org/2000/svg"
-                height="24"
-                viewBox="0 0 24 24"
-                width="24"
-                fill="#868282"
-              >
-                <path d="M0 0h24v24H0V0z" fill="none" />
-                <path d="M19 13H5v-2h14v2z" />
-              </svg>
-              <a class="header-button__border-animation" href="./About.html#members"
-                >メンバー紹介</a
-              >
+          <div class="spaceer" style="width: 15px;"></div>
+          <div
+            id="aboutScholar__link-wrapper"
+            style="
+              position: fixed;
+              right: 234px;
+              width: 573px;
+              text-align: center;
+              height: 80px;
+            "
+          >
+            <a
+              class="header-button__border-animation"
+              id="aboutScholar__link"
+              href="./About.html"
+              >Scholarについて</a
+            >
+            <div class="spaceer" style="width: 15px;"></div>
+            <div
+              id="aboutScholar__slideDowns"
+              class="hidden-aboutScholar__slideDowns"
+            >
+              <div class="border border-menu">
+                <svg
+                  class="border1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  fill="#868282"
+                >
+                  <path d="M0 0h24v24H0V0z" fill="none" />
+                  <path d="M19 13H5v-2h14v2z" />
+                </svg>
+                <svg
+                  class="border2"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  fill="#868282"
+                >
+                  <path d="M0 0h24v24H0V0z" fill="none" />
+                  <path d="M19 13H5v-2h14v2z" />
+                </svg>
+                <a
+                  class="header-button__border-animation"
+                  href="./About.html#vision"
+                  >団体理念</a
+                >
+              </div>
+              <div class="border border-menu">
+                <svg
+                  class="border1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  fill="#868282"
+                >
+                  <path d="M0 0h24v24H0V0z" fill="none" />
+                  <path d="M19 13H5v-2h14v2z" />
+                </svg>
+                <svg
+                  class="border2"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  fill="#868282"
+                >
+                  <path d="M0 0h24v24H0V0z" fill="none" />
+                  <path d="M19 13H5v-2h14v2z" />
+                </svg>
+                <a
+                  class="header-button__border-animation"
+                  href="./About.html#activity"
+                  >活動内容</a
+                >
+              </div>
+              <div class="border border-menu">
+                <svg
+                  class="border1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  fill="#868282"
+                >
+                  <path d="M0 0h24v24H0V0z" fill="none" />
+                  <path d="M19 13H5v-2h14v2z" />
+                </svg>
+                <svg
+                  class="border2"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  fill="#868282"
+                >
+                  <path d="M0 0h24v24H0V0z" fill="none" />
+                  <path d="M19 13H5v-2h14v2z" />
+                </svg>
+                <a
+                  class="header-button__border-animation"
+                  href="./About.html#representatives"
+                  >代表挨拶</a
+                >
+              </div>
+              <div class="border border-menu">
+                <svg
+                  class="border1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  fill="#868282"
+                >
+                  <path d="M0 0h24v24H0V0z" fill="none" />
+                  <path d="M19 13H5v-2h14v2z" />
+                </svg>
+                <svg
+                  class="border2"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  fill="#868282"
+                >
+                  <path d="M0 0h24v24H0V0z" fill="none" />
+                  <path d="M19 13H5v-2h14v2z" />
+                </svg>
+                <a
+                  class="header-button__border-animation"
+                  href="./About.html#members"
+                  >メンバー紹介</a
+                >
+              </div>
             </div>
           </div>
+          <a href="./ForStudent.html">学生の皆様へ</a>
+          <div class="spaceer" style="width: 15px;"></div>
+          <a href="./ForCorporation.html">企業の皆様へ</a>
+          <div class="spaceer" style="width: 15px;"></div>
         </div>
-        <a href="./ForStudent.html">学生の皆様へ</a>
-        <div class="spaceer" style="width: 15px;"></div>
-        <a href="./ForCorporation.html">企業の皆様へ</a>
-        <div class="spaceer" style="width: 15px;"></div>
+        <div id="links__info">
+          <a
+            id="twitter-link"
+            target="_blank"
+            href="https://twitter.com/scholar_do"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <div class="button">
+            <div class="eff"></div>
+            <a href="./Contact.html"> お問い合わせ</a>
+          </div>
+        </div>
       </div>
-      <div id="links__info">
-        <a
-          id="twitter-link"
-          target="_blank"
-          href="https://twitter.com/scholar_do"
-          ><i class="fab fa-twitter"></i
-        ></a>
+      <!-- レスポンシブ -->
+      <div class="icon-animation hamburger-bar-header">
+        <div class="inner">
+          <span class="top"></span>
+          <span class="middle"></span>
+          <span class="bottom"></span>
+          <div class="hamburger-bar-title-wrapper">
+            <span
+              style="
+                position: relative;
+                top: 41px;
+                left: 3px;
+                height: 20px;
+                background: none;
+              "
+              class="hamburger-bar-title"
+              >Menu</span
+            >
+          </div>
+        </div>
+      </div>
+    </header>
+    <div id="header-circleToSquare">
+      <div id="header-circleToSquare__links"></div>
+    </div>
+
+    <div class="text">
+      <img
+        class="image1"
+        src="../assets/styles/images/ForCorporation/group_presentation.svg"
+        alt="起業"
+      />
+      <img
+        class="image2"
+        src="../assets/styles/images/ForCorporation/web_development_.svg"
+        alt="ホームページ制作"
+      />
+      <h1 class="title">企業の皆様へ</h1>
+      <div class="text-body">
+        <p>スカラーでは企業様向けにサービスをご提供しております。</p>
+        <p>
+          入念なヒアリングに始まり、デモ制作、納品、点検までをサポートいたします。
+        </p>
+      </div>
+      <div class="text-menu">
+        <div class="menu">
+          <div class="border">
+            <svg
+              class="border1"
+              xmlns="http://www.w3.org/2000/svg"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              fill="#868282"
+            >
+              <path d="M0 0h24v24H0V0z" fill="none" />
+              <path d="M19 13H5v-2h14v2z" />
+            </svg>
+            <svg
+              class="border2"
+              xmlns="http://www.w3.org/2000/svg"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              fill="#868282"
+            >
+              <path d="M0 0h24v24H0V0z" fill="none" />
+              <path d="M19 13H5v-2h14v2z" />
+            </svg>
+            <a href="#home">ホームページ制作</a>
+          </div>
+        </div>
+
+        <div class="menu">
+          <div class="border">
+            <svg
+              class="border1"
+              xmlns="http://www.w3.org/2000/svg"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              fill="#868282"
+            >
+              <path d="M0 0h24v24H0V0z" fill="none" />
+              <path d="M19 13H5v-2h14v2z" />
+            </svg>
+            <svg
+              class="border2"
+              xmlns="http://www.w3.org/2000/svg"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              fill="#868282"
+            >
+              <path d="M0 0h24v24H0V0z" fill="none" />
+              <path d="M19 13H5v-2h14v2z" />
+            </svg>
+            <a href="#app">アプリ開発</a>
+          </div>
+        </div>
+
+        <div class="menu">
+          <div class="border">
+            <svg
+              class="border1"
+              xmlns="http://www.w3.org/2000/svg"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              fill="#868282"
+            >
+              <path d="M0 0h24v24H0V0z" fill="none" />
+              <path d="M19 13H5v-2h14v2z" />
+            </svg>
+            <svg
+              class="border2"
+              xmlns="http://www.w3.org/2000/svg"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              fill="#868282"
+            >
+              <path d="M0 0h24v24H0V0z" fill="none" />
+              <path d="M19 13H5v-2h14v2z" />
+            </svg>
+            <a href="#deta">データ分析</a>
+          </div>
+        </div>
+
+        <div class="menu">
+          <div class="border">
+            <svg
+              class="border1"
+              xmlns="http://www.w3.org/2000/svg"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              fill="#868282"
+            >
+              <path d="M0 0h24v24H0V0z" fill="none" />
+              <path d="M19 13H5v-2h14v2z" />
+            </svg>
+            <svg
+              class="border2"
+              xmlns="http://www.w3.org/2000/svg"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              fill="#868282"
+            >
+              <path d="M0 0h24v24H0V0z" fill="none" />
+              <path d="M19 13H5v-2h14v2z" />
+            </svg>
+            <a href="#record">実績</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="section-body fadein" id="home">
+        <h1 class="text-section-title fadein">
+          ホームページ制作
+        </h1>
+        <img
+          class="image3 fadein"
+          src="../assets/styles/images/ForCorporation/coding_.svg"
+          alt=" WEBページ制作"
+        />
+        <div class="section">
+          <p class="fadein">弊団体のwebページ制作の特徴としましては、</p>
+          <p class="fadein">
+            顧客目線から逆算したwebデザイン、ライティングを徹底して行うところにあります。
+          </p>
+        </div>
+        <img
+          class="image4 fadein"
+          src="../assets/styles/images/ForCorporation/seo.svg"
+          alt="SEO"
+        />
+        <div class="section">
+          <p class="fadein">
+            企業様がターゲットにしている顧客の感情、行動の定性的な議論から、グーグルアナリティクスを用いた定量的かつ定性的なデータ収集まで抜かりなく行うことにより、SEO対策、UI・UX対策全てをカバーすることを徹底しております。
+          </p>
+        </div>
+        <div class="section">
+          <p class="fadein">
+            新しくホームページの制作を考えておられる事業者の皆様、お気軽にご相談ください。
+          </p>
+        </div>
+      </div>
+
+      <div class="contact fadein">
         <div class="button">
           <div class="eff"></div>
-          <a href="./Contact.html"> お問い合わせ</a>
+          <a href="../Pages/Contact.html"> お問い合わせ </a>
         </div>
       </div>
-    </div>
-    <!-- レスポンシブ -->
-    <div class="icon-animation hamburger-bar-header">
-      <div class="inner">
-        <span class="top"></span>
-        <span class="middle"></span>
-        <span class="bottom"></span>
-        <div class="hamburger-bar-title-wrapper">
-          <span
-            style="
-              position: relative;
-              top: 41px;
-              left: 3px;
-              height: 20px;
-              background: none;
-            "
-            class="hamburger-bar-title"
-            >Menu</span
-          >
+
+      <div class="section-body">
+        <h1 class="text-section-title fadein" id="app">
+          アプリ開発
+        </h1>
+
+        <div class="section">
+          <p class="fadein">お客様からの開発依頼を承ります。</p>
+        </div>
+        <img
+          class="image6 fadein"
+          src="../assets/styles/images/ForCorporation/web_developer_monochromatic.svg"
+          alt="アプリ開発"
+        />
+        <div class="section">
+          <p class="fadein">
+            カスタマー向けのアプリケーション開発においては必要な機能を、サービスを利用する誰もが使いやすいシステムになるように議論を重ね、より良いものを開発してまいります。
+          </p>
+        </div>
+        <img
+          class="image5 fadein"
+          src="../assets/styles/images/ForCorporation/bug_fixing_monochromatic.svg"
+          alt="アプリケーション開発"
+        />
+        <div class="section">
+          <p class="fadein">
+            また業務改善向けのアプリケーション開発においては実際に企業の業務をヒアリングした上で、どのような機能を職場で必要としているかを議論し、職場で必要な機能を誰もがわかりやすく使いやすい形で実装することで業務効率改善の力添えをいたします。
+          </p>
+        </div>
+        <div class="section">
+          <p class="fadein">
+            サービスを作って欲しいとお考えの事業者の皆様、
+            お見積もり等お気軽にご相談ください。
+          </p>
         </div>
       </div>
-    </div>
-  </header>
-  <div id="header-circleToSquare">
-    <div id="header-circleToSquare__links">
 
-    </div>
-  </div>
+      <div class="contact fadein">
+        <div class="button">
+          <div class="eff"></div>
+          <a href="../Pages/Contact.html"> お問い合わせ </a>
+        </div>
+      </div>
 
-    　 <div class="text">
-          <img class="image1" src="../assets/styles/images/ForCorporation/group_presentation.svg" alt="起業">
-          <img class="image2" src="../assets/styles/images/ForCorporation/web_development_.svg" alt="ホームページ制作">
-            <h1 class="title ">企業の皆様へ</h1>
-            <div class="text-body ">
-                <p>スカラーでは企業様向けにサービスをご提供しております。</p>
-                <p>入念なヒアリングに始まり、デモ制作、納品、点検までをサポートいたします。</p>
-              </div>
-            <div class="text-menu">
-              <div class="menu">
-              <div class="border">
-                <svg class="border1" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" fill=#868282><path d="M0 0h24v24H0V0z" fill="none"/><path d="M19 13H5v-2h14v2z"/></svg>
-                <svg class="border2" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" fill=#868282><path d="M0 0h24v24H0V0z" fill="none"/><path d="M19 13H5v-2h14v2z"/></svg>
-                <a href="#home">ホームページ制作</a>
-              </div>
+      <div class="section-body">
+        <h1 class="text-section-title fadein" id="deta">
+          データ分析
+        </h1>
+        <img
+          class="image7 fadein"
+          src="../assets/styles/images/ForCorporation/data_analytics__monochromatic.svg"
+          alt="データ分析"
+        />
+        <div class="section">
+          <p class="fadein">
+            弊団体ではデータサイエンスを専攻している学生が多く在籍しております。この強みを生かし、アンケートや
+            社会調査を元にしたデータ分析やそれに基づく改善案、解決案の立案までを請け負います。
+          </p>
+        </div>
+        <img
+          class="image8 fadein"
+          src="../assets/styles/images/ForCorporation/data_visualization_monochromatic.svg"
+          alt="データ解析"
+        />
+        <div class="section">
+          <p class="fadein">
+            重回帰分析はもちろんのこと機械学習を主としたAI（人工知能）によるデータ分析もお任せください。
+          </p>
+        </div>
+
+        <div class="section">
+          <p class="fadein">
+            商品開発の市場調査やデータから見る戦略立案などを
+            ご希望の事業者の皆様、お見積もり等お気軽にご相談ください。
+          </p>
+        </div>
+      </div>
+
+      <div class="contact fadein">
+        <div class="button">
+          <div class="eff"></div>
+          <a href="../Pages/Contact.html"> お問い合わせ </a>
+        </div>
+      </div>
+
+      <div class="section-body">
+        <h1 class="text-section-title fadein" id="record">
+          実績
+        </h1>
+      </div>
+      <div class="fadein">
+        <div class="card">
+          <div class="card__imgframe"></div>
+          <div class="card__textbox">
+            <div class="card__titletext">
+              NOAH様のウェブページを制作させていただきました。
             </div>
-
-            <div class="menu">
-                <div class="border">
-                  <svg class="border1" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" fill=#868282><path d="M0 0h24v24H0V0z" fill="none"/><path d="M19 13H5v-2h14v2z"/></svg>
-                  <svg class="border2" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" fill=#868282><path d="M0 0h24v24H0V0z" fill="none"/><path d="M19 13H5v-2h14v2z"/></svg>
-                  <a href="#app">アプリ開発</a>
-                </div>
-              </div>
-
-              <div class="menu">
-                  <div class="border">
-                    <svg class="border1" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" fill=#868282><path d="M0 0h24v24H0V0z" fill="none"/><path d="M19 13H5v-2h14v2z"/></svg>
-                    <svg class="border2" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" fill=#868282><path d="M0 0h24v24H0V0z" fill="none"/><path d="M19 13H5v-2h14v2z"/></svg>
-                    <a href="#deta">データ分析</a>
-                  </div>
-                </div>
-
-                <div class="menu">
-                    <div class="border">
-                      <svg class="border1" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" fill=#868282><path d="M0 0h24v24H0V0z" fill="none"/><path d="M19 13H5v-2h14v2z"/></svg>
-                      <svg class="border2" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" fill=#868282><path d="M0 0h24v24H0V0z" fill="none"/><path d="M19 13H5v-2h14v2z"/></svg>
-                      <a href="#record">実績</a>
-                    </div>
-                  </div>
-               </div>
-
-            <div class="section-body fadein" id="home">
-                <h1 class="text-section-title fadein" >
-                    ホームページ制作
-                </h1>
-                <img class="image3 fadein" src="../assets/styles/images/ForCorporation/coding_.svg" alt=" WEBページ制作">
-                <div class="section
-                ">
-                <p class="fadein">弊団体のwebページ制作の特徴としましては、</p>
-                <p class="fadein">顧客目線から逆算したwebデザイン、ライティングを徹底して行うところにあります。</p>
-              </div>
-               <img class="image4 fadein" src="../assets/styles/images/ForCorporation/seo.svg" alt="SEO">
-               <div class="section">
-                   <p class="fadein">企業様がターゲットにしている顧客の感情、行動の定性的な議論から、グーグルアナリティクスを用いた定量的かつ定性的なデータ収集まで抜かりなく行うことにより、SEO対策、UI・UX対策全てをカバーすることを徹底しております。
-                    </p>
-               </div>
-               <div class="section">
-                   <p class="fadein">新しくホームページの制作を考えておられる事業者の皆様、お気軽にご相談ください。
-                  </p>
-               </div>
-           </div>
-
-           <div class="contact fadein">
-            <div class="button">
-              <div class="eff"></div>
-              <a href="../Pages/Contact.html"> お問い合わせ </a>
-            </div>
-          </div>
-
-           <div class="section-body">
-            <h1 class="text-section-title fadein" id="app">
-                アプリ開発
-            </h1>
-
-            <div class="section
-            ">
-            <p class="fadein">お客様からの開発依頼を承ります。</p>
-           </div>
-           <img class="image6 fadein" src="../assets/styles/images/ForCorporation/web_developer_monochromatic.svg" alt="アプリ開発">
-           <div class="section">
-               <p class="fadein">カスタマー向けのアプリケーション開発においては必要な機能を、サービスを利用する誰もが使いやすいシステムになるように議論を重ね、より良いものを開発してまいります。
+            <div class="card__overviewtext">
+              <p>公開日：2020年4月</p>
+              <p>
+                URL：<a
+                  target="_blank"
+                  href="http://noah.eijiyoshikawa.net/
+                          "
+                  >http://noah.eijiyoshikawa.net/
+                </a>
               </p>
-          </div>
-          <img class="image5 fadein" src="../assets/styles/images/ForCorporation/bug_fixing_monochromatic.svg" alt="アプリケーション開発">
-          <div class="section">
-              <p class="fadein">また業務改善向けのアプリケーション開発においては実際に企業の業務をヒアリングした上で、どのような機能を職場で必要としているかを議論し、職場で必要な機能を誰もがわかりやすく使いやすい形で実装することで業務効率改善の力添えをいたします。
-               </p>
-               </div>
-               <div class="section">
-                   <p class="fadein">サービスを作って欲しいとお考えの事業者の皆様、 お見積もり等お気軽にご相談ください。
-                   </p>
-               </div>
-           </div>
-
-           <div class="contact fadein">
-            <div class="button">
-              <div class="eff"></div>
-              <a href="../Pages/Contact.html"> お問い合わせ </a>
             </div>
           </div>
-
-           <div class="section-body">
-               <h1 class="text-section-title fadein" id="deta">
-                   データ分析
-               </h1>
-               <img class="image7 fadein" src="../assets/styles/images/ForCorporation/data_analytics__monochromatic.svg" alt="データ分析">
-               <div class="section
-               ">
-               <p class="fadein">弊団体ではデータサイエンスを専攻している学生が多く在籍しております。この強みを生かし、アンケートや
-               社会調査を元にしたデータ分析やそれに基づく改善案、解決案の立案までを請け負います。
-               </p>
-              </div>
-              <img class="image8 fadein" src="../assets/styles/images/ForCorporation/data_visualization_monochromatic.svg" alt="データ解析">
-              <div class="section">
-                  <p class="fadein">重回帰分析はもちろんのこと機械学習を主としたAI（人工知能）によるデータ分析もお任せください。
-                 </p>
-               </div>
-
-             <div class="section">
-                <p class="fadein">商品開発の市場調査やデータから見る戦略立案などを
-                ご希望の事業者の皆様、お見積もり等お気軽にご相談ください。
-                </p>
-             </div>
-            </div>
-
-            <div class="contact fadein">
-              <div class="button">
-                <div class="eff"></div>
-                <a href="../Pages/Contact.html"> お問い合わせ </a>
-              </div>
-            </div>
-
-            <div class="section-body">
-                <h1 class="text-section-title fadein" id="record">
-                    実績
-                </h1>
-            </div>
-            <div class="fadein">
-
-              <div class="card">
-              <div class="card__imgframe">
-               </div>
-                  <div class="card__textbox">
-                    <div class="card__titletext">
-                      NOAH様のウェブページを制作させていただきました。
-                    </div>
-                    <div class="card__overviewtext">
-                      <p> 公開日：2020年4月</p>
-                      <p>URL：<a target="_blank" href="http://noah.eijiyoshikawa.net/
-                          ">http://noah.eijiyoshikawa.net/
-                      </a></p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="contact fadein">
-                  <div class="button">
-                    <div class="eff"></div>
-                    <a href="../Pages/Contact.html"> お問い合わせ </a>
-                  </div>
-                </div>
+        </div>
+      </div>
+      <div class="contact fadein">
+        <div class="button">
+          <div class="eff"></div>
+          <a href="../Pages/Contact.html"> お問い合わせ </a>
+        </div>
+      </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="../assets/js/ForCorporation.js" type="text/javascript"></script>
-    <script src="../assets/js/Basic_animation.js" type="text/javascript"></script>
-  <footer>
+    <script
+      src="../assets/js/ForCorporation.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="../assets/js/Basic_animation.js"
+      type="text/javascript"
+    ></script>
+    <footer>
       <div class="footer_description">
-          <ul>
-              <li><a href="../index.html">ホーム</a></li>
-              <li><a href="./About.html">Scholarについて</a></li>
-              <li><a href="./About.html#vision">団体理念</a></li>
-              <li><a href="./About.html#activity">活動内容</a></li>
-              <li><a href="./About.html#representatives">代表挨拶</a></li>
-              <li><a href="./About.html#members">メンバー紹介</a></li>
-              <li><a href="./ForStudent.html">学生の皆様へ</a></li>
-              <li><a href="./ForCorporation.html">企業の皆様へ</a></li>
-          </ul>
+        <ul>
+          <li><a href="../index.html">ホーム</a></li>
+          <li><a href="./About.html">Scholarについて</a></li>
+          <li><a href="./About.html#vision">団体理念</a></li>
+          <li><a href="./About.html#activity">活動内容</a></li>
+          <li><a href="./About.html#representatives">代表挨拶</a></li>
+          <li><a href="./About.html#members">メンバー紹介</a></li>
+          <li><a href="./ForStudent.html">学生の皆様へ</a></li>
+          <li><a href="./ForCorporation.html">企業の皆様へ</a></li>
+        </ul>
       </div>
       <div class="footer_logo">
-          <div class="scholar">
-              <img class="scholar_logo" src="../scholarHat.png" alt="">
-              <p>SCHOLAR</p>
+        <div class="scholar">
+          <img class="scholar_logo" src="../scholarHat.png" alt="" />
+          <p>SCHOLAR</p>
+        </div>
+        <img
+          class="meeting"
+          src="../assets/styles/images/Home/team_meeting_monochromatic.svg"
+          alt=""
+        />
+        <div class="scholar p-right_items">
+          <div class="footer-twitter">
+            <a target="_blank" href="https://twitter.com/scholar_do">
+              <i class="fab fa-twitter"></i>
+            </a>
           </div>
-          <img class="meeting " src="../assets/styles/images/Home/team_meeting_monochromatic.svg" alt="">
-          <div class="scholar p-right_items">
-              <div class="footer-twitter">
-                  <a target="_blank" href="https://twitter.com/scholar_do">
-                      <i class="fab fa-twitter"></i>
-                  </a>
-              </div>
-              <div class="button" id="contact">
-                  <div class="eff"></div>
-                  <a href="Contact.html">お問い合わせ</a>
-              </div>
+          <div class="button" id="contact">
+            <div class="eff"></div>
+            <a href="Contact.html">お問い合わせ</a>
           </div>
+        </div>
       </div>
-  </footer>
+    </footer>
   </body>
-  </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</html>
